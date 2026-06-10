@@ -1,4 +1,4 @@
-# Agent Rules for acadie_directory
+# Agent Rules for acadie_sol_directory
 # How agents should read, write, validate, and process directory entries.
 
 reading: |
