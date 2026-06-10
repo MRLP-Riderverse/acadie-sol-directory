@@ -1,0 +1,39 @@
+{
+  "project": "acadie_sol_directory",
+  "version": "0.2.0",
+  "phase": 1,
+  "phase_description": "Open Directory — no gate, community submissions welcome, verification optional",
+  "entry_count": 0,
+  "feed": "feed.xml",
+  "categories": [
+    "artist",
+    "musician",
+    "business",
+    "organization",
+    "venue",
+    "event",
+    "community",
+    "project",
+    "volunteer",
+    "craftsperson",
+    "elder",
+    "educator"
+  ],
+  "regions": [
+    "Nouvelle-Écosse",
+    "Nouveau-Brunswick",
+    "Île-du-Prince-Édouard",
+    "Québec",
+    "Terre-Neuve-et-Labrador",
+    "Louisiane",
+    "Nouvelle-Aquitaine",
+    "France",
+    "other"
+  ],
+  "forks": {
+    "pattern": "fork this repo, add your community's entries, PR back verified entries",
+    "merge_policy": "steward-verified entries from local directories welcome via PR"
+  },
+  "created": "2026-06-08T16:49:00-03:00",
+  "steward": "MidnightRider.sol"
+}

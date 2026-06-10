@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Acadie.sol — Signals</title>
+    <description>Acadian community signals — releases, events, calls for participation, and civic opportunities. One feed, sovereign connection.</description>
+    <link>https://acadie.sol</link>
+    <atom:link href="https://acadie.sol/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>fr</language>
+    <lastBuildDate>Mon, 09 Jun 2026 12:00:00 -0300</lastBuildDate>
+
+    <!-- Signal: Release — "I made something, come hear it" -->
+    <item>
+      <title>🎵 New Release: Rivière Rouge — MR LP</title>
+      <description>New single inspired by the parallel droughts hitting Acadian and Basque coastal communities. Folk-electronic. Available on all platforms. CC BY-NC-SA.</description>
+      <link>https://acadie.sol/releases/riveres-rouge</link>
+      <guid isPermaLink="true">https://acadie.sol/releases/riveres-rouge</guid>
+      <pubDate>Mon, 09 Jun 2026 09:00:00 -0300</pubDate>
+      <category>release</category>
+      <category>music</category>
+      <category>acadien</category>
+      <category>maritime</category>
+    </item>
+
+    <!-- Signal: Booking Call — "We need someone" -->
+    <item>
+      <title>🎪 Festival de la Pêche — Booking Acadian Musicians</title>
+      <description>Seeking Acadian folk musicians for July 12–14 lineup. Budget $1500–2500 per act. Maritime-based preferred. Deadline: June 20.</description>
+      <link>https://festivdelapeche.com/call-for-artists</link>
+      <guid isPermaLink="true">https://festivdelapeche.com/call-for-artists-2026</guid>
+      <pubDate>Sun, 08 Jun 2026 14:00:00 -0300</pubDate>
+      <category>booking</category>
+      <category>festival</category>
+      <category>acadien</category>
+      <category>maritime</category>
+    </item>
+
+    <!-- Signal: Civic — "Your input matters" -->
+    <item>
+      <title>🏛️ Consultation: New Cultural Center — Moncton</title>
+      <description>City of Moncton seeking public input on proposed Acadian cultural center. Town hall July 3 at 7pm, Centre Aquarena. Online submission open until July 15. Your voice shapes what gets built.</description>
+      <link>https://moncton.ca/cultural-center-consultation</link>
+      <guid isPermaLink="true">https://moncton.ca/cultural-center-consultation-2026</guid>
+      <pubDate>Sat, 07 Jun 2026 10:00:00 -0300</pubDate>
+      <category>civic</category>
+      <category>consultation</category>
+      <category>acadien</category>
+      <category>maritime</category>
+    </item>
+
+    <!-- Signal: Available — "I can do something" -->
+    <item>
+      <title>🎵 Marie Boudreau — Available for Summer Festival Bookings</title>
+      <description>Singer-songwriter based in Moncton. Acadian folk with contemporary arrangements. Available July–August, Maritime range. Willing to travel within 300km. Contact via website.</description>
+      <link>https://marieboudreau.com</link>
+      <guid isPermaLink="true">https://acadie.sol/feeds/marie-boudreau#available-2026-summer</guid>
+      <pubDate>Fri, 06 Jun 2026 16:00:00 -0300</pubDate>
+      <category>available</category>
+      <category>music</category>
+      <category>acadien</category>
+      <category>maritime</category>
+    </item>
+
+    <!-- Signal: Volunteer — "Help wanted" -->
+    <item>
+      <title>🤝 SOS Pêcheurs — Shoreline Cleanup Volunteer Call</title>
+      <description>Community shoreline cleanup June 14, 9am, Pointe-du-Chêne. Bring gloves and boots. Families welcome. Lunch provided by local sponsors. Signal group for coordination: link on site.</description>
+      <link>https://sospecheurs.org/cleanup-june-14</link>
+      <guid isPermaLink="true">https://sospecheurs.org/cleanup-june-14</guid>
+      <pubDate>Thu, 05 Jun 2026 08:00:00 -0300</pubDate>
+      <category>volunteer</category>
+      <category>community</category>
+      <category>acadien</category>
+      <category>maritime</category>
+    </item>
+
+    <!-- Signal: Meetup — "Come be part of this" -->
+    <item>
+      <title>🤝 Weekly Kitchen Table Meetup — Lafayette</title>
+      <description>Every Tuesday 7pm at Maison Acadienne. No agenda, no pressure. Come talk about what you wish you knew sooner. We listen, we write it down, we publish it. Remote? DM for Signal link. Stewards in other towns welcome.</description>
+      <link>https://acadie.sol/meetups/lafayette</link>
+      <guid isPermaLink="true">https://acadie.sol/meetups/lafayette-2026-06-09</guid>
+      <pubDate>Mon, 09 Jun 2026 13:00:00 -0300</pubDate>
+      <category>meetup</category>
+      <category>community</category>
+      <category>cajun</category>
+      <category>louisiane</category>
+    </item>
+
+    <!-- Signal: Briefing — "Here's what happened" -->
+    <item>
+      <title>🗞️ Acadian Weekly Briefing — 2026-06-09</title>
+      <description>Nouvelle-Aquitaine deploys satellite WiFi across rural communities. Basque Country launches new cultural communication strategy. Festival de la Pêche booking call open. Moncton cultural center consultation announced.</description>
+      <link>https://acadie.sol/briefing/2026-06-09</link>
+      <guid isPermaLink="true">https://acadie.sol/briefing/2026-06-09</guid>
+      <pubDate>Mon, 09 Jun 2026 06:00:00 -0300</pubDate>
+      <category>briefing</category>
+      <category>acadien</category>
+      <category>cajun</category>
+      <category>basque</category>
+    </item>
+
+  </channel>
+</rss>
