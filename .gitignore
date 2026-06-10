@@ -25,5 +25,5 @@ node_modules/
 *.bak
 *.bak-*
 
-# Archive — old RSS items moved out of active feed
-archive/
+# Archive — old RSS items (tracked in git, just not in active feed)
+# archive/
