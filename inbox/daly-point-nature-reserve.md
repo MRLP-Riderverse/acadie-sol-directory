@@ -3,10 +3,10 @@
 Area: East Acadie-Bathurst
 Category: outdoor
 
-## Public notes
-- Nature walking trail / reserve near Theriault’s Grocer in East Acadie-Bathurst.
-- Open year round and publicly accessible.
-- Footpaths and boardwalk through marshland and Acadian forest northeast of Bathurst harbour.
+## Notes
+Nature walking trail / reserve near Theriault’s Grocer in East Acadie-Bathurst.
+Open year round and publicly accessible.
+Footpaths and boardwalk through marshland and Acadian forest northeast of Bathurst harbour.
 
 ## Public source
 - https://www.tourismchaleur.ca/en/places/do/daly-point-nature-reserve
