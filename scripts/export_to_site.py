@@ -35,6 +35,7 @@ def parse_listing(path: Path) -> dict:
     category = ""
     area = ""
     public_source: list[str] = []
+    related_places: list[str] = []
     description_lines: list[str] = []
     notes_lines: list[str] = []
     public_data_lines: list[str] = []
@@ -61,6 +62,9 @@ def parse_listing(path: Path) -> dict:
         if stripped in {"## Public source", "## Details and sources"}:
             current = "source"
             continue
+        if stripped == "## Related places":
+            current = "related"
+            continue
         if stripped == "## Admin notes":
             current = "admin"
             continue
@@ -78,6 +82,8 @@ def parse_listing(path: Path) -> dict:
                     data_fields[key_norm] = value.strip()
         elif current == "source" and stripped.startswith("- "):
             public_source.append(stripped[2:].strip())
+        elif current == "related" and stripped.startswith("- "):
+            related_places.append(stripped[2:].strip())
 
     description = re.sub(r"\s+", " ", " ".join(description_lines)).strip()
     notes = re.sub(r"\s+", " ", " ".join(notes_lines)).strip()
@@ -99,6 +105,7 @@ def parse_listing(path: Path) -> dict:
         "phone": data_fields["phone"],
         "email": data_fields["email"],
         "public_data": public_data_lines,
+        "related_places": related_places,
         "sources": public_source,
         "path": str(path.relative_to(DEFAULT_DIRECTORY_ROOT)),
     }

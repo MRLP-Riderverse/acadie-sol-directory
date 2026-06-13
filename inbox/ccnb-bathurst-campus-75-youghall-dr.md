@@ -4,8 +4,10 @@ Category: education
 Area: Acadie-Bathurst
 Tags: college | campus | education | trades
 
+## Description
+CCNB Bathurst / Campus Youghall at 75 Youghall Dr.
+
 ## Notes
-CCNB Bathurst / Campus Youghall at 75 Youghall Dr, Bathurst.
 Often described as the former trades / Youghall campus.
 
 ## Related places

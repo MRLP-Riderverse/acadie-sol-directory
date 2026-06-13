@@ -4,8 +4,10 @@ Category: tourism
 Area: Acadie-Bathurst
 Tags: tourism | information center | waterfront
 
+## Description
+Tourism info stop at La Promenade Waterfront near Frost Bite and Monty's.
+
 ## Notes
-Next to Frost Bite and Monty's at La Promenade Waterfront.
 Open during the summer, as far as we’re pretty sure.
 
 ## Public source

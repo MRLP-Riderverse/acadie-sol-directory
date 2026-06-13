@@ -4,8 +4,11 @@ Category: education
 Area: Acadie-Bathurst
 Tags: college | campus | education
 
+## Description
+Main CCNB Bathurst campus at 725 College St.
+
 ## Notes
-CCNB / campus de Bathurst at 725 College St, Bathurst.
+CCNB / campus de Bathurst.
 This is the main CCNB Bathurst campus listing from the CCNB contact page.
 
 ## Related places

@@ -4,6 +4,12 @@ Category: grocery
 Area: Acadie-Bathurst
 Tags: grocery | produce | market
 
+## Description
+Produce market on King Ave in Bathurst.
+
+## Notes
+Grocery and produce market with a public-facing location page trail.
+
 ## Public data to carry forward
 - Name found publicly as: Big Deal Produce Market Ltd
 - Address: 305 King Av, Bathurst, NB E2A 1P4, Canada
@@ -16,4 +22,3 @@ Tags: grocery | produce | market
 
 ## Admin notes
 - Submitted by : Acadie.sol
-- This may end up as a single location page, unless a broader brand pattern shows up later.

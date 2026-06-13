@@ -16,8 +16,6 @@ Near Bowlarama Bathurst Bowling & Arcade.
 ## Public data to carry forward
 - Address: 2035 St Peter Ave, Bathurst, NB E2A 7J5, Canada
 - Hours: Mon-Sun 11:00–19:00
-- Phone: (506) 546-3585
-- Email: not found publicly
 
 ## Admin notes
 - Submitted by : Acadie.sol
