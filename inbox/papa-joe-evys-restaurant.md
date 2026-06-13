@@ -1,5 +1,9 @@
 # Draft: Papa Joe & Evy's Restaurant
 
+Category: food
+Area: Bathurst
+Tags: restaurant | homestyle | family dining | local
+
 ## Notes
 Family-style restaurant at 296 St George St, Bathurst, NB E2A 1B7.
 Homestyle eats; multiple online listings confirm the address.

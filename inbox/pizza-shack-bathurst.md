@@ -1,7 +1,8 @@
 # Draft: Pizza Shack (Bathurst location)
 
-Category: business
+Category: food
 Area: Acadie-Bathurst
+Tags: pizza | chain | takeout | delivery
 
 ## Public data to carry forward
 - Address: 1000 St. Peter Ave, Bathurst, NB E2A 2Z7, Canada

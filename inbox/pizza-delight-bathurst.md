@@ -1,5 +1,9 @@
 # Draft: Pizza Delight Bathurst
 
+Category: food
+Area: Acadie-Bathurst
+Tags: pizza | family restaurant | takeout | delivery
+
 ## Notes
 Pizza Delight location in Bathurst.
 Public search results point to 980 St. Peter Avenue, Bathurst, NB E2A 2Z4.

@@ -1,7 +1,8 @@
 # Draft: Theriault’s Grocers
 
-Category: business
+Category: grocery
 Area: Acadie-Bathurst
+Tags: grocery | butcher | local food | meat | community
 
 ## Public data to carry forward
 - Address: Bridge St (exact civic address not confirmed)
@@ -9,8 +10,11 @@ Area: Acadie-Bathurst
 ## Public notes
 - Locally owned small grocery store with in-house meat butcher and processing.
 - Near the Daly Point nature walk.
-- Relative east to Acadie-Bathurst.
+- East of Bathurst proper.
 - Good community shopping experience.
+
+## Related places
+- Daly Point Nature Reserve
 
 ## Public source
 - In person
