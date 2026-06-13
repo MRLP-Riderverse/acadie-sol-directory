@@ -4,10 +4,15 @@ Category: food
 Area: Acadie-Bathurst
 Tags: deli | donair | steak sub | poutine | sandwiches
 
+## Description
+Local foods restaurant on Miramichi Ave in Acadie-Bathurst.
+
 ## Notes
-Local foods restaurant at 1395 Miramichi Ave in Acadie-Bathurst.
 Has amazing Donair and Steak Subs, and great Poutine.
 Daily open hours are short, so it’s worth trying if you can catch them open.
+
+## Public data to carry forward
+- Address: 1395 Miramichi Ave, Acadie-Bathurst
 
 ## Public source
 - In person

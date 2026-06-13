@@ -4,9 +4,11 @@ Category: food
 Area: Acadie-Bathurst
 Tags: fine dining | seafood | pasta | restaurant
 
+## Description
+Fine dining style restaurant on King St in Acadie-Bathurst.
+
 ## Notes
-On King St in Acadie-Bathurst.
-Fine dining style with seafood, pasta, and various options.
+Seafood, pasta, and various options.
 
 ## Public source
 - In person

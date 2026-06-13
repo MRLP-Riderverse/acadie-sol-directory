@@ -4,8 +4,11 @@ Category: outdoor
 Area: East Acadie-Bathurst
 Tags: nature reserve | trail | walking | marshland | boardwalk
 
+## Description
+Nature reserve and walking trail network near East Acadie-Bathurst.
+
 ## Notes
-Nature walking trail / reserve near Theriault’s Grocer in East Acadie-Bathurst.
+Near Theriault’s Grocer in East Acadie-Bathurst.
 Open year round and publicly accessible.
 Footpaths and boardwalk through marshland and Acadian forest northeast of Bathurst harbour.
 

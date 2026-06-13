@@ -4,8 +4,11 @@ Category: food
 Area: Acadie-Bathurst
 Tags: burger | restaurant | hotel dining | main street
 
+## Description
+Restaurant inside the Best Western hotel building on Main St.
+
 ## Notes
-Good restaurant within the Best Western hotel building on Main St, just next to NB Distillery and Bootlegger.
+Just next to NB Distillery and Bootlegger.
 
 ## Related places
 - NB Distillery
