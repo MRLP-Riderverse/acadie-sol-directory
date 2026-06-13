@@ -9,6 +9,8 @@ Classic burger drive-in on St Peter Ave in Bathurst.
 
 ## Notes
 Home of the Big D Burger.
+Has been in business in Bathurst for over 30 years.
+Relive the past when you pull up to enjoy the great food and relax in the atmosphere of a '50's & '60's diner.
 Picnic tables available.
 Traditional car-park-and-dine service.
 Near Bowlarama Bathurst Bowling & Arcade.
