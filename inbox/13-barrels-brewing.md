@@ -2,6 +2,7 @@
 
 Category: business
 Area: Acadie-Bathurst
+Tags: brewery | taproom | bistro | waterfront | event space
 
 ## Public data to carry forward
 - Address: 215 Cunard St, Bathurst, NB E2A 0C4, Canada
