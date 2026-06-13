@@ -16,9 +16,6 @@ At least open Tuesday to Saturday, 9am–12pm.
 - Hours: Tuesday to Saturday, 9am–12pm
 - Phone: 1 (506) 548-8730
 
-## Related places
-- [if applicable]
-
 ## Public source
 - In person
 
