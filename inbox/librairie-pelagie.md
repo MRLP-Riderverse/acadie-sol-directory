@@ -4,9 +4,14 @@ Category: retail
 Area: Acadie-Bathurst
 Tags: bookstore | books | waterfront | retail
 
-## Notes
+## Description
 Bookstore at 14 Douglas Ave, Bathurst, NB E2A 7S6.
+
+## Notes
 Often referenced as part of the La Promenade Waterfront cluster.
+
+## Public data to carry forward
+- Address: Bookstore at 14 Douglas Ave, Bathurst, NB E2A 7S6.
 
 ## Related places
 - La Promenade Waterfront

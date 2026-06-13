@@ -13,6 +13,8 @@ Public source pages point to the Bathurst location.
 ## Public data to carry forward
 - Address: 435 St. Peter Avenue, Bathurst, NB
 
+## Related places
+
 ## Public source
 - https://www.dairyqueen.com/en-ca/locations/nb/bathurst/435-st-peter-avenue/12343/
 - https://www.yellowpages.ca/bus/New-Brunswick/Bathurst/Dairy-Queen-Grill-Chill/103086515.html

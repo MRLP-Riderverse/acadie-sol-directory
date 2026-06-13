@@ -17,6 +17,8 @@ Grocery and produce market with a public-facing location page trail.
 - Hours: Mon-Fri 09:00–19:00; Sat 10:00–19:00
 - Email: not found publicly
 
+## Related places
+
 ## Public source
 - https://www.yellowpages.ca/bus/New-Brunswick/Bathurst/Big-Deal-Produce-Market-Ltd/191082.html
 

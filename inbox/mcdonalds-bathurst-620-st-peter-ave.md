@@ -4,9 +4,14 @@ Category: food
 Area: Acadie-Bathurst
 Tags: fast food | burger | drive-thru | fries
 
-## Notes
+## Description
 McDonald's location at 620 St. Peter Avenue, Bathurst.
+
+## Notes
 Official McDonald's Canada location page surfaced this store.
+
+## Public data to carry forward
+- Address: McDonald's location at 620 St. Peter Avenue, Bathurst.
 
 ## Related places
 - St. Peter Ave corridor

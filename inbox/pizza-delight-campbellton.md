@@ -4,9 +4,16 @@ Category: food
 Area: Restigouche
 Tags: pizza | family restaurant | takeout | delivery
 
+## Description
+Pizza Delight location in Campbellton.
+
 ## Notes
 Pizza Delight location in Campbellton.
-Public search results point to 15 Sugarloaf Street, Campbellton, NB E3N 3A9.
+
+## Public data to carry forward
+- Address: Public search results point to 15 Sugarloaf Street, Campbellton, NB E3N 3A9.
+
+## Related places
 
 ## Public source
 - https://www.pizzadelight.com/campbellton

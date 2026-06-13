@@ -17,6 +17,8 @@ If a public email appears later, add it here.
 - Hours: Mon-Sun 11:00–19:00
 - Email: not found publicly
 
+## Related places
+
 ## Public source
 - https://www.restaurantji.com/nb/bathurst/chicken-king-and-chinese-palace-restaurant-/
 

@@ -4,9 +4,16 @@ Category: food
 Area: Acadian Peninsula
 Tags: pizza | family restaurant | takeout | delivery
 
+## Description
+Pizza Delight location in Tracadie.
+
 ## Notes
 Pizza Delight location in Tracadie.
-Public search results point to 3410 Rue Principale, Tracadie-Sheila, NB E1X 1C8.
+
+## Public data to carry forward
+- Address: Public search results point to 3410 Rue Principale, Tracadie-Sheila, NB E1X 1C8.
+
+## Related places
 
 ## Public source
 - https://www.pizzadelight.com/tracadie

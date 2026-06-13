@@ -4,20 +4,23 @@ Category: music
 Area: Acadie-Bathurst
 Tags: music | artist
 
-## Notes
+## Description
 EDM-style live artist based in Acadie-Bathurst.
 
+## Notes
 Produces his own style and performs live shows.
 
 Has played at The Southside Lounge and Future Forest Festival.
 
 Also does live streaming shows on Twitch.
 
-## Contact
+## Public data to carry forward
 - Email: kylegodinn4200@gmail.com
 - Facebook: Kyle Godin
 - Instagram: https://www.instagram.com/kryptic_dubz420
 - Twitch: kryptic4200
+
+## Related places
 
 ## Public source
 - In person

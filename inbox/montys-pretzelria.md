@@ -4,11 +4,15 @@ Category: food
 Area: Acadie-Bathurst
 Tags: pretzel | pizza | waterfront | seasonal
 
-## Notes
+## Description
 Seasonal pretzel / pizza spot at La Promenade Waterfront in Bathurst.
+
+## Notes
 Online listings vary on Douglas Ave details, but waterfront pages consistently place it at La Promenade Waterfront.
 Has unique foods like pretzel-burger and pretzel-dog.
 Very close to Frost Bite.
+
+## Public data to carry forward
 
 ## Related places
 - Frost Bite

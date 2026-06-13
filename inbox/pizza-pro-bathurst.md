@@ -4,10 +4,14 @@ Category: food
 Area: Acadie-Bathurst
 Tags: pizza | takeout | delivery | st peters ave
 
-## Notes
+## Description
 Pizza Pro location in Bathurst.
-Public search results point to 755 St. Peter Ave, Bathurst, NB.
+
+## Notes
 Same corridor as MexiGlu.
+
+## Public data to carry forward
+- Address: Public search results point to 755 St. Peter Ave, Bathurst, NB.
 
 ## Related places
 - MexiGlu

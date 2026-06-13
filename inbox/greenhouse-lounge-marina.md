@@ -9,7 +9,6 @@ Restaurant and lounge at Bathurst Marina.
 
 ## Notes
 Also listed publicly as *Le Greenhouse Lounge - Marina*.
-Public tourism listing places it at Bathurst Marina on 1555 Queen Elizabeth Drive, Bathurst, NB E2A 4Y4.
 Public description says it is a restaurant located at Bathurst Marina and notes it is closed for winter.
 
 ## Public data to carry forward

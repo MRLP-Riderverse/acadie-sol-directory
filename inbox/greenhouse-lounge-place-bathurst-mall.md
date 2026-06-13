@@ -9,7 +9,6 @@ Restaurant, bar, and lounge inside Place Bathurst Mall.
 
 ## Notes
 Also listed publicly as *Le Greenhouse Lounge*.
-Official mall listing places it at 1300 St Peter Ave, Bathurst, NB E2A 3A6, inside Place Bathurst Mall.
 Public descriptions describe it as a family style restaurant / bar / lounge and a venue for live events.
 
 ## Public data to carry forward

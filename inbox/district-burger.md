@@ -10,6 +10,8 @@ Restaurant inside the Best Western hotel building on Main St.
 ## Notes
 Just next to NB Distillery and Bootlegger.
 
+## Public data to carry forward
+
 ## Related places
 - NB Distillery
 - Bootlegger

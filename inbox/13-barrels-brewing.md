@@ -4,12 +4,19 @@ Category: business
 Area: Acadie-Bathurst
 Tags: brewery | taproom | bistro | waterfront | event space
 
+## Description
+craft beer, taproom, bistro-style menu, online orders
+
+## Notes
+
 ## Public data to carry forward
 - Address: 215 Cunard St, Bathurst, NB E2A 0C4, Canada
 - Phone: (506) 546-5300
 - Email: 13barrelsbrewing@gmail.com
 - Services: craft beer, taproom, bistro-style menu, online orders
 - Unique notes: Family-owned brewery with a large tasting room and outdoor patio overlooking the Bathurst waterfront; private event space available
+
+## Related places
 
 ## Public source
 - https://www.13barrels.ca/

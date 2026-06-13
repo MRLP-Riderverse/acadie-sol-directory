@@ -18,5 +18,9 @@ Near Bowlarama Bathurst Bowling & Arcade.
 - Phone: 506-546-3585
 - Hours: Mon-Sun 11:00–19:00
 
+## Related places
+
+## Public source
+
 ## Admin notes
 - Submitted by : Acadie.sol

@@ -19,6 +19,8 @@ Cast & Crew is the closest dine-in restaurant.
 - Hours: most evenings and some matinee showings
 - Email: not provided
 
+## Related places
+
 ## Public source
 - In person
 

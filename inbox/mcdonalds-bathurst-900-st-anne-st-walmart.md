@@ -4,9 +4,14 @@ Category: food
 Area: Acadie-Bathurst
 Tags: fast food | burger | walmart | drive-thru
 
-## Notes
+## Description
 McDonald's inside / at Walmart, 900 St. Anne Street, Bathurst.
+
+## Notes
 Official McDonald's Canada location page for the Walmart site.
+
+## Public data to carry forward
+- Address: McDonald's inside / at Walmart, 900 St. Anne Street, Bathurst.
 
 ## Related places
 - Walmart Bathurst

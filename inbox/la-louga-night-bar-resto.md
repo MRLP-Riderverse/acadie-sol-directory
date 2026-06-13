@@ -4,6 +4,11 @@ Category: bar
 Area: Acadie-Bathurst
 Tags: bar | nightlife | restaurant | downtown | live music
 
+## Description
+Bathurst night bar / resto with a strong French-language social presence; user refers to it as La Louga Night Club
+
+## Notes
+
 ## Public data to carry forward
 - Address: 125 Main St, Bathurst, NB E2A 1A6, Canada
 - Phone: (506) 226-6056

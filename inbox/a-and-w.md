@@ -16,6 +16,8 @@ Home of the A&W Famous Root Beer.
 - Address: 1300 St Peter Ave, Bathurst, NB E2A 3A6
 - Phone: (506) 546-4095
 
+## Related places
+
 ## Public source
 - In person
 

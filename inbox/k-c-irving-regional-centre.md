@@ -4,9 +4,14 @@ Category: civic
 Area: Bathurst
 Tags: arena | regional centre | events | sports
 
+## Description
+Arena / regional centre in Bathurst.
+
 ## Notes
 Arena / regional centre in Bathurst.
-Public search results point to 14 Sean Couturier Avenue, Bathurst, NB E2A 6X2.
+
+## Public data to carry forward
+- Address: Public search results point to 14 Sean Couturier Avenue, Bathurst, NB E2A 6X2.
 
 ## Related places
 - Bathurst

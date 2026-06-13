@@ -4,14 +4,16 @@ Category: grocery
 Area: Acadie-Bathurst
 Tags: grocery | butcher | local food | meat | community
 
-## Public data to carry forward
-- Address: Bridge St (exact civic address not confirmed)
+## Description
+Locally owned small grocery store with in-house meat butcher and processing.
 
-## Public notes
-- Locally owned small grocery store with in-house meat butcher and processing.
+## Notes
 - Near the Daly Point nature walk.
 - East of Bathurst proper.
 - Good community shopping experience.
+
+## Public data to carry forward
+- Address: Bridge St (exact civic address not confirmed)
 
 ## Related places
 - Daly Point Nature Reserve

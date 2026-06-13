@@ -4,9 +4,14 @@ Category: business
 Area: Acadie-Bathurst
 Tags: tax | accountant | office | services
 
+## Description
+Liberty Tax office in Bathurst.
+
 ## Notes
 Liberty Tax office in Bathurst.
-Official page title points to 994 St. Peter Ave, Bathurst, NB E2A 2Z4.
+
+## Public data to carry forward
+- Address: Official page title points to 994 St. Peter Ave, Bathurst, NB E2A 2Z4.
 
 ## Related places
 - Bathurst

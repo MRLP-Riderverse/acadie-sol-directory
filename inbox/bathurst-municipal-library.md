@@ -13,6 +13,8 @@ Bathurst Public Library / Bibliothèque publique de Bathurst.
 ## Public data to carry forward
 - Address: 150 St George St, Bathurst, NB E2A 1B5
 
+## Related places
+
 ## Public source
 - https://www1.gnb.ca/0003/pages/en/biblio-e.asp?Code=CN
 - https://www1.gnb.ca/0003/Pages/fr/Biblio-f.asp?CODE=CN

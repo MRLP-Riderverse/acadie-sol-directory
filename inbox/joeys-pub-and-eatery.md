@@ -4,9 +4,16 @@ Category: food
 Area: Acadie-Bathurst
 Tags: pub | eatery | bar | restaurant
 
-## Notes
+## Description
 Joey's Pub & Eatery at 2050 St. Peter Avenue, Bathurst.
+
+## Notes
 Local pub and eatery; multiple listings point to the top of Bathurst.
+
+## Public data to carry forward
+- Address: Joey's Pub & Eatery at 2050 St. Peter Avenue, Bathurst.
+
+## Related places
 
 ## Public source
 - https://www.facebook.com/Joeyspub/

@@ -12,6 +12,8 @@ Near Theriault’s Grocer in East Acadie-Bathurst.
 Open year round and publicly accessible.
 Footpaths and boardwalk through marshland and Acadian forest northeast of Bathurst harbour.
 
+## Public data to carry forward
+
 ## Related places
 - Theriault’s Grocer
 

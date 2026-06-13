@@ -10,6 +10,10 @@ Fine dining style restaurant on King St in Acadie-Bathurst.
 ## Notes
 Seafood, pasta, and various options.
 
+## Public data to carry forward
+
+## Related places
+
 ## Public source
 - In person
 

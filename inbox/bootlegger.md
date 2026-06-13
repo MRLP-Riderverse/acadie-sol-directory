@@ -17,6 +17,8 @@ Also close to La Promenade Waterfront.
 - Address: 100 Main St, Bathurst, NB
 - Phone: (506) 350-3350
 
+## Related places
+
 ## Public source
 - In person
 

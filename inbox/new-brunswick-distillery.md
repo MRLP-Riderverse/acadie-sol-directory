@@ -4,6 +4,11 @@ Category: business
 Area: Acadie-Bathurst
 Tags: distillery | spirits | craft beer | downtown
 
+## Description
+distilled spirits, craft beer
+
+## Notes
+
 ## Public data to carry forward
 - Address: 112 Main St, Bathurst, NB E2A 1A4, Canada
 - Email: info@nbdistillery.ca

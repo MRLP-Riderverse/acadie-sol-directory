@@ -16,6 +16,8 @@ Next to Tim Hortons.
 - Address: 1450 Vanier Blvd, Bathurst, NB E2A 7B7
 - Phone: 1 (800) 898-9292
 
+## Related places
+
 ## Public source
 - In person
 

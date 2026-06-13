@@ -4,9 +4,14 @@ Category: business
 Area: Acadie-Bathurst
 Tags: auto detailing | car detailing | automotive service
 
-## Notes
+## Description
 2037 St-Peters Ave, after the Bowlarama and Big D Drive In.
+
+## Notes
 Phone: 1(506)548-8799.
+
+## Public data to carry forward
+- Address: 2037 St-Peters Ave, after the Bowlarama and Big D Drive In.
 
 ## Related places
 - Bowlorama Bathurst Bowling & Arcade

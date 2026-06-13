@@ -15,6 +15,8 @@ Open every day, at least 3pm–9pm.
 - Hours: Open every day, at least 3pm–9pm
 - Phone: 1 (506) 548-3019
 
+## Related places
+
 ## Public source
 - In person
 

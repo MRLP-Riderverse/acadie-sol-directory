@@ -16,6 +16,8 @@ Open on most public holidays.
 - Phone: (506) 350-2800
 - Hours: Mon-Thu 12-7pm; Fri 12-9pm; Sat 12-7pm; Sun 2-6pm
 
+## Related places
+
 ## Public source
 - https://fourriversbrewing.ca/
 - https://www.tourismchaleur.ca/en/places/eat/four-rivers-brewing-co

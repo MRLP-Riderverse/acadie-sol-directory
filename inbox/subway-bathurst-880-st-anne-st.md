@@ -4,9 +4,14 @@ Category: food
 Area: Acadie-Bathurst
 Tags: sandwich | fast food | takeout | chain
 
-## Notes
+## Description
 Subway location at 880 St. Anne Street, Bathurst.
+
+## Notes
 Official Subway Canada Bathurst location page lists this restaurant.
+
+## Public data to carry forward
+- Address: Subway location at 880 St. Anne Street, Bathurst.
 
 ## Related places
 - Walmart Bathurst
