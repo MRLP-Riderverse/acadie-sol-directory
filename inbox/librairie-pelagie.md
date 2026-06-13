@@ -1,8 +1,16 @@
 # Draft: Librairie Pélagie
 
+Category: retail
+Area: Acadie-Bathurst
+Tags: bookstore | books | waterfront | retail
+
 ## Notes
 Bookstore at 14 Douglas Ave, Bathurst, NB E2A 7S6.
 Often referenced as part of the La Promenade Waterfront cluster.
+
+## Related places
+- La Promenade Waterfront
+- Frost Bite
 
 ## Public source
 - https://pelagie.leslibraires.ca/

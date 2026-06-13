@@ -1,12 +1,21 @@
 # Draft: Monty's Pretzelria
 
+Category: food
+Area: Acadie-Bathurst
+Tags: pretzel | pizza | waterfront | seasonal
+
 ## Notes
 Seasonal pretzel / pizza spot at La Promenade Waterfront in Bathurst.
 Online listings vary on Douglas Ave details, but waterfront pages consistently place it at La Promenade Waterfront.
-Has unique foods like pretzel-burger and pretzel-dog. And it's very close to Frost Bite.
+Has unique foods like pretzel-burger and pretzel-dog.
+Very close to Frost Bite.
+
+## Related places
+- Frost Bite
+- La Promenade Waterfront
 
 ## Public source
-- https://www.tourismechaleur.ca/en/places/eat/monty-s-pretzelria
+- https://www.tourismchaleur.ca/en/places/eat/monty-s-pretzelria
 - https://www.facebook.com/Montyduncles/
 
 ## Admin notes

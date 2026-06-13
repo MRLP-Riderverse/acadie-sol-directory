@@ -2,12 +2,19 @@
 
 Category: business
 Area: Acadie-Bathurst
+Tags: distillery | spirits | craft beer | downtown
 
 ## Public data to carry forward
 - Address: 112 Main St, Bathurst, NB E2A 1A4, Canada
 - Email: info@nbdistillery.ca
 - Services: distilled spirits, craft beer
 - Unique notes: Also known as NB Distillery; first-ever distillery in the Chaleur region; rooted in tradition and inspired by heritage
+
+## Related places
+- Bootlegger
+- District Burger
+- Donair Shop
+- La Louga Night Bar - Resto
 
 ## Public source
 - https://www.tourismechaleur.ca/en/places/buy/new-brunswick-distillery

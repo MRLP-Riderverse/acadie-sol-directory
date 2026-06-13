@@ -1,10 +1,15 @@
 # Draft: MexiGlu
 
-Category: business
+Category: food
 Area: Acadie-Bathurst
+Tags: mexican food | restaurant | takeout | st peters ave
 
 ## Notes
-Same building as Pizza Pro on St-Peters. Mexican cuisine.
+Same building as Pizza Pro on St-Peters.
+Mexican cuisine.
+
+## Related places
+- Pizza Pro Bathurst
 
 ## Public source
 - In person

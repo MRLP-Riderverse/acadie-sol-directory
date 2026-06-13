@@ -2,6 +2,7 @@
 
 Category: business
 Area: Acadie-Bathurst
+Tags: auto detailing | car wash | services
 
 ## Notes
 399 St Paul st, Acadie-Bathurst.
