@@ -35,7 +35,10 @@ def parse_listing(path: Path) -> dict:
     category = ""
     area = ""
     public_source: list[str] = []
-    notes: list[str] = []
+    description_lines: list[str] = []
+    notes_lines: list[str] = []
+    public_data_lines: list[str] = []
+    data_fields = {"address": "", "hours": "", "phone": "", "email": ""}
     current = None
 
     for line in lines[1:]:
@@ -46,27 +49,39 @@ def parse_listing(path: Path) -> dict:
         if line.startswith("Area:"):
             area = line.split(":", 1)[1].strip()
             continue
+        if stripped == "## Description":
+            current = "description"
+            continue
         if stripped == "## Notes":
             current = "notes"
             continue
+        if stripped in {"## Public data to carry forward", "## Public data", "## Details", "## Contact"}:
+            current = "public_data"
+            continue
         if stripped in {"## Public source", "## Details and sources"}:
             current = "source"
-            continue
-        if stripped == "## Public data to carry forward":
-            current = "public_data"
             continue
         if stripped == "## Admin notes":
             current = "admin"
             continue
 
-        if current == "notes" and stripped:
-            notes.append(stripped)
+        if current == "description" and stripped:
+            description_lines.append(stripped)
+        elif current == "notes" and stripped:
+            notes_lines.append(stripped)
         elif current == "public_data" and stripped.startswith("- "):
-            notes.append(stripped)
+            public_data_lines.append(stripped[2:].strip())
+            if ":" in stripped:
+                key, value = stripped[2:].split(":", 1)
+                key_norm = key.strip().lower()
+                if key_norm in data_fields:
+                    data_fields[key_norm] = value.strip()
         elif current == "source" and stripped.startswith("- "):
             public_source.append(stripped[2:].strip())
 
-    summary = re.sub(r"\s+", " ", " ".join(notes)).strip()
+    description = re.sub(r"\s+", " ", " ".join(description_lines)).strip()
+    notes = re.sub(r"\s+", " ", " ".join(notes_lines)).strip()
+    summary = re.sub(r"\s+", " ", " ".join([description, notes]).strip()).strip()
     draft = path.parent.name == "inbox" or title_line.startswith("# Draft:")
 
     return {
@@ -76,7 +91,14 @@ def parse_listing(path: Path) -> dict:
         "badge": "DRAFT" if draft else "",
         "category": category,
         "area": area,
+        "description": description,
+        "notes": notes,
         "summary": summary[:220],
+        "address": data_fields["address"],
+        "hours": data_fields["hours"],
+        "phone": data_fields["phone"],
+        "email": data_fields["email"],
+        "public_data": public_data_lines,
         "sources": public_source,
         "path": str(path.relative_to(DEFAULT_DIRECTORY_ROOT)),
     }
