@@ -116,7 +116,11 @@ def collect_sources(directory_root: Path) -> list[Path]:
 
     inbox = directory_root / "inbox"
     if inbox.exists():
-        sources.extend(sorted(inbox.glob("*.md")))
+        for path in sorted(inbox.glob("*.md")):
+            name = path.name.lower()
+            if name.startswith("_") or "template" in name:
+                continue
+            sources.append(path)
 
     entries = directory_root / "entries"
     if entries.exists():
