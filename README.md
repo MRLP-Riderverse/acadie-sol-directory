@@ -74,7 +74,23 @@ The `entry.md` is what you write and read. The `meta.json` is the index card tha
 2. Move to `entries/<slug>/` with `entry.md` + `meta.json`
 3. Validate `meta.json` against `schemas/entry.schema.yaml`
 4. Run `scripts/generate_feed.py` to update `feed.xml`
-5. Commit and push
+5. Run `scripts/export_to_site.py` to regenerate the website payload
+6. Commit and push
+
+## Website Sync
+
+The site repo is static. It does **not** read this repo live at page-load time.
+Instead, this repo exports a JSON payload into the website repo:
+
+```bash
+cd /home/midnight/ExoCortex/websites/projects/acadie_sol_directory
+python3 scripts/export_to_site.py
+```
+
+That writes `../acadie_sol/assets/directory-data.json` by default.
+After that, commit/push the website repo so the public site updates.
+
+Use `--stdout` if you only want to inspect the payload without writing it.
 
 ## Design Philosophy
 
