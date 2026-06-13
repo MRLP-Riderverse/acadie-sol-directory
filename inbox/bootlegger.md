@@ -12,6 +12,11 @@ Services include local draft and brew, food, a well-received popcorn machine, an
 It is part of the summer event circuit for Block Party and Hospitality Days.
 Also close to La Promenade Waterfront.
 
+## Public data to carry forward
+- Public name found as: Au Bootlegger
+- Address: 100 Main St, Bathurst, NB
+- Phone: (506) 350-3350
+
 ## Public source
 - In person
 

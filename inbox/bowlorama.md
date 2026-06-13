@@ -12,6 +12,10 @@ Food and drink services available.
 Has slushies and fried pickles.
 Nice.
 
+## Public data to carry forward
+- Address: 2020 St Peter Ave, Bathurst, NB E2A 7J6
+- Phone: (506) 546-2020
+
 ## Related places
 - Big D Drive-In
 
