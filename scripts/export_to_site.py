@@ -18,6 +18,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Iterable
 
@@ -29,6 +30,9 @@ DEFAULT_SITE_ROOT = DEFAULT_DIRECTORY_ROOT.with_name("acadie_sol")
 def parse_listing(path: Path) -> dict:
     text = path.read_text(encoding="utf-8")
     lines = text.splitlines()
+    stat = path.stat()
+    modified_ts = int(stat.st_mtime)
+    modified_at = datetime.fromtimestamp(stat.st_mtime, tz=timezone.utc).isoformat().replace("+00:00", "Z")
     title_line = lines[0].strip() if lines else "# Draft: Untitled"
     title = re.sub(r"^#\s*Draft:\s*", "", title_line).strip()
 
@@ -108,6 +112,8 @@ def parse_listing(path: Path) -> dict:
         "related_places": related_places,
         "sources": public_source,
         "path": str(path.relative_to(DEFAULT_DIRECTORY_ROOT)),
+        "source_modified_at": modified_at,
+        "source_modified_ts": modified_ts,
     }
 
 
