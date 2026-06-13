@@ -49,7 +49,7 @@ def parse_listing(path: Path) -> dict:
         if stripped == "## Notes":
             current = "notes"
             continue
-        if stripped == "## Public source":
+        if stripped in {"## Public source", "## Details and sources"}:
             current = "source"
             continue
         if stripped == "## Public data to carry forward":
