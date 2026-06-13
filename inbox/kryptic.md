@@ -1,18 +1,23 @@
 # Draft: Kryptic
 
-Category: business
+Category: music
 Area: Acadie-Bathurst
+Tags: music | artist
 
 ## Notes
-Artist name. Does live shows in EDM style and produces his own style to enjoy. Has personally enjoyed many shows at The Southside Lounge. Also played at Future Forest Festival.
+EDM-style live artist based in Acadie-Bathurst.
 
-Based in Acadie-Bathurst. Also does live streaming shows on Twitch.
+Produces his own style and performs live shows.
 
-Email contact: kylegodinn4200@gmail.com
+Has played at The Southside Lounge and Future Forest Festival.
 
-Facebook name: Kyle Godin
-Instagram: https://www.instagram.com/kryptic_dubz420
-Twitch: kryptic4200
+Also does live streaming shows on Twitch.
+
+## Contact
+- Email: kylegodinn4200@gmail.com
+- Facebook: Kyle Godin
+- Instagram: https://www.instagram.com/kryptic_dubz420
+- Twitch: kryptic4200
 
 ## Public source
 - In person
