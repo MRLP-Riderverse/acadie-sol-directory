@@ -1,7 +1,8 @@
 # Draft: Frost Bite
 
-Category: business
+Category: food
 Area: Acadie-Bathurst
+Tags: ice cream | seasonal | waterfront | dessert
 
 ## Public data to carry forward
 - Address: La Promenade Waterfront, Bathurst, NB
@@ -17,11 +18,13 @@ Area: Acadie-Bathurst
 - Several banks are a short walk away downtown
 - Closed for winter / seasonal operation
 
+## Related places
+- Acadie-Bathurst Information Center
+- Daly Point Nature Reserve
+
 ## Public source
 - In person
 - https://www.tourismchaleur.ca/en/places/eat/frostbites-dairy-bar
 
 ## Admin notes
 - Submitted by : Acadie.sol
-- Drafted from live/local intel rather than public scrape.
-- Keep the phrasing cautious if any detail needs later confirmation.

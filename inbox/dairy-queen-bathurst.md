@@ -1,5 +1,9 @@
 # Draft: Dairy Queen Bathurst
 
+Category: food
+Area: Acadie-Bathurst
+Tags: fast food | ice cream | drive-thru | dessert
+
 ## Notes
 Dairy Queen Grill & Chill at 435 St. Peter Avenue, Bathurst, NB.
 Public source pages point to the Bathurst location.

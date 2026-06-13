@@ -2,6 +2,7 @@
 
 Category: business
 Area: Acadie-Bathurst
+Tags: brewery | taproom | craft beer | events | local
 
 ## Public data to carry forward
 - Address: 335 Murray Ave, Bathurst, NB E2A 1T4, Canada
