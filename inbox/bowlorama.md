@@ -1,16 +1,20 @@
 # Draft: Bowlarama Bathurst Bowling & Arcade
 
-Category: business
+Category: entertainment
 Area: Acadie-Bathurst
+Tags: bowling | arcade | entertainment | food
 
-## Raw capture
-- Source: In person
-- What it is: entertainment business
-- Wayfinding: on St-Peters in front of Big D
-- Public facts seen or confirmed: Bowling, arcade, and food & drink services
-- Raw notes:
-  - It has slushies and fried pickles.
-  - Nice.
+## Notes
+On St-Peters in front of Big D Drive-In.
+Bowling, arcade, and food & drink services.
+Has slushies and fried pickles.
+Nice.
+
+## Related places
+- Big D Drive-In
+
+## Public source
+- In person
 
 ## Admin notes
 - Submitted by : Acadie.sol

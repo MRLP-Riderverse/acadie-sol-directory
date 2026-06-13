@@ -1,7 +1,8 @@
 # Draft: Big Deal Market
 
-Category: business
+Category: grocery
 Area: Acadie-Bathurst
+Tags: grocery | produce | market
 
 ## Public data to carry forward
 - Name found publicly as: Big Deal Produce Market Ltd
@@ -13,7 +14,6 @@ Area: Acadie-Bathurst
 ## Public source
 - https://www.yellowpages.ca/bus/New-Brunswick/Bathurst/Big-Deal-Produce-Market-Ltd/191082.html
 
-## Notes
+## Admin notes
 - Submitted by : Acadie.sol
 - This may end up as a single location page, unless a broader brand pattern shows up later.
-- Keep only public-facing contact data.

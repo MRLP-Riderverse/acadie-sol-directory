@@ -1,8 +1,12 @@
 # Draft: Bathurst Municipal Library
 
+Category: civic
+Area: Acadie-Bathurst
+Tags: library | public service | civic
+
 ## Notes
 Bathurst Public Library / Bibliothèque publique de Bathurst at 150 St George St, Bathurst, NB E2A 1B5.
-Public library serving Bathurst and surrounding parish.
+Public library serving Bathurst and the surrounding parish.
 
 ## Public source
 - https://www1.gnb.ca/0003/pages/en/biblio-e.asp?Code=CN

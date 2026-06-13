@@ -1,10 +1,14 @@
 # Draft: Atlantic Host
 
-Category: business
+Category: hospitality
 Area: Acadie-Bathurst
+Tags: hotel | lodging | restaurant | bar | parking
 
 ## Notes
-On Vanier St on the way to the airport. Hotel. Winter snowmobilers love it. Good restaurant, good breakfast, bar section, pool, and good parking. Next to Tim Hortons.
+Hotel on Vanier St on the way to the airport.
+Popular with winter snowmobilers.
+Has a good restaurant, breakfast service, bar section, pool, and good parking.
+Next to Tim Hortons.
 
 ## Public source
 - In person
