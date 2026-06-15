@@ -63,7 +63,8 @@ def test_official_entry_prefers_meta_json_contract(tmp_path: Path):
 Family restaurant in Bathurst.
 
 ## Public notes
-Known local branch with sit-down service.
+- Known local branch with sit-down service.
+- Good for family meals.
 
 ## Contact
 - Phone: 506-000-0000
@@ -100,5 +101,6 @@ Known local branch with sit-down service.
     assert item["brand_name"] == "Pizza Delight"
     assert item["aliases"] == ["Pizza Delight Bathurst"]
     assert item["description"] == "Family restaurant in Bathurst."
+    assert item["note_points"] == ["Known local branch with sit-down service.", "Good for family meals."]
     assert item["contact"]["phone"] == "506-111-1111"  # meta is canonical
     assert item["public_area"] == "Acadie-Bathurst"

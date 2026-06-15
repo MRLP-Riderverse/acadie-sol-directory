@@ -149,6 +149,7 @@ def build_item(
     tags: list[str] | None = None,
     description: str = "",
     notes: str = "",
+    note_points: list[str] | None = None,
     contact: dict[str, str] | None = None,
     public_data: list[str] | None = None,
     related_places: list[str] | None = None,
@@ -158,6 +159,7 @@ def build_item(
     draft = status == "draft"
     contact = {**{key: "" for key in CONTACT_KEYS}, **(contact or {})}
     tags = tags or []
+    note_points = note_points or []
     related_places = related_places or []
     sources = sources or []
     public_data = public_data or []
@@ -183,6 +185,7 @@ def build_item(
         "public_area": public_area_value,
         "description": description,
         "notes": notes,
+        "note_points": note_points,
         "summary": summary,
         "tags": tags,
         "contact": contact,
@@ -226,7 +229,9 @@ def parse_draft(path: Path) -> dict:
 
     sections = markdown_sections(body)
     description = clean_text(" ".join(sections.get("description", [])))
-    notes = clean_text(" ".join(sections.get("notes", [])))
+    note_lines = sections.get("notes", [])
+    notes = clean_text(" ".join(note_lines))
+    note_points = bullet_values(note_lines)
     contact_lines = sections.get("public data to carry forward", []) or sections.get("public data", []) or sections.get("details", []) or sections.get("contact", [])
     contact, public_data = parse_contact_lines(contact_lines)
     sources = bullet_values(sections.get("public source", []) or sections.get("details and sources", []) or sections.get("sources", []))
@@ -241,6 +246,7 @@ def parse_draft(path: Path) -> dict:
         tags=tags,
         description=description,
         notes=notes,
+        note_points=note_points,
         contact=contact,
         public_data=public_data,
         related_places=related_places,
@@ -261,7 +267,9 @@ def parse_entry(entry_md: Path) -> dict:
     if not description:
         # First non-empty preamble line becomes description.
         description = clean_text(" ".join(line for line in sections.get("preamble", []) if line.strip()))
-    notes = clean_text(" ".join(sections.get("public notes", []) or sections.get("notes", [])))
+    note_lines = sections.get("public notes", []) or sections.get("notes", [])
+    notes = clean_text(" ".join(note_lines))
+    note_points = bullet_values(note_lines)
 
     raw_contact = meta.get("contact")
     meta_contact: dict = raw_contact if isinstance(raw_contact, dict) else {}
@@ -285,6 +293,7 @@ def parse_entry(entry_md: Path) -> dict:
         tags=parse_tags(meta.get("tags")),
         description=description,
         notes=notes,
+        note_points=note_points,
         contact=contact,
         public_data=public_data,
         related_places=[item for item in related_places if item],
