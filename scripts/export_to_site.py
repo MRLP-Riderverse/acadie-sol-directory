@@ -2,8 +2,8 @@
 """Export directory markdown into the website's JSON payload.
 
 Canonical source of truth:
-- acadie_sol_directory/inbox/*.md
-- acadie_sol_directory/entries/*/entry.md (future-proofed)
+- acadie_sol_directory/inbox/*.md for draft previews
+- acadie_sol_directory/entries/*/entry.md + meta.json for official entries
 
 Output:
 - acadie_sol/assets/directory-data.json
@@ -25,125 +25,310 @@ from typing import Iterable
 
 DEFAULT_DIRECTORY_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SITE_ROOT = DEFAULT_DIRECTORY_ROOT.with_name("acadie_sol")
+CONTACT_KEYS = {"address", "hours", "phone", "email", "website"}
+SCHEMA_VERSION = 1
 
 
-def parse_listing(path: Path) -> dict:
-    text = path.read_text(encoding="utf-8")
-    lines = text.splitlines()
+def clean_text(value: str) -> str:
+    return re.sub(r"\s+", " ", str(value or "")).strip()
+
+
+def parse_tags(value: str | list[str] | None) -> list[str]:
+    if not value:
+        return []
+    if isinstance(value, list):
+        raw = value
+    else:
+        raw = re.split(r"[|,]", value)
+    tags: list[str] = []
+    seen: set[str] = set()
+    for tag in raw:
+        cleaned = clean_text(str(tag)).strip("# ")
+        key = cleaned.casefold()
+        if cleaned and key not in seen:
+            tags.append(cleaned)
+            seen.add(key)
+    return tags
+
+
+def public_area(area: str, meta: dict | None = None) -> str:
+    if meta:
+        location = meta.get("location") or {}
+        explicit = clean_text(location.get("public_area", ""))
+        if explicit:
+            return explicit
+        municipality = clean_text(location.get("municipality", ""))
+        if municipality:
+            area = municipality
+    area = clean_text(area)
+    if re.search(r"bathurst", area, re.I):
+        return "Acadie-Bathurst"
+    return area or "Unsorted"
+
+
+def timestamp_for(path: Path) -> tuple[str, int]:
     stat = path.stat()
     modified_ts = int(stat.st_mtime)
     modified_at = datetime.fromtimestamp(stat.st_mtime, tz=timezone.utc).isoformat().replace("+00:00", "Z")
-    title_line = lines[0].strip() if lines else "# Draft: Untitled"
-    title = re.sub(r"^#\s*Draft:\s*", "", title_line).strip()
+    return modified_at, modified_ts
 
-    category = ""
-    area = ""
-    public_source: list[str] = []
-    related_places: list[str] = []
-    description_lines: list[str] = []
-    notes_lines: list[str] = []
-    public_data_lines: list[str] = []
-    data_fields = {"address": "", "hours": "", "phone": "", "email": ""}
-    current = None
 
-    for line in lines[1:]:
+def display_path(path: Path) -> str:
+    try:
+        return str(path.relative_to(DEFAULT_DIRECTORY_ROOT))
+    except ValueError:
+        for marker in ("inbox", "entries"):
+            if marker in path.parts:
+                idx = path.parts.index(marker)
+                return str(Path(*path.parts[idx:]))
+        return str(path)
+
+
+def markdown_sections(lines: list[str]) -> dict[str, list[str]]:
+    sections: dict[str, list[str]] = {"preamble": []}
+    current = "preamble"
+    for line in lines:
         stripped = line.strip()
-        if line.startswith("Category:"):
-            category = line.split(":", 1)[1].strip()
+        if stripped.startswith("## "):
+            current = stripped[3:].strip().casefold()
+            sections.setdefault(current, [])
             continue
-        if line.startswith("Area:"):
-            area = line.split(":", 1)[1].strip()
-            continue
-        if stripped == "## Description":
-            current = "description"
-            continue
-        if stripped == "## Notes":
-            current = "notes"
-            continue
-        if stripped in {"## Public data to carry forward", "## Public data", "## Details", "## Contact"}:
-            current = "public_data"
-            continue
-        if stripped in {"## Public source", "## Details and sources"}:
-            current = "source"
-            continue
-        if stripped == "## Related places":
-            current = "related"
-            continue
-        if stripped == "## Admin notes":
-            current = "admin"
-            continue
+        sections.setdefault(current, []).append(line)
+    return sections
 
-        if current == "description" and stripped:
-            description_lines.append(stripped)
-        elif current == "notes" and stripped:
-            notes_lines.append(stripped)
-        elif current == "public_data" and stripped.startswith("- "):
-            public_data_lines.append(stripped[2:].strip())
-            if ":" in stripped:
-                key, value = stripped[2:].split(":", 1)
-                key_norm = key.strip().lower()
-                if key_norm in data_fields:
-                    data_fields[key_norm] = value.strip()
-        elif current == "source" and stripped.startswith("- "):
-            public_source.append(stripped[2:].strip())
-        elif current == "related" and stripped.startswith("- "):
-            related_places.append(stripped[2:].strip())
 
-    description = re.sub(r"\s+", " ", " ".join(description_lines)).strip()
-    notes = re.sub(r"\s+", " ", " ".join(notes_lines)).strip()
-    summary = re.sub(r"\s+", " ", " ".join([description, notes]).strip()).strip()
-    draft = path.parent.name == "inbox" or title_line.startswith("# Draft:")
+def bullet_values(lines: list[str]) -> list[str]:
+    return [line.strip()[2:].strip() for line in lines if line.strip().startswith("- ") and line.strip()[2:].strip()]
+
+
+def parse_contact_lines(lines: list[str]) -> tuple[dict[str, str], list[str]]:
+    contact = {key: "" for key in CONTACT_KEYS}
+    public_data: list[str] = []
+    for line in lines:
+        stripped = line.strip()
+        if not stripped.startswith("- "):
+            continue
+        value = stripped[2:].strip()
+        if not value or value.startswith("["):
+            continue
+        public_data.append(value)
+        if ":" not in value:
+            continue
+        key, val = value.split(":", 1)
+        key_norm = key.strip().lower()
+        if key_norm in contact:
+            contact[key_norm] = clean_text(val)
+    return contact, public_data
+
+
+def first_heading(markdown: str, fallback: str) -> str:
+    for line in markdown.splitlines():
+        stripped = line.strip()
+        if stripped.startswith("# "):
+            return re.sub(r"^#\s*Draft:\s*", "", stripped[2:].strip()).strip()
+    return fallback
+
+
+def source_type(path: Path, draft: bool, sources: list[str]) -> str:
+    if draft:
+        return "inbox"
+    if any(src.casefold() == "in person" for src in sources):
+        return "in-person"
+    if sources:
+        return "public-source"
+    return "entry"
+
+
+def build_item(
+    *,
+    path: Path,
+    title: str,
+    status: str,
+    category: str = "",
+    area: str = "",
+    tags: list[str] | None = None,
+    description: str = "",
+    notes: str = "",
+    contact: dict[str, str] | None = None,
+    public_data: list[str] | None = None,
+    related_places: list[str] | None = None,
+    sources: list[str] | None = None,
+    meta: dict | None = None,
+) -> dict:
+    draft = status == "draft"
+    contact = {**{key: "" for key in CONTACT_KEYS}, **(contact or {})}
+    tags = tags or []
+    related_places = related_places or []
+    sources = sources or []
+    public_data = public_data or []
+    modified_at, modified_ts = timestamp_for(path)
+    summary = clean_text(" ".join(part for part in [description, notes] if part))[:220]
+    area_value = area or clean_text((meta or {}).get("location", {}).get("municipality", ""))
+    public_area_value = public_area(area_value, meta)
+    name = clean_text((meta or {}).get("name", "")) or title
 
     return {
-        "title": title,
-        "slug": path.stem,
+        "title": name,
+        "name": name,
+        "sort_name": clean_text((meta or {}).get("sort_name", "")) or name,
+        "brand_name": clean_text((meta or {}).get("brand_name", "")),
+        "branch_name": clean_text((meta or {}).get("branch_name", "")),
+        "aliases": (meta or {}).get("aliases", []) if isinstance((meta or {}).get("aliases", []), list) else [],
+        "slug": clean_text((meta or {}).get("slug", "")) or (path.stem if path.name != "entry.md" else path.parent.name),
+        "status": status,
         "draft": draft,
         "badge": "DRAFT" if draft else "",
         "category": category,
-        "area": area,
+        "area": area_value,
+        "public_area": public_area_value,
         "description": description,
         "notes": notes,
-        "summary": summary[:220],
-        "address": data_fields["address"],
-        "hours": data_fields["hours"],
-        "phone": data_fields["phone"],
-        "email": data_fields["email"],
-        "public_data": public_data_lines,
+        "summary": summary,
+        "tags": tags,
+        "contact": contact,
+        # Backwards-compatible flat fields for the current static renderer.
+        "address": contact["address"],
+        "hours": contact["hours"],
+        "phone": contact["phone"],
+        "email": contact["email"],
+        "website": contact["website"],
+        "public_data": public_data,
         "related_places": related_places,
-        "sources": public_source,
-        "path": str(path.relative_to(DEFAULT_DIRECTORY_ROOT)),
+        "sources": sources,
+        "source_type": source_type(path, draft, sources),
+        "path": display_path(path),
         "source_modified_at": modified_at,
         "source_modified_ts": modified_ts,
     }
 
 
-def collect_sources(directory_root: Path) -> list[Path]:
-    sources: list[Path] = []
+def parse_draft(path: Path) -> dict:
+    text = path.read_text(encoding="utf-8")
+    lines = text.splitlines()
+    title_line = lines[0].strip() if lines else "# Draft: Untitled"
+    title = re.sub(r"^#\s*Draft:\s*", "", title_line.lstrip("# ")).strip()
+    category = ""
+    area = ""
+    tags: list[str] = []
+    body: list[str] = []
 
+    for line in lines[1:]:
+        if line.startswith("Category:"):
+            category = clean_text(line.split(":", 1)[1])
+            continue
+        if line.startswith("Area:"):
+            area = clean_text(line.split(":", 1)[1])
+            continue
+        if line.startswith("Tags:"):
+            tags = parse_tags(line.split(":", 1)[1])
+            continue
+        body.append(line)
+
+    sections = markdown_sections(body)
+    description = clean_text(" ".join(sections.get("description", [])))
+    notes = clean_text(" ".join(sections.get("notes", [])))
+    contact_lines = sections.get("public data to carry forward", []) or sections.get("public data", []) or sections.get("details", []) or sections.get("contact", [])
+    contact, public_data = parse_contact_lines(contact_lines)
+    sources = bullet_values(sections.get("public source", []) or sections.get("details and sources", []) or sections.get("sources", []))
+    related_places = bullet_values(sections.get("related places", []))
+
+    return build_item(
+        path=path,
+        title=title,
+        status="draft",
+        category=category,
+        area=area,
+        tags=tags,
+        description=description,
+        notes=notes,
+        contact=contact,
+        public_data=public_data,
+        related_places=related_places,
+        sources=sources,
+    )
+
+
+def parse_entry(entry_md: Path) -> dict:
+    entry_dir = entry_md.parent
+    meta_path = entry_dir / "meta.json"
+    meta = json.loads(meta_path.read_text(encoding="utf-8")) if meta_path.exists() else {}
+    text = entry_md.read_text(encoding="utf-8")
+    lines = text.splitlines()
+    title = first_heading(text, entry_dir.name.replace("-", " ").title())
+    sections = markdown_sections(lines[1:] if lines else [])
+
+    description = clean_text(meta.get("short_description", ""))
+    if not description:
+        # First non-empty preamble line becomes description.
+        description = clean_text(" ".join(line for line in sections.get("preamble", []) if line.strip()))
+    notes = clean_text(" ".join(sections.get("public notes", []) or sections.get("notes", [])))
+
+    raw_contact = meta.get("contact")
+    meta_contact: dict = raw_contact if isinstance(raw_contact, dict) else {}
+    contact_lines = sections.get("contact", [])
+    contact, public_data = parse_contact_lines(contact_lines)
+    contact.update({key: clean_text(meta_contact.get(key, contact[key])) for key in CONTACT_KEYS})
+
+    sources = bullet_values(sections.get("sources", []) or sections.get("public source", []))
+    related_lines = bullet_values(sections.get("related places", []))
+    related_meta = meta.get("related", []) if isinstance(meta.get("related", []), list) else []
+    related_places = related_lines + [clean_text(item.get("slug", "")) for item in related_meta if isinstance(item, dict) and item.get("slug")]
+    raw_location = meta.get("location")
+    location: dict = raw_location if isinstance(raw_location, dict) else {}
+
+    return build_item(
+        path=entry_md,
+        title=title,
+        status=clean_text(meta.get("status", "published")) or "published",
+        category=clean_text(meta.get("category", "")),
+        area=clean_text(location.get("public_area") or location.get("municipality") or ""),
+        tags=parse_tags(meta.get("tags")),
+        description=description,
+        notes=notes,
+        contact=contact,
+        public_data=public_data,
+        related_places=[item for item in related_places if item],
+        sources=sources,
+        meta=meta,
+    )
+
+
+def collect_drafts(directory_root: Path) -> list[Path]:
     inbox = directory_root / "inbox"
-    if inbox.exists():
-        for path in sorted(inbox.glob("*.md")):
-            name = path.name.lower()
-            if name.startswith("_") or "template" in name:
-                continue
-            sources.append(path)
+    if not inbox.exists():
+        return []
+    sources = []
+    for path in sorted(inbox.glob("*.md")):
+        name = path.name.lower()
+        if name.startswith("_") or "template" in name:
+            continue
+        sources.append(path)
+    return sources
 
+
+def collect_entries(directory_root: Path) -> list[Path]:
     entries = directory_root / "entries"
-    if entries.exists():
-        sources.extend(sorted(entries.glob("*/entry.md")))
-
+    if not entries.exists():
+        return []
+    sources = []
+    for path in sorted(entries.glob("*/entry.md")):
+        if any(part.startswith("_") for part in path.relative_to(entries).parts):
+            continue
+        sources.append(path)
     return sources
 
 
 def build_payload(directory_root: Path) -> dict:
-    items = [parse_listing(path) for path in collect_sources(directory_root)]
-    items.sort(key=lambda item: (0 if item["draft"] else 1, item["title"].lower()))
+    items = [parse_entry(path) for path in collect_entries(directory_root)]
+    items.extend(parse_draft(path) for path in collect_drafts(directory_root))
+    items.sort(key=lambda item: (0 if item["status"] == "published" else 1, item["title"].lower()))
 
     return {
+        "schema_version": SCHEMA_VERSION,
         "generated_from": str(directory_root),
         "entry_count": len(items),
         "draft_count": sum(1 for item in items if item["draft"]),
-        "published_count": sum(1 for item in items if not item["draft"]),
+        "published_count": sum(1 for item in items if item["status"] == "published"),
         "items": items,
     }
 

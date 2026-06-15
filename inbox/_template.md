@@ -2,31 +2,28 @@
 
 Category: [food | grocery | civic | tourism | education | hospitality | entertainment | service | bar | etc.]
 Area: Acadie-Bathurst
-Tags: tag1 | tag2 | tag3
+Tags: [optional search hints separated by |]
 
 ## Description
-One short line describing what it is and where it is.
+One short public-facing line describing what it is and where it is.
 
 ## Notes
-Keep raw wording here.
-Preserve anything useful from the original intake.
-Add cautious context, landmarks, or nearby places.
+Keep raw local wording here.
+Preserve useful context, vibe, caveats, landmarks, owner/user phrasing, and uncertain details that should not be over-normalized yet.
 
 ## Public data to carry forward
-- Address: [street, town, province, postal code]
-- Hours: [if publicly known]
-- Phone: [if publicly known]
-- Email: [if publicly known]
-- Website: [if publicly known]
+- Address: [if known]
+- Hours: [if known]
+- Phone: [if known]
+- Email: [if known]
+- Website: [if known]
 
 ## Related places
-- [if applicable]
+- [nearby venue, sibling branch, corridor anchor, or leave empty]
 
 ## Public source
-- [public link, observed source, or in-person]
+- [public link, In person, or leave empty]
 
 ## Admin notes
 - Submitted by : Acadie.sol
-- Telegram pass-through complete: [yes/no]
-- Raw intake preserved: [yes/no]
-- Restructured to template: [yes/no]
+- Follow-up: [only if there is a real verification or cleanup task]

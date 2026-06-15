@@ -70,12 +70,14 @@ The `entry.md` is what you write and read. The `meta.json` is the index card tha
 
 ## Entry Workflow
 
-1. Draft in `inbox/` (freeform, no schema pressure)
-2. Move to `entries/<slug>/` with `entry.md` + `meta.json`
+1. Draft in `inbox/` (freeform, no schema pressure; use `inbox/_template.md` as the light shaping target)
+2. Promote to `entries/<slug>/` with `entry.md` + `meta.json` when the public card fields are stable
 3. Validate `meta.json` against `schemas/entry.schema.yaml`
 4. Run `scripts/generate_feed.py` to update `feed.xml`
 5. Run `scripts/export_to_site.py` to regenerate the website payload
 6. Commit and push
+
+Promotion guidance lives in `docs/promote-draft-to-entry.md`. The site payload contract lives in `docs/public-payload-contract.md`.
 
 ## Website Sync
 

@@ -1,0 +1,49 @@
+{
+  "slug": "big-d-drive-in",
+  "name": "Big D Drive-In",
+  "sort_name": "Big D Drive-In",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [
+    "Big D Burger"
+  ],
+  "status": "published",
+  "category": "food",
+  "short_description": "Classic burger drive-in on St Peter Ave in Bathurst.",
+  "location": {
+    "region": "Nouveau-Brunswick",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "drive-in",
+    "burger",
+    "restaurant",
+    "picnic",
+    "family"
+  ],
+  "contact": {
+    "address": "2035 St Peter Ave, Bathurst, NB E2A 7J5, Canada",
+    "hours": "Mon-Sun 11:00–19:00",
+    "phone": "506-546-3585",
+    "email": "",
+    "website": ""
+  },
+  "related": [
+    {
+      "name": "Bowlarama Bathurst Bowling & Arcade",
+      "relationship": "nearby"
+    }
+  ],
+  "verification": {
+    "status": "steward-reviewed",
+    "source": "Acadie.sol local draft capture"
+  },
+  "meta": {
+    "created": "2026-06-15T15:16:58Z",
+    "updated": "2026-06-15T15:16:58Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

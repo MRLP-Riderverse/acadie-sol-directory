@@ -15,6 +15,37 @@ name:
   required: true
   description: "Human-readable display name"
 
+status:
+  type: string
+  required: false
+  default: published
+  description: "Lifecycle status for export/rendering"
+  allowed:
+    - draft
+    - published
+    - archived
+
+sort_name:
+  type: string
+  required: false
+  description: "Optional normalized name for alphabetical sorting"
+
+brand_name:
+  type: string
+  required: false
+  description: "Optional parent brand for chain or multi-location entries"
+
+branch_name:
+  type: string
+  required: false
+  description: "Optional branch/location disambiguator"
+
+aliases:
+  type: array
+  required: false
+  items: string
+  description: "Common local names, old names, or conversational search variants"
+
 category:
   type: string
   required: true
@@ -63,12 +94,37 @@ location:
       type: string
       required: false
       description: "Town, city, or locality"
+    public_area:
+      type: string
+      required: false
+      description: "Public browse label used by the site (e.g. 'Acadie-Bathurst')"
     geocircle:
       type: string
       required: false
       description: "Travel-time geography description (e.g. '1hr from Moncton', 'Chéticamp peninsula')"
 
 # Contact & presence — optional
+contact:
+  type: object
+  required: false
+  description: "Public contact/action fields exported for cards and future detail pages"
+  fields:
+    address:
+      type: string
+      required: false
+    hours:
+      type: string
+      required: false
+    phone:
+      type: string
+      required: false
+    email:
+      type: string
+      required: false
+    website:
+      type: url
+      required: false
+
 links:
   type: object
   required: false

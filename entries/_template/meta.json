@@ -1,0 +1,36 @@
+{
+  "slug": "official-entry-slug",
+  "name": "Official Display Name",
+  "sort_name": "Official Display Name",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [],
+  "status": "published",
+  "category": "business",
+  "short_description": "One-line public card summary.",
+  "location": {
+    "region": "Nouveau-Brunswick",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [],
+  "contact": {
+    "address": "",
+    "hours": "",
+    "phone": "",
+    "email": "",
+    "website": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-reviewed",
+    "source": ""
+  },
+  "meta": {
+    "created": "YYYY-MM-DDT00:00:00Z",
+    "updated": "YYYY-MM-DDT00:00:00Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}
