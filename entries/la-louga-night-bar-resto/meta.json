@@ -1,0 +1,61 @@
+{
+  "slug": "la-louga-night-bar-resto",
+  "name": "La Louga Night Bar - Resto",
+  "sort_name": "La Louga Night Bar - Resto",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [
+    "La Louga Night Club"
+  ],
+  "status": "published",
+  "category": "business",
+  "short_description": "Bathurst night bar and resto with a strong French-language social presence.",
+  "location": {
+    "region": "Nouveau-Brunswick",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": "downtown Bathurst"
+  },
+  "tags": [
+    "bar",
+    "nightlife",
+    "restaurant",
+    "downtown",
+    "live music"
+  ],
+  "contact": {
+    "address": "125 Main St, Bathurst, NB E2A 1A6, Canada",
+    "hours": "",
+    "phone": "(506) 226-6056",
+    "email": "",
+    "website": ""
+  },
+  "related": [
+    {
+      "name": "Bootlegger",
+      "relationship": "nearby"
+    },
+    {
+      "name": "District Burger",
+      "relationship": "nearby"
+    },
+    {
+      "name": "Donair Shop",
+      "relationship": "nearby"
+    },
+    {
+      "name": "Kaffeine Express Bathurst",
+      "relationship": "nearby"
+    }
+  ],
+  "verification": {
+    "status": "steward-reviewed",
+    "source": "Acadie.sol local draft capture"
+  },
+  "meta": {
+    "created": "2026-06-16T20:04:13Z",
+    "updated": "2026-06-16T20:04:13Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}
