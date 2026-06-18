@@ -1,0 +1,41 @@
+{
+  "id": "socialite-reading-marc-chamberlain-bathurst-library",
+  "status": "published",
+  "title": {
+    "en": "Reading of ‘Socialite’ by Marc Chamberlain",
+    "fr": "Lecture de « Socialite » par Marc Chamberlain",
+    "shiac": "Lecture de ‘Socialite’ avec Marc Chamberlain"
+  },
+  "summary": {
+    "en": "A free one-hour reading of ‘Socialite’ by Marc Chamberlain at the Bathurst Municipal Library.",
+    "fr": "Lecture gratuite d’une heure de « Socialite » par Marc Chamberlain à la Bibliothèque municipale de Bathurst.",
+    "shiac": "Une lecture gratuite d’une heure de ‘Socialite’ par Marc Chamberlain à la bibliothèque de Bathurst."
+  },
+  "starts_at": "2026-06-24T11:00:00-03:00",
+  "ends_at": "2026-06-24T12:00:00-03:00",
+  "expires_at": "2026-06-24T12:00:00-03:00",
+  "timezone": "America/Moncton",
+  "region_id": "acadie-bathurst",
+  "location_id": "bathurst-municipal-library",
+  "host_entry_ids": [],
+  "performer_entry_ids": [],
+  "sponsor_entry_ids": [],
+  "related_offer_ids": [],
+  "tags": ["reading", "library", "literature", "free", "family"],
+  "wayfinding": {
+    "en": "Bathurst Municipal Library, 150 St George St, Bathurst.",
+    "fr": "Bibliothèque municipale de Bathurst, 150 rue St George, Bathurst.",
+    "shiac": "Bibliothèque municipale de Bathurst, 150 rue St George, Bathurst."
+  },
+  "bring": {
+    "en": "Bring a comfy pillow or blanket to sit on. Entry is free.",
+    "fr": "Apportez un coussin confortable ou une couverture pour vous asseoir. L’entrée est gratuite.",
+    "shiac": "Amène un coussin comfy ou une couverture pour t’asseoir. C’est gratuit."
+  },
+  "calendar": { "ics_enabled": true },
+  "source": {
+    "type": "in_person",
+    "submitted_by": "Acadie.sol",
+    "url": ""
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "bathurst-municipal-library",
+  "status": "published",
+  "kind": "venue",
+  "title": {
+    "en": "Bathurst Municipal Library",
+    "fr": "Bibliothèque municipale de Bathurst",
+    "shiac": "La bibliothèque à Bathurst"
+  },
+  "summary": {
+    "en": "Public library serving Bathurst and the surrounding parish.",
+    "fr": "Bibliothèque publique servant Bathurst et les environs.",
+    "shiac": "La bibliothèque publique pour Bathurst pis les alentours."
+  },
+  "region_id": "acadie-bathurst",
+  "street_id": "st-george-st-bathurst",
+  "address": "150 St George St, Bathurst, NB E2A 1B5, Canada",
+  "municipality": "Bathurst",
+  "public_area": "Acadie-Bathurst",
+  "entry_ids": [],
+  "nearby_location_ids": ["downtown-main-st-bathurst"],
+  "tags": ["library", "public-service", "civic", "venue"],
+  "source": {
+    "type": "public_web",
+    "submitted_by": "Acadie.sol",
+    "url": "https://www1.gnb.ca/0003/pages/en/biblio-e.asp?Code=CN"
+  }
+}
