@@ -17,7 +17,7 @@
   "address": "150 St George St, Bathurst, NB E2A 1B5, Canada",
   "municipality": "Bathurst",
   "public_area": "Acadie-Bathurst",
-  "entry_ids": [],
+  "entry_ids": ["bathurst-municipal-library"],
   "nearby_location_ids": ["downtown-main-st-bathurst"],
   "tags": ["library", "public-service", "civic", "venue"],
   "source": {

@@ -17,7 +17,7 @@
   "timezone": "America/Moncton",
   "region_id": "acadie-bathurst",
   "location_id": "bathurst-municipal-library",
-  "host_entry_ids": [],
+  "host_entry_ids": ["bathurst-municipal-library"],
   "performer_entry_ids": [],
   "sponsor_entry_ids": [],
   "related_offer_ids": [],

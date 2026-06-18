@@ -1,0 +1,49 @@
+{
+  "slug": "bathurst-municipal-library",
+  "name": "Bathurst Municipal Library",
+  "sort_name": "Bathurst Municipal Library",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [
+    "Bathurst Public Library",
+    "Bibliothèque publique de Bathurst",
+    "Bibliothèque municipale de Bathurst"
+  ],
+  "status": "published",
+  "category": "civic",
+  "location_id": "bathurst-municipal-library",
+  "region_id": "acadie-bathurst",
+  "street_id": "st-george-st-bathurst",
+  "short_description": "Public library serving Bathurst and the surrounding parish.",
+  "location": {
+    "region": "Nouveau-Brunswick",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": "Bathurst"
+  },
+  "tags": [
+    "library",
+    "public service",
+    "civic",
+    "community venue",
+    "events"
+  ],
+  "contact": {
+    "address": "150 St George St, Bathurst, NB E2A 1B5, Canada",
+    "hours": "",
+    "phone": "",
+    "email": "",
+    "website": "https://www1.gnb.ca/0003/pages/en/biblio-e.asp?Code=CN"
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-reviewed",
+    "source": "Acadie.sol local draft capture"
+  },
+  "meta": {
+    "created": "2026-06-18T21:01:37Z",
+    "updated": "2026-06-18T21:01:37Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}
