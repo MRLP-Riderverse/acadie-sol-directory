@@ -1,6 +1,11 @@
 {
   "slug": "bathurst-municipal-library",
   "name": "Bathurst Municipal Library",
+  "title": {
+    "en": "Bathurst Municipal Library",
+    "fr": "Bibliothèque municipale de Bathurst",
+    "shiac": ""
+  },
   "sort_name": "Bathurst Municipal Library",
   "brand_name": "",
   "branch_name": "",
@@ -15,6 +20,11 @@
   "region_id": "acadie-bathurst",
   "street_id": "st-george-st-bathurst",
   "short_description": "Public library serving Bathurst and the surrounding parish.",
+  "summary": {
+    "en": "Public library serving Bathurst and the surrounding parish.",
+    "fr": "Bibliothèque publique au service de Bathurst et des environs.",
+    "shiac": ""
+  },
   "location": {
     "region": "Nouveau-Brunswick",
     "municipality": "Bathurst",

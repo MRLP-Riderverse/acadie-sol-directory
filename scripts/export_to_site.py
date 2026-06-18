@@ -211,6 +211,7 @@ def build_item(
 
     return {
         "title": name,
+        "title_localized": localized((meta or {}).get("title"), name),
         "name": name,
         "sort_name": clean_text((meta or {}).get("sort_name", "")) or name,
         "brand_name": clean_text((meta or {}).get("brand_name", "")),
@@ -227,6 +228,7 @@ def build_item(
         "area": area_value,
         "public_area": public_area_value,
         "description": description,
+        "description_localized": localized((meta or {}).get("summary") or (meta or {}).get("short_description"), description),
         "notes": notes,
         "note_points": note_points,
         "summary": summary,
@@ -291,7 +293,7 @@ def parse_entry(entry_md: Path) -> dict:
     title = first_heading(text, entry_dir.name.replace("-", " ").title())
     sections = markdown_sections(lines[1:] if lines else [])
 
-    description = clean_text(meta.get("short_description", "")) or clean_text(" ".join(line for line in sections.get("preamble", []) if line.strip()))
+    description = display_text(meta.get("summary") or meta.get("short_description"), clean_text(" ".join(line for line in sections.get("preamble", []) if line.strip())))
     note_lines = sections.get("public notes", []) or sections.get("notes", [])
     notes = clean_text(" ".join(note_lines))
     note_points = bullet_values(note_lines)

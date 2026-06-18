@@ -1,6 +1,11 @@
 {
   "slug": "la-louga-night-bar-resto",
   "name": "La Louga Night Bar - Resto",
+  "title": {
+    "en": "La Louga Night Bar - Resto",
+    "fr": "La Louga Night Bar - Resto",
+    "shiac": ""
+  },
   "sort_name": "La Louga Night Bar - Resto",
   "brand_name": "",
   "branch_name": "",
@@ -13,6 +18,11 @@
   "region_id": "acadie-bathurst",
   "street_id": "main-st-bathurst",
   "short_description": "Bathurst night bar and resto with a strong French-language social presence.",
+  "summary": {
+    "en": "Bathurst night bar and resto with a strong French-language social presence.",
+    "fr": "Bar-salon nocturne et resto de Bathurst avec une forte présence sociale francophone.",
+    "shiac": ""
+  },
   "location": {
     "region": "Nouveau-Brunswick",
     "municipality": "Bathurst",

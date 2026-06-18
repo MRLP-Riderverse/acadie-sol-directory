@@ -1,6 +1,11 @@
 {
   "slug": "big-d-drive-in",
   "name": "Big D Drive-In",
+  "title": {
+    "en": "Big D Drive-In",
+    "fr": "Big D Drive-In",
+    "shiac": ""
+  },
   "sort_name": "Big D Drive-In",
   "brand_name": "",
   "branch_name": "",
@@ -13,6 +18,11 @@
   "region_id": "acadie-bathurst",
   "street_id": "st-peter-ave-bathurst",
   "short_description": "Home of the Big D Burger.",
+  "summary": {
+    "en": "Home of the Big D Burger.",
+    "fr": "Chez nous, le fameux Big D Burger.",
+    "shiac": ""
+  },
   "location": {
     "region": "Nouveau-Brunswick",
     "municipality": "Bathurst",
