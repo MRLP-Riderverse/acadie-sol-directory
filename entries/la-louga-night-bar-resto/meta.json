@@ -9,6 +9,9 @@
   ],
   "status": "published",
   "category": "business",
+  "location_id": "la-louga-main-st",
+  "region_id": "acadie-bathurst",
+  "street_id": "main-st-bathurst",
   "short_description": "Bathurst night bar and resto with a strong French-language social presence.",
   "location": {
     "region": "Nouveau-Brunswick",

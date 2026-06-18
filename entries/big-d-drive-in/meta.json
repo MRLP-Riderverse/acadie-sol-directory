@@ -9,6 +9,9 @@
   ],
   "status": "published",
   "category": "food",
+  "location_id": "big-d-st-peter",
+  "region_id": "acadie-bathurst",
+  "street_id": "st-peter-ave-bathurst",
   "short_description": "Home of the Big D Burger.",
   "location": {
     "region": "Nouveau-Brunswick",

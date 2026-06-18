@@ -1,0 +1,22 @@
+{
+  "id": "downtown-main-st-bathurst",
+  "status": "published",
+  "kind": "corridor",
+  "title": {
+    "en": "Downtown Main Street Bathurst",
+    "fr": "Centre-ville de Bathurst, rue Main",
+    "shiac": "Downtown Bathurst sur Main"
+  },
+  "summary": {
+    "en": "A corridor location for downtown Main Street adjacency and event routing.",
+    "fr": "Un corridor pour les liens de proximité et les événements de la rue Main.",
+    "shiac": "Le coin downtown pour relier les spots ensemble."
+  },
+  "region_id": "acadie-bathurst",
+  "street_id": "main-st-bathurst",
+  "municipality": "Bathurst",
+  "public_area": "Acadie-Bathurst",
+  "entry_ids": ["la-louga-night-bar-resto"],
+  "nearby_location_ids": ["la-louga-main-st"],
+  "tags": ["downtown", "corridor"]
+}

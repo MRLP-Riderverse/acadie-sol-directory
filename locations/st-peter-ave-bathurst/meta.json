@@ -1,0 +1,22 @@
+{
+  "id": "st-peter-ave-bathurst",
+  "status": "published",
+  "kind": "corridor",
+  "title": {
+    "en": "St Peter Avenue Bathurst",
+    "fr": "Avenue St Peter, Bathurst",
+    "shiac": "St Peter Ave à Bathurst"
+  },
+  "summary": {
+    "en": "A corridor location for St Peter Avenue adjacency and route logic.",
+    "fr": "Un corridor pour la proximité et les routes de l’avenue St Peter.",
+    "shiac": "La run St Peter pour trouver les spots proches."
+  },
+  "region_id": "acadie-bathurst",
+  "street_id": "st-peter-ave-bathurst",
+  "municipality": "Bathurst",
+  "public_area": "Acadie-Bathurst",
+  "entry_ids": ["big-d-drive-in"],
+  "nearby_location_ids": ["big-d-st-peter"],
+  "tags": ["corridor", "food", "route"]
+}

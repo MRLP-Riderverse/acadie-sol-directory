@@ -1,0 +1,15 @@
+{
+  "id": "acadie-bathurst",
+  "status": "published",
+  "title": {
+    "en": "Acadie-Bathurst",
+    "fr": "Acadie-Bathurst",
+    "shiac": "Acadie-Bathurst icitte"
+  },
+  "summary": {
+    "en": "The first public pilot region for Acadie.sol local discovery.",
+    "fr": "La première région pilote pour la découverte locale Acadie.sol.",
+    "shiac": "Le premier coin pilote pour trouver quoi qui se passe icitte."
+  },
+  "tags": ["pilot", "bathurst", "northern-new-brunswick"]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "big-d-st-peter",
+  "status": "published",
+  "kind": "venue",
+  "title": {
+    "en": "Big D St Peter Avenue",
+    "fr": "Big D, avenue St Peter",
+    "shiac": "Le Big D sur St Peter"
+  },
+  "summary": {
+    "en": "Physical drive-in location for Big D Drive-In on St Peter Ave.",
+    "fr": "Lieu physique du Big D Drive-In sur l’avenue St Peter.",
+    "shiac": "Le spot Big D sur St Peter, burger pis toute."
+  },
+  "region_id": "acadie-bathurst",
+  "street_id": "st-peter-ave-bathurst",
+  "address": "2035 St Peter Ave, Bathurst, NB E2A 7J5, Canada",
+  "municipality": "Bathurst",
+  "public_area": "Acadie-Bathurst",
+  "entry_ids": ["big-d-drive-in"],
+  "nearby_location_ids": ["st-peter-ave-bathurst"],
+  "tags": ["drive-in", "food", "family"]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "la-louga-main-st",
+  "status": "published",
+  "kind": "venue",
+  "title": {
+    "en": "La Louga Main Street",
+    "fr": "La Louga, rue Main",
+    "shiac": "Le spot du Louga sur Main"
+  },
+  "summary": {
+    "en": "Physical location for La Louga Night Bar - Resto in downtown Bathurst.",
+    "fr": "Lieu physique pour La Louga Night Bar - Resto au centre-ville de Bathurst.",
+    "shiac": "Le spot physique du Louga downtown Bathurst."
+  },
+  "region_id": "acadie-bathurst",
+  "street_id": "main-st-bathurst",
+  "address": "125 Main St, Bathurst, NB E2A 1A6, Canada",
+  "municipality": "Bathurst",
+  "public_area": "Acadie-Bathurst",
+  "entry_ids": ["la-louga-night-bar-resto"],
+  "nearby_location_ids": ["downtown-main-st-bathurst"],
+  "tags": ["downtown", "nightlife", "venue"]
+}

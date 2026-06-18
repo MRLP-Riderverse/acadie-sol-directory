@@ -1,0 +1,41 @@
+{
+  "id": "big-d-community-placeholder",
+  "status": "published",
+  "title": {
+    "en": "Big D Community Placeholder",
+    "fr": "Événement exemple au Big D",
+    "shiac": "Un meetup test au Big D"
+  },
+  "summary": {
+    "en": "A non-public placeholder for testing family/food venue event rendering.",
+    "fr": "Un exemple non public pour tester les événements liés aux restos familiaux.",
+    "shiac": "Juste un test pour voir les events sur un spot de burgers."
+  },
+  "starts_at": "2026-07-19T12:00:00-03:00",
+  "ends_at": "2026-07-19T14:00:00-03:00",
+  "expires_at": "2026-07-19T14:00:00-03:00",
+  "timezone": "America/Moncton",
+  "region_id": "acadie-bathurst",
+  "location_id": "big-d-st-peter",
+  "host_entry_ids": ["big-d-drive-in"],
+  "performer_entry_ids": [],
+  "sponsor_entry_ids": [],
+  "related_offer_ids": [],
+  "tags": ["food", "family", "placeholder"],
+  "wayfinding": {
+    "en": "Wayfinding notes will live here when a real event exists.",
+    "fr": "Les notes d’orientation iront ici quand un vrai événement existe.",
+    "shiac": "Les directions vont aller icitte quand ça sera un vrai event."
+  },
+  "bring": {
+    "en": "TBD",
+    "fr": "À déterminer",
+    "shiac": "On verra"
+  },
+  "calendar": { "ics_enabled": true },
+  "source": {
+    "type": "placeholder",
+    "submitted_by": "Acadie.sol",
+    "url": ""
+  }
+}
