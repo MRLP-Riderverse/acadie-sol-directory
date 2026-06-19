@@ -1,0 +1,53 @@
+{
+  "slug": "speedy-glass",
+  "name": "Speedy Glass",
+  "title": {
+    "en": "Speedy Glass",
+    "fr": "Speedy Glass",
+    "shiac": "Speedy Glass"
+  },
+  "sort_name": "Speedy Glass",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [],
+  "status": "published",
+  "category": "business",
+  "location_id": "speedy-glass",
+  "region_id": "acadie-bathurst",
+  "short_description": "Automotive glass repair services at 1355 St-Peters Ave, Acadie-Bathurst, next to Place Bathurst Mall.",
+  "summary": {
+    "en": "Automotive glass repair services at 1355 St-Peters Ave, Acadie-Bathurst, next to Place Bathurst Mall.",
+    "fr": "Service de réparation de vitres automobiles près de Place Bathurst Mall.",
+    "shiac": "Automotive glass repair services at 1355 St-Peters Ave, Acadie-Bathurst, next to Place Bathurst Mall."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "auto glass",
+    "repair",
+    "automotive service"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "Automotive glass repair services at 1355 St-Peters Ave, Acadie-Bathurst, next to Place Bathurst Mall.",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "In person"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

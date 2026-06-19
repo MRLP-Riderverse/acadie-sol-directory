@@ -1,0 +1,54 @@
+{
+  "slug": "librairie-pelagie",
+  "name": "Librairie Pélagie",
+  "title": {
+    "en": "Librairie Pélagie",
+    "fr": "Librairie Pélagie",
+    "shiac": "Librairie Pélagie"
+  },
+  "sort_name": "Librairie Pélagie",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [],
+  "status": "published",
+  "category": "business",
+  "location_id": "librairie-pelagie",
+  "region_id": "acadie-bathurst",
+  "short_description": "Bookstore at 14 Douglas Ave, Bathurst, NB E2A 7S6.",
+  "summary": {
+    "en": "Bookstore at 14 Douglas Ave, Bathurst, NB E2A 7S6.",
+    "fr": "Librairie située au 14, avenue Douglas, dans le secteur de La Promenade Waterfront.",
+    "shiac": "Bookstore at 14 Douglas Ave, Bathurst, NB E2A 7S6."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "bookstore",
+    "books",
+    "waterfront",
+    "retail"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "Bookstore at 14 Douglas Ave, Bathurst, NB E2A 7S6.",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "https://pelagie.leslibraires.ca/; https://www.facebook.com/promenadewaterfront/posts/librairie-p%C3%A9lagie14-douglas-avenue506-547-9777a-delightful-little-bookstore-nest/1725543840871748/"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

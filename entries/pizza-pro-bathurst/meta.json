@@ -1,0 +1,54 @@
+{
+  "slug": "pizza-pro-bathurst",
+  "name": "Pizza Pro Bathurst",
+  "title": {
+    "en": "Pizza Pro Bathurst",
+    "fr": "Pizza Pro Bathurst",
+    "shiac": "Pizza Pro Bathurst"
+  },
+  "sort_name": "Pizza Pro Bathurst",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [],
+  "status": "published",
+  "category": "food",
+  "location_id": "pizza-pro-bathurst",
+  "region_id": "acadie-bathurst",
+  "short_description": "Pizza Pro location in Bathurst.",
+  "summary": {
+    "en": "Pizza Pro location in Bathurst.",
+    "fr": "Restaurant Pizza Pro à Bathurst, dans le corridor de l’avenue St Peter.",
+    "shiac": "Pizza Pro location in Bathurst."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "pizza",
+    "takeout",
+    "delivery",
+    "st peters ave"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "Public search results point to 755 St. Peter Ave, Bathurst, NB.",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "http://pizzapro.ca/; https://www.yellowpages.ca/bus/New-Brunswick/Bathurst/Pizza-Pro/7621361.html; https://www.restaurantji.com/nb/bathurst/pizza-pro-bathurst-/"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

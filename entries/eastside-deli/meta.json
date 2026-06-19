@@ -1,0 +1,55 @@
+{
+  "slug": "eastside-deli",
+  "name": "Eastside Deli",
+  "title": {
+    "en": "Eastside Deli",
+    "fr": "Eastside Deli",
+    "shiac": "Eastside Deli"
+  },
+  "sort_name": "Eastside Deli",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [],
+  "status": "published",
+  "category": "food",
+  "location_id": "eastside-deli",
+  "region_id": "acadie-bathurst",
+  "short_description": "Local foods restaurant on Miramichi Ave in Acadie-Bathurst.",
+  "summary": {
+    "en": "Local foods restaurant on Miramichi Ave in Acadie-Bathurst.",
+    "fr": "Restaurant local sur l’avenue Miramichi, reconnu pour ses donairs, sous-marins et poutines.",
+    "shiac": "Local foods restaurant on Miramichi Ave in Acadie-Bathurst."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "deli",
+    "donair",
+    "steak sub",
+    "poutine",
+    "sandwiches"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "1395 Miramichi Ave, Acadie-Bathurst",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "In person"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

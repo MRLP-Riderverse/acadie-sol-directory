@@ -1,0 +1,55 @@
+{
+  "slug": "youghall-beach",
+  "name": "Youghall Beach",
+  "title": {
+    "en": "Youghall Beach",
+    "fr": "Youghall Beach",
+    "shiac": "Youghall Beach"
+  },
+  "sort_name": "Youghall Beach",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [],
+  "status": "published",
+  "category": "venue",
+  "location_id": "youghall-beach",
+  "region_id": "acadie-bathurst",
+  "short_description": "Youghall Beach park north of Acadie-Bathurst near Gowen Brae and the CCNB Youghall Campus.",
+  "summary": {
+    "en": "Youghall Beach park north of Acadie-Bathurst near Gowen Brae and the CCNB Youghall Campus.",
+    "fr": "Parc de plage Youghall au nord d’Acadie-Bathurst, avec promenade et zone de baignade désignée.",
+    "shiac": "Youghall Beach park north of Acadie-Bathurst near Gowen Brae and the CCNB Youghall Campus."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "beach",
+    "park",
+    "boardwalk",
+    "swimming",
+    "waterfront"
+  ],
+  "contact": {
+    "hours": "Summer operations on the city page: 8:00am to 8:00pm daily, free parking, lifeguards 10:00am to 5:30pm, designated swimming zone, beach sand cleaned daily 7:00am to 10:00am, floating wheelchairs available through East Coast Adventures, no overnight camping, and pets permitted on leash.",
+    "phone": "",
+    "website": "",
+    "address": "",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "https://www.bathurst.ca/en/services/recreation-and-tourism/74/youghall-beach; https://www.bathurst.ca/en/services/8/parks-recreation-and-tourism"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

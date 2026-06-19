@@ -1,0 +1,56 @@
+{
+  "slug": "pizza-delight-campbellton",
+  "name": "Pizza Delight Campbellton",
+  "title": {
+    "en": "Pizza Delight Campbellton",
+    "fr": "Pizza Delight Campbellton",
+    "shiac": "Pizza Delight Campbellton"
+  },
+  "sort_name": "Pizza Delight Campbellton",
+  "brand_name": "Pizza Delight",
+  "branch_name": "Campbellton",
+  "aliases": [
+    "Pizza Delight Campbellton"
+  ],
+  "status": "published",
+  "category": "food",
+  "location_id": "pizza-delight-campbellton",
+  "region_id": "restigouche",
+  "short_description": "Pizza Delight location in Campbellton.",
+  "summary": {
+    "en": "Pizza Delight location in Campbellton.",
+    "fr": "Restaurant Pizza Delight à Campbellton.",
+    "shiac": "Pizza Delight location in Campbellton."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Restigouche",
+    "municipality": "Campbellton",
+    "public_area": "Restigouche",
+    "geocircle": ""
+  },
+  "tags": [
+    "pizza",
+    "family restaurant",
+    "takeout",
+    "delivery"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "Public search results point to 15 Sugarloaf Street, Campbellton, NB E3N 3A9.",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "https://www.pizzadelight.com/campbellton; https://www.yellowpages.ca/bus/New-Brunswick/Campbellton/Pizza-Delight/1238538.html; https://www.canada.chamberofcommerce.com/business-directory/new-brunswick/campbellton/pizza-restaurant/291612-pizza-delight"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

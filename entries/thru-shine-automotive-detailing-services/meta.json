@@ -1,0 +1,53 @@
+{
+  "slug": "thru-shine-automotive-detailing-services",
+  "name": "Thru-Shine Automotive Detailing Services",
+  "title": {
+    "en": "Thru-Shine Automotive Detailing Services",
+    "fr": "Thru-Shine Automotive Detailing Services",
+    "shiac": "Thru-Shine Automotive Detailing Services"
+  },
+  "sort_name": "Thru-Shine Automotive Detailing Services",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [],
+  "status": "published",
+  "category": "business",
+  "location_id": "thru-shine-automotive-detailing-services",
+  "region_id": "acadie-bathurst",
+  "short_description": "2037 St-Peters Ave, after the Bowlarama and Big D Drive In.",
+  "summary": {
+    "en": "2037 St-Peters Ave, after the Bowlarama and Big D Drive In.",
+    "fr": "Service de detailing automobile sur l’avenue St Peter près de Bowlorama et Big D Drive-In.",
+    "shiac": "2037 St-Peters Ave, after the Bowlarama and Big D Drive In."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "auto detailing",
+    "car detailing",
+    "automotive service"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "2037 St-Peters Ave, after the Bowlarama and Big D Drive In.",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "In person"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

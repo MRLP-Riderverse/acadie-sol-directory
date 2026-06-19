@@ -1,0 +1,54 @@
+{
+  "slug": "dilli-delight",
+  "name": "Dilli Delight",
+  "title": {
+    "en": "Dilli Delight",
+    "fr": "Dilli Delight",
+    "shiac": "Dilli Delight"
+  },
+  "sort_name": "Dilli Delight",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [],
+  "status": "published",
+  "category": "food",
+  "location_id": "dilli-delight",
+  "region_id": "acadie-bathurst",
+  "short_description": "Indian cuisine spot on St-Peters Ave in Acadie-Bathurst.",
+  "summary": {
+    "en": "Indian cuisine spot on St-Peters Ave in Acadie-Bathurst.",
+    "fr": "Restaurant de cuisine indienne sur l’avenue St Peter à Acadie-Bathurst.",
+    "shiac": "Indian cuisine spot on St-Peters Ave in Acadie-Bathurst."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "indian food",
+    "restaurant",
+    "takeout",
+    "st peters ave"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "1 (506) 546-4545",
+    "website": "",
+    "address": "",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "In person"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

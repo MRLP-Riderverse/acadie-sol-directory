@@ -1,0 +1,55 @@
+{
+  "slug": "daly-point-nature-reserve",
+  "name": "Daly Point Nature Reserve",
+  "title": {
+    "en": "Daly Point Nature Reserve",
+    "fr": "Daly Point Nature Reserve",
+    "shiac": "Daly Point Nature Reserve"
+  },
+  "sort_name": "Daly Point Nature Reserve",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [],
+  "status": "published",
+  "category": "venue",
+  "location_id": "daly-point-nature-reserve",
+  "region_id": "acadie-bathurst",
+  "short_description": "Nature reserve and walking trail network near East Acadie-Bathurst.",
+  "summary": {
+    "en": "Nature reserve and walking trail network near East Acadie-Bathurst.",
+    "fr": "Réserve naturelle et réseau de sentiers près de l’est d’Acadie-Bathurst.",
+    "shiac": "Nature reserve and walking trail network near East Acadie-Bathurst."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "East Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "nature reserve",
+    "trail",
+    "walking",
+    "marshland",
+    "boardwalk"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "https://www.tourismchaleur.ca/en/places/do/daly-point-nature-reserve"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

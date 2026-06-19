@@ -1,0 +1,54 @@
+{
+  "slug": "mexiglu",
+  "name": "MexiGlu",
+  "title": {
+    "en": "MexiGlu",
+    "fr": "MexiGlu",
+    "shiac": "MexiGlu"
+  },
+  "sort_name": "MexiGlu",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [],
+  "status": "published",
+  "category": "food",
+  "location_id": "mexiglu",
+  "region_id": "acadie-bathurst",
+  "short_description": "Same building as Pizza Pro on St-Peters.",
+  "summary": {
+    "en": "Same building as Pizza Pro on St-Peters.",
+    "fr": "Restaurant de cuisine mexicaine dans le même bâtiment que Pizza Pro sur l’avenue St Peter.",
+    "shiac": "Same building as Pizza Pro on St-Peters."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "mexican food",
+    "restaurant",
+    "takeout",
+    "st peters ave"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "In person"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

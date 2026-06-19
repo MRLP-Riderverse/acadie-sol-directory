@@ -1,0 +1,56 @@
+{
+  "slug": "pizza-delight-tracadie",
+  "name": "Pizza Delight Tracadie",
+  "title": {
+    "en": "Pizza Delight Tracadie",
+    "fr": "Pizza Delight Tracadie",
+    "shiac": "Pizza Delight Tracadie"
+  },
+  "sort_name": "Pizza Delight Tracadie",
+  "brand_name": "Pizza Delight",
+  "branch_name": "Tracadie",
+  "aliases": [
+    "Pizza Delight Tracadie"
+  ],
+  "status": "published",
+  "category": "food",
+  "location_id": "pizza-delight-tracadie",
+  "region_id": "p-ninsule-acadienne",
+  "short_description": "Pizza Delight location in Tracadie.",
+  "summary": {
+    "en": "Pizza Delight location in Tracadie.",
+    "fr": "Restaurant Pizza Delight à Tracadie-Sheila.",
+    "shiac": "Pizza Delight location in Tracadie."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Péninsule acadienne",
+    "municipality": "Tracadie-Sheila",
+    "public_area": "Acadian Peninsula",
+    "geocircle": ""
+  },
+  "tags": [
+    "pizza",
+    "family restaurant",
+    "takeout",
+    "delivery"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "Public search results point to 3410 Rue Principale, Tracadie-Sheila, NB E1X 1C8.",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "https://www.pizzadelight.com/tracadie; https://www.yellowpages.ca/bus/New-Brunswick/Tracadie-Sheila/Pizza-Delight/8154167.html; https://www.canada.chamberofcommerce.com/business-directory/new-brunswick/tracadie-sheila/pizza-restaurant/917835-pizza-delight"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

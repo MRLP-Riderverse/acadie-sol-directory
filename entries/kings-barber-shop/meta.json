@@ -1,0 +1,54 @@
+{
+  "slug": "kings-barber-shop",
+  "name": "King’s Barber Shop",
+  "title": {
+    "en": "King’s Barber Shop",
+    "fr": "King’s Barber Shop",
+    "shiac": "King’s Barber Shop"
+  },
+  "sort_name": "King’s Barber Shop",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [],
+  "status": "published",
+  "category": "business",
+  "location_id": "kings-barber-shop",
+  "region_id": "acadie-bathurst",
+  "short_description": "By Cody Gosnell.",
+  "summary": {
+    "en": "By Cody Gosnell.",
+    "fr": "Barbier local avec ambiance familiale et une touche punk.",
+    "shiac": "By Cody Gosnell."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "barber",
+    "hair",
+    "grooming",
+    "family-friendly"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "Located at 714 King St.",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "In person"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

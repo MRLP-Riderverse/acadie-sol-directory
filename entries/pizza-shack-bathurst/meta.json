@@ -1,0 +1,56 @@
+{
+  "slug": "pizza-shack-bathurst",
+  "name": "Pizza Shack (Bathurst location)",
+  "title": {
+    "en": "Pizza Shack (Bathurst location)",
+    "fr": "Pizza Shack (Bathurst location)",
+    "shiac": "Pizza Shack (Bathurst location)"
+  },
+  "sort_name": "Pizza Shack (Bathurst location)",
+  "brand_name": "Pizza Shack",
+  "branch_name": "Bathurst",
+  "aliases": [
+    "Pizza Shack (Bathurst location)"
+  ],
+  "status": "published",
+  "category": "food",
+  "location_id": "pizza-shack-bathurst",
+  "region_id": "acadie-bathurst",
+  "short_description": "You flagged this one as part of a larger provincial chain, so this is a location draft only.",
+  "summary": {
+    "en": "You flagged this one as part of a larger provincial chain, so this is a location draft only.",
+    "fr": "Emplacement Pizza Shack à Bathurst.",
+    "shiac": "You flagged this one as part of a larger provincial chain, so this is a location draft only."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "pizza",
+    "chain",
+    "takeout",
+    "delivery"
+  ],
+  "contact": {
+    "hours": "Mon-Wed 11:00–23:00; Thu 11:00–00:00; Fri-Sat 11:00–01:00; Sun 11:00–11:00 (as published on source)",
+    "phone": "(506) 547-8080",
+    "website": "",
+    "address": "1000 St. Peter Ave, Bathurst, NB E2A 2Z7, Canada",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "https://www.yellowpages.ca/bus/New-Brunswick/Bathurst/Pizza-Shack/5832334.html"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

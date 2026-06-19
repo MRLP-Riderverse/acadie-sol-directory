@@ -1,0 +1,54 @@
+{
+  "slug": "pabineau-first-nations-mawiom",
+  "name": "Pabineau First Nations Mawi'om",
+  "title": {
+    "en": "Pabineau First Nations Mawi'om",
+    "fr": "Pabineau First Nations Mawi'om",
+    "shiac": "Pabineau First Nations Mawi'om"
+  },
+  "sort_name": "Pabineau First Nations Mawi'om",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [],
+  "status": "published",
+  "category": "business",
+  "location_id": "pabineau-first-nations-mawiom",
+  "region_id": "acadie-bathurst",
+  "short_description": "Gas station, convenience, and booze at 1555 Vanier Blvd in Bathurst.",
+  "summary": {
+    "en": "Gas station, convenience, and booze at 1555 Vanier Blvd in Bathurst.",
+    "fr": "Station-service, dépanneur et point de vente de boissons au 1555, boulevard Vanier.",
+    "shiac": "Gas station, convenience, and booze at 1555 Vanier Blvd in Bathurst."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "gas station",
+    "convenience store",
+    "liquor",
+    "24-7"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "Gas station, convenience, and booze at 1555 Vanier Blvd in Bathurst.",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": ""
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

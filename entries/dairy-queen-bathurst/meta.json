@@ -1,0 +1,54 @@
+{
+  "slug": "dairy-queen-bathurst",
+  "name": "Dairy Queen Bathurst",
+  "title": {
+    "en": "Dairy Queen Bathurst",
+    "fr": "Dairy Queen Bathurst",
+    "shiac": "Dairy Queen Bathurst"
+  },
+  "sort_name": "Dairy Queen Bathurst",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [],
+  "status": "published",
+  "category": "food",
+  "location_id": "dairy-queen-bathurst",
+  "region_id": "acadie-bathurst",
+  "short_description": "Dairy Queen Grill & Chill on St. Peter Avenue in Bathurst.",
+  "summary": {
+    "en": "Dairy Queen Grill & Chill on St. Peter Avenue in Bathurst.",
+    "fr": "Dairy Queen Grill & Chill sur l’avenue St Peter à Bathurst.",
+    "shiac": "Dairy Queen Grill & Chill on St. Peter Avenue in Bathurst."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "fast food",
+    "ice cream",
+    "drive-thru",
+    "dessert"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "435 St. Peter Avenue, Bathurst, NB",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "https://www.dairyqueen.com/en-ca/locations/nb/bathurst/435-st-peter-avenue/12343/; https://www.yellowpages.ca/bus/New-Brunswick/Bathurst/Dairy-Queen-Grill-Chill/103086515.html; https://www.openinghours.ca/dairy-queen-bathurst-nb"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

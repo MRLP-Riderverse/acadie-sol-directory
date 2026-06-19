@@ -1,0 +1,57 @@
+{
+  "slug": "greenhouse-lounge-marina",
+  "name": "Greenhouse Lounge - Marina",
+  "title": {
+    "en": "Greenhouse Lounge - Marina",
+    "fr": "Greenhouse Lounge - Marina",
+    "shiac": "Greenhouse Lounge - Marina"
+  },
+  "sort_name": "Greenhouse Lounge - Marina",
+  "brand_name": "Greenhouse Lounge",
+  "branch_name": "Marina",
+  "aliases": [
+    "Greenhouse Lounge - Marina"
+  ],
+  "status": "published",
+  "category": "business",
+  "location_id": "greenhouse-lounge-marina",
+  "region_id": "acadie-bathurst",
+  "short_description": "Restaurant and lounge at Bathurst Marina.",
+  "summary": {
+    "en": "Restaurant and lounge at Bathurst Marina.",
+    "fr": "Restaurant et lounge situé à la marina de Bathurst.",
+    "shiac": "Restaurant and lounge at Bathurst Marina."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "venue",
+    "lounge",
+    "restaurant",
+    "bar",
+    "marina"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "1555 Queen Elizabeth Drive, Bathurst, NB E2A 4Y4",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "https://www.tourismechaleur.ca/en/places/eat/le-greenhouse-lounge-marina; https://www.facebook.com/legreenhouseloungemarina/; https://www.facebook.com/marina.de.bathurst/; https://www.bathurstmarina.ca/en/contact"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

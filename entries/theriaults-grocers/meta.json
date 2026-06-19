@@ -1,0 +1,55 @@
+{
+  "slug": "theriaults-grocers",
+  "name": "Theriault’s Grocers",
+  "title": {
+    "en": "Theriault’s Grocers",
+    "fr": "Theriault’s Grocers",
+    "shiac": "Theriault’s Grocers"
+  },
+  "sort_name": "Theriault’s Grocers",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [],
+  "status": "published",
+  "category": "business",
+  "location_id": "theriaults-grocers",
+  "region_id": "acadie-bathurst",
+  "short_description": "Locally owned small grocery store with in-house meat butcher and processing.",
+  "summary": {
+    "en": "Locally owned small grocery store with in-house meat butcher and processing.",
+    "fr": "Petite épicerie locale avec boucherie et transformation de viande sur place.",
+    "shiac": "Locally owned small grocery store with in-house meat butcher and processing."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "grocery",
+    "butcher",
+    "local food",
+    "meat",
+    "community"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "Bridge St (exact civic address not confirmed)",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "In person"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

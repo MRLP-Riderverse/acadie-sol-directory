@@ -1,0 +1,54 @@
+{
+  "slug": "papa-joe-evys-restaurant",
+  "name": "Papa Joe & Evy's Restaurant",
+  "title": {
+    "en": "Papa Joe & Evy's Restaurant",
+    "fr": "Papa Joe & Evy's Restaurant",
+    "shiac": "Papa Joe & Evy's Restaurant"
+  },
+  "sort_name": "Papa Joe & Evy's Restaurant",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [],
+  "status": "published",
+  "category": "food",
+  "location_id": "papa-joe-evys-restaurant",
+  "region_id": "acadie-bathurst",
+  "short_description": "Family-style restaurant at 296 St George St, Bathurst, NB E2A 1B7.",
+  "summary": {
+    "en": "Family-style restaurant at 296 St George St, Bathurst, NB E2A 1B7.",
+    "fr": "Restaurant familial et homestyle au 296, rue St George à Bathurst.",
+    "shiac": "Family-style restaurant at 296 St George St, Bathurst, NB E2A 1B7."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "restaurant",
+    "homestyle",
+    "family dining",
+    "local"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "Family-style restaurant at 296 St George St, Bathurst, NB E2A 1B7.",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "https://papajoeandevys.com/; https://www.facebook.com/papajoeandevysrestaurant/"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

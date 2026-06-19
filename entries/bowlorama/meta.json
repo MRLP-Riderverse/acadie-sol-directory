@@ -1,0 +1,54 @@
+{
+  "slug": "bowlorama",
+  "name": "Bowlorama Bathurst Bowling & Arcade",
+  "title": {
+    "en": "Bowlorama Bathurst Bowling & Arcade",
+    "fr": "Bowlorama Bathurst Bowling & Arcade",
+    "shiac": "Bowlorama Bathurst Bowling & Arcade"
+  },
+  "sort_name": "Bowlorama Bathurst Bowling & Arcade",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [],
+  "status": "published",
+  "category": "venue",
+  "location_id": "bowlorama",
+  "region_id": "acadie-bathurst",
+  "short_description": "Bowling and arcade venue on St-Peters in front of Big D Drive-In.",
+  "summary": {
+    "en": "Bowling and arcade venue on St-Peters in front of Big D Drive-In.",
+    "fr": "Salle de quilles et arcade sur l’avenue St Peter, avec nourriture et boissons sur place.",
+    "shiac": "Bowling and arcade venue on St-Peters in front of Big D Drive-In."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "bowling",
+    "arcade",
+    "entertainment",
+    "food"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "(506) 546-2020",
+    "website": "",
+    "address": "2020 St Peter Ave, Bathurst, NB E2A 7J6",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "In person"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

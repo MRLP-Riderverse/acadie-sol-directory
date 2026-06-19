@@ -1,0 +1,56 @@
+{
+  "slug": "mcdonalds-bathurst-900-st-anne-st-walmart",
+  "name": "McDonald's Bathurst — 900 St. Anne St (Walmart)",
+  "title": {
+    "en": "McDonald's Bathurst — 900 St. Anne St (Walmart)",
+    "fr": "McDonald's Bathurst — 900 St. Anne St (Walmart)",
+    "shiac": "McDonald's Bathurst — 900 St. Anne St (Walmart)"
+  },
+  "sort_name": "McDonald's Bathurst — 900 St. Anne St (Walmart)",
+  "brand_name": "McDonald's",
+  "branch_name": "Bathurst — 900 St. Anne St (Walmart",
+  "aliases": [
+    "McDonald's Bathurst - 900 St. Anne St (Walmart)"
+  ],
+  "status": "published",
+  "category": "food",
+  "location_id": "mcdonalds-bathurst-900-st-anne-st-walmart",
+  "region_id": "acadie-bathurst",
+  "short_description": "McDonald's inside / at Walmart, 900 St. Anne Street, Bathurst.",
+  "summary": {
+    "en": "McDonald's inside / at Walmart, 900 St. Anne Street, Bathurst.",
+    "fr": "Restaurant McDonald’s au Walmart, 900, rue St Anne à Bathurst.",
+    "shiac": "McDonald's inside / at Walmart, 900 St. Anne Street, Bathurst."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "fast food",
+    "burger",
+    "walmart",
+    "drive-thru"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "McDonald's inside / at Walmart, 900 St. Anne Street, Bathurst.",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "https://www.mcdonalds.com/ca/en-ca/location/bathurst/wm-bathurst/wal-mart-900-st-anne-street/40183.html"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

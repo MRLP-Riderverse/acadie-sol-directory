@@ -1,0 +1,54 @@
+{
+  "slug": "walmart-bathurst",
+  "name": "Walmart Bathurst",
+  "title": {
+    "en": "Walmart Bathurst",
+    "fr": "Walmart Bathurst",
+    "shiac": "Walmart Bathurst"
+  },
+  "sort_name": "Walmart Bathurst",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [],
+  "status": "published",
+  "category": "business",
+  "location_id": "walmart-bathurst",
+  "region_id": "acadie-bathurst",
+  "short_description": "Walmart Supercentre at 900 St Anne St, Bathurst, NB E2A 6X2.",
+  "summary": {
+    "en": "Walmart Supercentre at 900 St Anne St, Bathurst, NB E2A 6X2.",
+    "fr": "Walmart Supercentre au 900, rue St Anne à Bathurst.",
+    "shiac": "Walmart Supercentre at 900 St Anne St, Bathurst, NB E2A 6X2."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "big box",
+    "department store",
+    "grocery",
+    "retail"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "Walmart Supercentre at 900 St Anne St, Bathurst, NB E2A 6X2.",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "https://www.walmart.ca/en/store/3003; https://www.openinghours.ca/walmart-bathurst-nb"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

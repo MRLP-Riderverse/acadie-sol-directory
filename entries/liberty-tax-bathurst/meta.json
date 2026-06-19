@@ -1,0 +1,54 @@
+{
+  "slug": "liberty-tax-bathurst",
+  "name": "Liberty Tax Bathurst",
+  "title": {
+    "en": "Liberty Tax Bathurst",
+    "fr": "Liberty Tax Bathurst",
+    "shiac": "Liberty Tax Bathurst"
+  },
+  "sort_name": "Liberty Tax Bathurst",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [],
+  "status": "published",
+  "category": "business",
+  "location_id": "liberty-tax-bathurst",
+  "region_id": "acadie-bathurst",
+  "short_description": "Liberty Tax office in Bathurst.",
+  "summary": {
+    "en": "Liberty Tax office in Bathurst.",
+    "fr": "Bureau de services fiscaux Liberty Tax à Bathurst.",
+    "shiac": "Liberty Tax office in Bathurst."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "tax",
+    "accountant",
+    "office",
+    "services"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "Official page title points to 994 St. Peter Ave, Bathurst, NB E2A 2Z4.",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "https://www.libertytax.ca/income-tax-preparation-locations/new-brunswick/bathurst/70785; https://www.yellowpages.ca/bus/New-Brunswick/Bathurst/Liberty-Tax-Service/7866956.html; https://canada.chamberofcommerce.com/business-directory/new-brunswick/bathurst/tax-consultant/123159-liberty-tax"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

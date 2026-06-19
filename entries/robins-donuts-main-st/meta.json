@@ -1,0 +1,54 @@
+{
+  "slug": "robins-donuts-main-st",
+  "name": "Robin’s Donuts",
+  "title": {
+    "en": "Robin’s Donuts",
+    "fr": "Robin’s Donuts",
+    "shiac": "Robin’s Donuts"
+  },
+  "sort_name": "Robin’s Donuts",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [],
+  "status": "published",
+  "category": "food",
+  "location_id": "robins-donuts-main-st",
+  "region_id": "acadie-bathurst",
+  "short_description": "Located in the same gas station as Petro-Canada at 896 Main St.",
+  "summary": {
+    "en": "Located in the same gas station as Petro-Canada at 896 Main St.",
+    "fr": "Robin’s Donuts situé dans la même station-service que Petro-Canada sur la rue Main.",
+    "shiac": "Located in the same gas station as Petro-Canada at 896 Main St."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "coffee",
+    "donuts",
+    "convenience",
+    "gas station"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "Located in the same gas station as Petro-Canada at 896 Main St.",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "In person"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "joeys-pub-and-eatery",
+  "name": "Joey's Pub and Eatery",
+  "title": {
+    "en": "Joey's Pub and Eatery",
+    "fr": "Joey's Pub and Eatery",
+    "shiac": "Joey's Pub and Eatery"
+  },
+  "sort_name": "Joey's Pub and Eatery",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [],
+  "status": "published",
+  "category": "food",
+  "location_id": "joeys-pub-and-eatery",
+  "region_id": "acadie-bathurst",
+  "short_description": "Joey's Pub & Eatery at 2050 St. Peter Avenue, Bathurst.",
+  "summary": {
+    "en": "Joey's Pub & Eatery at 2050 St. Peter Avenue, Bathurst.",
+    "fr": "Pub et restaurant au 2050, avenue St Peter à Bathurst.",
+    "shiac": "Joey's Pub & Eatery at 2050 St. Peter Avenue, Bathurst."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "pub",
+    "eatery",
+    "bar",
+    "restaurant"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "Joey's Pub & Eatery at 2050 St. Peter Avenue, Bathurst.",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "https://www.facebook.com/Joeyspub/; https://www.yelp.ca/biz/joeys-pub-and-eatery-bathurst-2"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

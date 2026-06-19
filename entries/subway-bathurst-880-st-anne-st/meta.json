@@ -1,0 +1,56 @@
+{
+  "slug": "subway-bathurst-880-st-anne-st",
+  "name": "Subway Bathurst — 880 St. Anne St",
+  "title": {
+    "en": "Subway Bathurst — 880 St. Anne St",
+    "fr": "Subway Bathurst — 880 St. Anne St",
+    "shiac": "Subway Bathurst — 880 St. Anne St"
+  },
+  "sort_name": "Subway Bathurst — 880 St. Anne St",
+  "brand_name": "Subway",
+  "branch_name": "Bathurst — 880 St. Anne St",
+  "aliases": [
+    "Subway Bathurst - 880 St. Anne St"
+  ],
+  "status": "published",
+  "category": "food",
+  "location_id": "subway-bathurst-880-st-anne-st",
+  "region_id": "acadie-bathurst",
+  "short_description": "Subway location at 880 St. Anne Street, Bathurst.",
+  "summary": {
+    "en": "Subway location at 880 St. Anne Street, Bathurst.",
+    "fr": "Restaurant Subway au 880, rue St Anne à Bathurst.",
+    "shiac": "Subway location at 880 St. Anne Street, Bathurst."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "sandwich",
+    "fast food",
+    "takeout",
+    "chain"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "Subway location at 880 St. Anne Street, Bathurst.",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "https://restaurants.subway.com/canada/nb/bathurst"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

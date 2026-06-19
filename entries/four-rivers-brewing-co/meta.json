@@ -1,0 +1,55 @@
+{
+  "slug": "four-rivers-brewing-co",
+  "name": "Four Rivers Brewing Co.",
+  "title": {
+    "en": "Four Rivers Brewing Co.",
+    "fr": "Four Rivers Brewing Co.",
+    "shiac": "Four Rivers Brewing Co."
+  },
+  "sort_name": "Four Rivers Brewing Co.",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [],
+  "status": "published",
+  "category": "business",
+  "location_id": "four-rivers-brewing-co",
+  "region_id": "acadie-bathurst",
+  "short_description": "Locally owned craft brewery and taproom on Murray Ave.",
+  "summary": {
+    "en": "Locally owned craft brewery and taproom on Murray Ave.",
+    "fr": "Brasserie artisanale locale et salle de dégustation sur l’avenue Murray.",
+    "shiac": "Locally owned craft brewery and taproom on Murray Ave."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "brewery",
+    "taproom",
+    "craft beer",
+    "events",
+    "local"
+  ],
+  "contact": {
+    "hours": "Mon-Thu 12-7pm; Fri 12-9pm; Sat 12-7pm; Sun 2-6pm",
+    "phone": "(506) 350-2800",
+    "website": "",
+    "address": "335 Murray Ave, Bathurst, NB E2A 1T4, Canada",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "https://fourriversbrewing.ca/; https://www.tourismchaleur.ca/en/places/eat/four-rivers-brewing-co"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

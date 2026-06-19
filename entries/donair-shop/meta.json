@@ -1,0 +1,54 @@
+{
+  "slug": "donair-shop",
+  "name": "Donair Shop",
+  "title": {
+    "en": "Donair Shop",
+    "fr": "Donair Shop",
+    "shiac": "Donair Shop"
+  },
+  "sort_name": "Donair Shop",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [],
+  "status": "published",
+  "category": "food",
+  "location_id": "donair-shop",
+  "region_id": "acadie-bathurst",
+  "short_description": "Donair and takeout spot at 100 Main St.",
+  "summary": {
+    "en": "Donair and takeout spot at 100 Main St.",
+    "fr": "Comptoir de donairs et de mets à emporter au 100, rue Main.",
+    "shiac": "Donair and takeout spot at 100 Main St."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "donair",
+    "takeout",
+    "sandwiches",
+    "main street"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "1 (506) 546-5095",
+    "website": "",
+    "address": "100 Main St.",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "In person"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "greenhouse-lounge-place-bathurst-mall",
+  "name": "Greenhouse Lounge - Place Bathurst Mall",
+  "title": {
+    "en": "Greenhouse Lounge - Place Bathurst Mall",
+    "fr": "Greenhouse Lounge - Place Bathurst Mall",
+    "shiac": "Greenhouse Lounge - Place Bathurst Mall"
+  },
+  "sort_name": "Greenhouse Lounge - Place Bathurst Mall",
+  "brand_name": "Greenhouse Lounge",
+  "branch_name": "Place Bathurst Mall",
+  "aliases": [
+    "Greenhouse Lounge - Place Bathurst Mall"
+  ],
+  "status": "published",
+  "category": "business",
+  "location_id": "greenhouse-lounge-place-bathurst-mall",
+  "region_id": "acadie-bathurst",
+  "short_description": "Restaurant, bar, and lounge inside Place Bathurst Mall.",
+  "summary": {
+    "en": "Restaurant, bar, and lounge inside Place Bathurst Mall.",
+    "fr": "Restaurant, bar et lounge à l’intérieur de Place Bathurst Mall.",
+    "shiac": "Restaurant, bar, and lounge inside Place Bathurst Mall."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "venue",
+    "lounge",
+    "restaurant",
+    "bar",
+    "mall"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "1300 St Peter Ave, Bathurst, NB E2A 3A6",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "https://placebathurstmall.com/stores/placebathurst-place-bathurst-le-greenhouse-lounge; https://www.facebook.com/legreenhouseloungeplacebathurstmall/; https://www.eventbrite.ca/e/rainbows-edge-le-greenhouse-lounge-tickets-1962693893269; https://www.mapquest.com/ca/new-brunswick/le-greenhouse-lounge-754714718"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

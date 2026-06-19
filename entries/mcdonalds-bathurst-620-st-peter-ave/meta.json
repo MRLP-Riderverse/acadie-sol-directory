@@ -1,0 +1,56 @@
+{
+  "slug": "mcdonalds-bathurst-620-st-peter-ave",
+  "name": "McDonald's Bathurst — 620 St. Peter Ave",
+  "title": {
+    "en": "McDonald's Bathurst — 620 St. Peter Ave",
+    "fr": "McDonald's Bathurst — 620 St. Peter Ave",
+    "shiac": "McDonald's Bathurst — 620 St. Peter Ave"
+  },
+  "sort_name": "McDonald's Bathurst — 620 St. Peter Ave",
+  "brand_name": "McDonald's",
+  "branch_name": "Bathurst — 620 St. Peter Ave",
+  "aliases": [
+    "McDonald's Bathurst - 620 St. Peter Ave"
+  ],
+  "status": "published",
+  "category": "food",
+  "location_id": "mcdonalds-bathurst-620-st-peter-ave",
+  "region_id": "acadie-bathurst",
+  "short_description": "McDonald's location at 620 St. Peter Avenue, Bathurst.",
+  "summary": {
+    "en": "McDonald's location at 620 St. Peter Avenue, Bathurst.",
+    "fr": "Restaurant McDonald’s au 620, avenue St Peter à Bathurst.",
+    "shiac": "McDonald's location at 620 St. Peter Avenue, Bathurst."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "fast food",
+    "burger",
+    "drive-thru",
+    "fries"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "McDonald's location at 620 St. Peter Avenue, Bathurst.",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "https://www.mcdonalds.com/ca/en-ca/location/bathurst/bathurst-nb/620-st-peter-avenue/4466.html"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

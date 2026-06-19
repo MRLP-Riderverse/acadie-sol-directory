@@ -1,0 +1,54 @@
+{
+  "slug": "montys-pretzelria",
+  "name": "Monty's Pretzelria",
+  "title": {
+    "en": "Monty's Pretzelria",
+    "fr": "Monty's Pretzelria",
+    "shiac": "Monty's Pretzelria"
+  },
+  "sort_name": "Monty's Pretzelria",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [],
+  "status": "published",
+  "category": "food",
+  "location_id": "montys-pretzelria",
+  "region_id": "acadie-bathurst",
+  "short_description": "Seasonal pretzel / pizza spot at La Promenade Waterfront in Bathurst.",
+  "summary": {
+    "en": "Seasonal pretzel / pizza spot at La Promenade Waterfront in Bathurst.",
+    "fr": "Comptoir saisonnier de bretzels et de pizza à La Promenade Waterfront.",
+    "shiac": "Seasonal pretzel / pizza spot at La Promenade Waterfront in Bathurst."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "pretzel",
+    "pizza",
+    "waterfront",
+    "seasonal"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "https://www.tourismchaleur.ca/en/places/eat/monty-s-pretzelria; https://www.facebook.com/Montyduncles/"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

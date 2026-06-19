@@ -1,0 +1,54 @@
+{
+  "slug": "fresco",
+  "name": "Fresco",
+  "title": {
+    "en": "Fresco",
+    "fr": "Fresco",
+    "shiac": "Fresco"
+  },
+  "sort_name": "Fresco",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [],
+  "status": "published",
+  "category": "food",
+  "location_id": "fresco",
+  "region_id": "acadie-bathurst",
+  "short_description": "Fine dining style restaurant on King St in Acadie-Bathurst.",
+  "summary": {
+    "en": "Fine dining style restaurant on King St in Acadie-Bathurst.",
+    "fr": "Restaurant de style fine cuisine sur la rue King à Acadie-Bathurst.",
+    "shiac": "Fine dining style restaurant on King St in Acadie-Bathurst."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "fine dining",
+    "seafood",
+    "pasta",
+    "restaurant"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "In person"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

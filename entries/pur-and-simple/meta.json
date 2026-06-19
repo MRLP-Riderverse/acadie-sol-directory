@@ -1,0 +1,55 @@
+{
+  "slug": "pur-and-simple",
+  "name": "Pur and Simple",
+  "title": {
+    "en": "Pur and Simple",
+    "fr": "Pur and Simple",
+    "shiac": "Pur and Simple"
+  },
+  "sort_name": "Pur and Simple",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [],
+  "status": "published",
+  "category": "food",
+  "location_id": "pur-and-simple",
+  "region_id": "acadie-bathurst",
+  "short_description": "On St-Anne St, behind the Walmart parking lot.",
+  "summary": {
+    "en": "On St-Anne St, behind the Walmart parking lot.",
+    "fr": "Restaurant déjeuner et dîner près du Walmart de Bathurst.",
+    "shiac": "On St-Anne St, behind the Walmart parking lot."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "breakfast",
+    "brunch",
+    "lunch",
+    "crepes",
+    "family dining"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "In person"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

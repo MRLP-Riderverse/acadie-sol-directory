@@ -1,0 +1,56 @@
+{
+  "slug": "pizza-delight-bathurst",
+  "name": "Pizza Delight Bathurst",
+  "title": {
+    "en": "Pizza Delight Bathurst",
+    "fr": "Pizza Delight Bathurst",
+    "shiac": "Pizza Delight Bathurst"
+  },
+  "sort_name": "Pizza Delight Bathurst",
+  "brand_name": "Pizza Delight",
+  "branch_name": "Bathurst",
+  "aliases": [
+    "Pizza Delight Bathurst"
+  ],
+  "status": "published",
+  "category": "food",
+  "location_id": "pizza-delight-bathurst",
+  "region_id": "acadie-bathurst",
+  "short_description": "Pizza Delight location in Bathurst.",
+  "summary": {
+    "en": "Pizza Delight location in Bathurst.",
+    "fr": "Restaurant Pizza Delight à Bathurst.",
+    "shiac": "Pizza Delight location in Bathurst."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "pizza",
+    "family restaurant",
+    "takeout",
+    "delivery"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "Public search results point to 980 St. Peter Avenue, Bathurst, NB E2A 2Z4.",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "https://www.pizzadelight.com/bathurst; https://www.yellowpages.ca/bus/New-Brunswick/Bathurst/Pizza-Delight/4407372.html; https://www.canada.chamberofcommerce.com/business-directory/new-brunswick/bathurst/pizza-restaurant/120769-pizza-delight"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

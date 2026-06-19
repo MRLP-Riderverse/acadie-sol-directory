@@ -1,0 +1,56 @@
+{
+  "slug": "subway-belle-baie-beresford-730-rue-principale",
+  "name": "Subway Belle-Baie (Beresford) — 730 Rue Principale",
+  "title": {
+    "en": "Subway Belle-Baie (Beresford) — 730 Rue Principale",
+    "fr": "Subway Belle-Baie (Beresford) — 730 Rue Principale",
+    "shiac": "Subway Belle-Baie (Beresford) — 730 Rue Principale"
+  },
+  "sort_name": "Subway Belle-Baie (Beresford) — 730 Rue Principale",
+  "brand_name": "Subway",
+  "branch_name": "Belle-Baie (Beresford) — 730 Rue Principale",
+  "aliases": [
+    "Subway Belle-Baie (Beresford) - 730 Rue Principale"
+  ],
+  "status": "published",
+  "category": "food",
+  "location_id": "subway-belle-baie-beresford-730-rue-principale",
+  "region_id": "acadie-bathurst",
+  "short_description": "Subway in Beresford / Belle-Baie at 730 Rue Principale, NB E8K 2B7.",
+  "summary": {
+    "en": "Subway in Beresford / Belle-Baie at 730 Rue Principale, NB E8K 2B7.",
+    "fr": "Restaurant Subway à Belle-Baie/Beresford, au 730, rue Principale.",
+    "shiac": "Subway in Beresford / Belle-Baie at 730 Rue Principale, NB E8K 2B7."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Belle-Baie",
+    "public_area": "Belle-Baie",
+    "geocircle": ""
+  },
+  "tags": [
+    "sandwich",
+    "fast food",
+    "takeout",
+    "chain"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "Subway in Beresford / Belle-Baie at 730 Rue Principale, NB E8K 2B7.",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "https://restaurants.subway.com/canada/nb/beresford; https://bellebaie.ca/"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

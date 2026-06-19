@@ -1,0 +1,54 @@
+{
+  "slug": "k-c-irving-regional-centre",
+  "name": "K.C. Irving Regional Centre",
+  "title": {
+    "en": "K.C. Irving Regional Centre",
+    "fr": "K.C. Irving Regional Centre",
+    "shiac": "K.C. Irving Regional Centre"
+  },
+  "sort_name": "K.C. Irving Regional Centre",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [],
+  "status": "published",
+  "category": "civic",
+  "location_id": "k-c-irving-regional-centre",
+  "region_id": "acadie-bathurst",
+  "short_description": "Arena / regional centre in Bathurst.",
+  "summary": {
+    "en": "Arena / regional centre in Bathurst.",
+    "fr": "Aréna et centre régional d’événements à Bathurst.",
+    "shiac": "Arena / regional centre in Bathurst."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "arena",
+    "regional centre",
+    "events",
+    "sports"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "Public search results point to 14 Sean Couturier Avenue, Bathurst, NB E2A 6X2.",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "https://www.bathurst.ca/en/services/k-c-irving-regional-centre/142/kci-family-activity-schedule; https://www.mapquest.com/ca/new-brunswick/kc-irving-regional-centre-359124145"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

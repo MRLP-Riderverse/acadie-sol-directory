@@ -1,0 +1,54 @@
+{
+  "slug": "district-burger",
+  "name": "District Burger",
+  "title": {
+    "en": "District Burger",
+    "fr": "District Burger",
+    "shiac": "District Burger"
+  },
+  "sort_name": "District Burger",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [],
+  "status": "published",
+  "category": "food",
+  "location_id": "district-burger",
+  "region_id": "acadie-bathurst",
+  "short_description": "Restaurant inside the Best Western hotel building on Main St.",
+  "summary": {
+    "en": "Restaurant inside the Best Western hotel building on Main St.",
+    "fr": "Restaurant situé dans l’immeuble du Best Western sur la rue Main.",
+    "shiac": "Restaurant inside the Best Western hotel building on Main St."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "burger",
+    "restaurant",
+    "hotel dining",
+    "main street"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "address": "",
+    "email": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-verified",
+    "source": "In person"
+  },
+  "meta": {
+    "created": "2026-06-19T02:32:35Z",
+    "updated": "2026-06-19T02:32:35Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}
