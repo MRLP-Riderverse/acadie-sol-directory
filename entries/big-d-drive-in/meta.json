@@ -4,13 +4,14 @@
   "title": {
     "en": "Big D Drive-In",
     "fr": "Big D Drive-In",
-    "shiac": ""
+    "shiac": "Big D Drive-In"
   },
   "sort_name": "Big D Drive-In",
   "brand_name": "",
   "branch_name": "",
   "aliases": [
-    "Big D Burger"
+    "Big D Burger",
+    "Drive In"
   ],
   "status": "published",
   "category": "food",
@@ -20,14 +21,15 @@
   "short_description": "Home of the Big D Burger.",
   "summary": {
     "en": "Home of the Big D Burger.",
-    "fr": "Chez nous, le fameux Big D Burger.",
-    "shiac": ""
+    "fr": "Maison du fameux 'Big D Burger'.",
+    "shiac": "Home du famous 'Big D Burger'!"
   },
   "location": {
-    "region": "Nouveau-Brunswick",
+    "province": "NB",
+    "region": "Chaleur",
     "municipality": "Bathurst",
     "public_area": "Acadie-Bathurst",
-    "geocircle": ""
+    "geocircle": "Tetagouche Hill"
   },
   "tags": [
     "drive-in",
@@ -47,6 +49,10 @@
     {
       "name": "Bowlarama Bathurst Bowling & Arcade",
       "relationship": "nearby"
+    },
+    {
+      "name": "Northcoast Electronics",
+      "relationship": "nearby"
     }
   ],
   "verification": {
@@ -55,7 +61,7 @@
   },
   "meta": {
     "created": "2026-06-15T15:16:58Z",
-    "updated": "2026-06-15T15:16:58Z",
+    "updated": "2026-06-18T22:40:58Z",
     "steward": "Acadie.sol",
     "entry_version": 1
   }

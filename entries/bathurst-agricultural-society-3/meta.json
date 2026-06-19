@@ -1,0 +1,56 @@
+{
+  "slug": "bathurst-agricultural-society-3",
+  "name": "Bathurst Agricultural Society #3",
+  "title": {
+    "en": "Bathurst Agricultural Society #3",
+    "fr": "Bathurst Agricultural Society #3",
+    "shiac": "Bathurst Agricultural Society #3"
+  },
+  "sort_name": "Bathurst Agricultural Society #3",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [
+    "Bathurst Agricultural Society"
+  ],
+  "status": "published",
+  "category": "business",
+  "location_id": "bathurst-agricultural-society-3",
+  "region_id": "acadie-bathurst",
+  "short_description": "Livestock feed and supply store in Bathurst.",
+  "summary": {
+    "en": "Livestock feed and supply store in Bathurst.",
+    "fr": "Livestock feed and supply store in Bathurst.",
+    "shiac": "Livestock feed and supply store in Bathurst."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": "Rough Waters Dr"
+  },
+  "tags": [
+    "livestock",
+    "feed",
+    "supply",
+    "farm"
+  ],
+  "contact": {
+    "address": "1525 Rough Waters Dr",
+    "hours": "Tuesday to Saturday, 9am–12pm",
+    "phone": "1 (506) 548-8730",
+    "email": "",
+    "website": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-reviewed",
+    "source": "In person"
+  },
+  "meta": {
+    "created": "2026-06-19T01:47:55Z",
+    "updated": "2026-06-19T01:47:55Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "13-barrels-brewing",
+  "name": "13 Barrels Brewing",
+  "title": {
+    "en": "13 Barrels Brewing",
+    "fr": "13 Barrels Brewing",
+    "shiac": "13 Barrels Brewing"
+  },
+  "sort_name": "13 Barrels Brewing",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [
+    ""
+  ],
+  "status": "published",
+  "category": "food",
+  "location_id": "13-barrels-brewing",
+  "region_id": "acadie-bathurst",
+  "street_id": "cunard-st-bathurst",
+  "short_description": "Craft beer, taproom, bistro-style menu, online orders.",
+  "summary": {
+    "en": "Home of the 13 Barrels.",
+    "fr": "Maison du 13 Barrels'.",
+    "shiac": "Home du famous '13 Barrels'!"
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": "Downtown"
+  },
+  "tags": [
+    "drinks",
+    "brewery",
+    "taproom",
+    "waterfront",
+    "family",
+    "event space",
+    "online orders"
+  ],
+  "contact": {
+    "address": "215 Cunard St, Bathurst, NB E2A 0C4, Canada",
+    "hours": "Sun-Tue 12:00-18:00, Wed 12:00-20:00, Thu-Sat 12:00-23:00",
+    "phone": "506-546-5300",
+    "email": "13barrelsbrewing@gmail.com",
+    "website": "https://www.13barrels.ca/"
+  },
+  "related": [
+    {
+      "name": "La Louga",
+      "relationship": "nearby"
+    },
+    {
+      "name": "Bootlegger",
+      "relationship": "nearby"
+    },
+    {
+      "name": "TD Bank",
+      "relationship": "nearby"
+    }
+  ],
+  "verification": {
+    "status": "steward-reviewed",
+    "source": "Acadie.sol local draft capture"
+  },
+  "meta": {
+    "created": "2026-06-15T15:16:58Z",
+    "updated": "2026-06-18T22:05:58Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

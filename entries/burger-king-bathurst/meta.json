@@ -1,0 +1,55 @@
+{
+  "slug": "burger-king-bathurst",
+  "name": "Burger King Bathurst",
+  "title": {
+    "en": "Burger King Bathurst",
+    "fr": "Burger King Bathurst",
+    "shiac": "Burger King Bathurst"
+  },
+  "sort_name": "Burger King Bathurst",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [
+    "Burger King"
+  ],
+  "status": "published",
+  "category": "food",
+  "location_id": "burger-king-bathurst",
+  "region_id": "acadie-bathurst",
+  "short_description": "Fast-food Burger King on 725 St Peter Ave in Bathurst.",
+  "summary": {
+    "en": "Fast-food Burger King on 725 St Peter Ave in Bathurst.",
+    "fr": "Fast-food Burger King on 725 St Peter Ave in Bathurst.",
+    "shiac": "Fast-food Burger King on 725 St Peter Ave in Bathurst."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": "St Peter Ave"
+  },
+  "tags": [
+    "fast food",
+    "burger",
+    "drive-thru"
+  ],
+  "contact": {
+    "address": "725 St Peter Ave, Bathurst, NB E2A 2Z7",
+    "hours": "",
+    "phone": "",
+    "email": "",
+    "website": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-reviewed",
+    "source": "https://locations.burgerking.ca/nb/bathurst/"
+  },
+  "meta": {
+    "created": "2026-06-19T01:47:55Z",
+    "updated": "2026-06-19T01:47:55Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

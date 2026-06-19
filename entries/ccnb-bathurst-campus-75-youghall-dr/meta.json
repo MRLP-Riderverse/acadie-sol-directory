@@ -1,0 +1,62 @@
+{
+  "slug": "ccnb-bathurst-campus-75-youghall-dr",
+  "name": "CCNB Bathurst Campus — 75 Youghall Dr",
+  "title": {
+    "en": "CCNB Bathurst Campus — 75 Youghall Dr",
+    "fr": "CCNB Bathurst Campus — 75 Youghall Dr",
+    "shiac": "CCNB Bathurst Campus — 75 Youghall Dr"
+  },
+  "sort_name": "CCNB Bathurst Campus — 75 Youghall Dr",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [
+    "CCNB Bathurst Campus",
+    "Campus Youghall"
+  ],
+  "status": "published",
+  "category": "educator",
+  "location_id": "ccnb-bathurst-campus-75-youghall-dr",
+  "region_id": "acadie-bathurst",
+  "short_description": "CCNB Bathurst / Campus Youghall at 75 Youghall Dr.",
+  "summary": {
+    "en": "CCNB Bathurst / Campus Youghall at 75 Youghall Dr.",
+    "fr": "CCNB Bathurst / Campus Youghall at 75 Youghall Dr.",
+    "shiac": "CCNB Bathurst / Campus Youghall at 75 Youghall Dr."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": "Youghall Dr"
+  },
+  "tags": [
+    "college",
+    "campus",
+    "education",
+    "trades"
+  ],
+  "contact": {
+    "address": "75 Youghall Dr, Bathurst, NB E2A 4X5",
+    "hours": "",
+    "phone": "506-547-2145",
+    "email": "",
+    "website": ""
+  },
+  "related": [
+    {
+      "name": "CCNB Bathurst Campus — 725 College St",
+      "relationship": "nearby"
+    }
+  ],
+  "verification": {
+    "status": "steward-reviewed",
+    "source": "https://ccnb.ca/nous-joindre/"
+  },
+  "meta": {
+    "created": "2026-06-19T01:47:55Z",
+    "updated": "2026-06-19T01:47:55Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

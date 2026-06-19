@@ -1,0 +1,61 @@
+{
+  "slug": "ccnb-bathurst-campus-725-college-st",
+  "name": "CCNB Bathurst Campus — 725 College St",
+  "title": {
+    "en": "CCNB Bathurst Campus — 725 College St",
+    "fr": "CCNB Bathurst Campus — 725 College St",
+    "shiac": "CCNB Bathurst Campus — 725 College St"
+  },
+  "sort_name": "CCNB Bathurst Campus — 725 College St",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [
+    "CCNB Bathurst Campus",
+    "Campus de Bathurst"
+  ],
+  "status": "published",
+  "category": "educator",
+  "location_id": "ccnb-bathurst-campus-725-college-st",
+  "region_id": "acadie-bathurst",
+  "short_description": "Main CCNB Bathurst campus at 725 College St.",
+  "summary": {
+    "en": "Main CCNB Bathurst campus at 725 College St.",
+    "fr": "Main CCNB Bathurst campus at 725 College St.",
+    "shiac": "Main CCNB Bathurst campus at 725 College St."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": "College St"
+  },
+  "tags": [
+    "college",
+    "campus",
+    "education"
+  ],
+  "contact": {
+    "address": "725, rue du Collège, C.P. 266, Bathurst, NB E2A 3Z2",
+    "hours": "",
+    "phone": "506-547-2145",
+    "email": "",
+    "website": ""
+  },
+  "related": [
+    {
+      "name": "CCNB Bathurst Campus — 75 Youghall Dr",
+      "relationship": "nearby"
+    }
+  ],
+  "verification": {
+    "status": "steward-reviewed",
+    "source": "https://ccnb.ca/nous-joindre/"
+  },
+  "meta": {
+    "created": "2026-06-19T01:47:55Z",
+    "updated": "2026-06-19T01:47:55Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

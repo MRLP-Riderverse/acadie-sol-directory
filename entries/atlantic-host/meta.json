@@ -1,0 +1,57 @@
+{
+  "slug": "atlantic-host",
+  "name": "Atlantic Host",
+  "title": {
+    "en": "Atlantic Host",
+    "fr": "Atlantic Host",
+    "shiac": "Atlantic Host"
+  },
+  "sort_name": "Atlantic Host",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [
+    "Atlantic Host Hotel"
+  ],
+  "status": "published",
+  "category": "business",
+  "location_id": "atlantic-host",
+  "region_id": "acadie-bathurst",
+  "short_description": "Hotel on Vanier St near the airport.",
+  "summary": {
+    "en": "Hotel on Vanier St near the airport.",
+    "fr": "Hotel on Vanier St near the airport.",
+    "shiac": "Hotel on Vanier St near the airport."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": "Vanier Blvd"
+  },
+  "tags": [
+    "hotel",
+    "lodging",
+    "restaurant",
+    "bar",
+    "parking"
+  ],
+  "contact": {
+    "address": "1450 Vanier Blvd, Bathurst, NB E2A 7B7",
+    "hours": "",
+    "phone": "1 (800) 898-9292",
+    "email": "",
+    "website": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-reviewed",
+    "source": "In person"
+  },
+  "meta": {
+    "created": "2026-06-19T01:47:55Z",
+    "updated": "2026-06-19T01:47:55Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

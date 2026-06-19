@@ -1,0 +1,56 @@
+{
+  "slug": "bootlegger",
+  "name": "Bootlegger",
+  "title": {
+    "en": "Bootlegger",
+    "fr": "Bootlegger",
+    "shiac": "Bootlegger"
+  },
+  "sort_name": "Bootlegger",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [
+    "Au Bootlegger"
+  ],
+  "status": "published",
+  "category": "venue",
+  "location_id": "bootlegger",
+  "region_id": "acadie-bathurst",
+  "short_description": "Bar and patio on Main St near La Louga Night Club and La Promenade Waterfront.",
+  "summary": {
+    "en": "Bar and patio on Main St near La Louga Night Club and La Promenade Waterfront.",
+    "fr": "Bar and patio on Main St near La Louga Night Club and La Promenade Waterfront.",
+    "shiac": "Bar and patio on Main St near La Louga Night Club and La Promenade Waterfront."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": "Downtown"
+  },
+  "tags": [
+    "bar",
+    "patio",
+    "nightlife",
+    "restaurant"
+  ],
+  "contact": {
+    "address": "100 Main St, Bathurst, NB",
+    "hours": "",
+    "phone": "(506) 350-3350",
+    "email": "",
+    "website": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-reviewed",
+    "source": "In person"
+  },
+  "meta": {
+    "created": "2026-06-19T01:47:55Z",
+    "updated": "2026-06-19T01:47:55Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

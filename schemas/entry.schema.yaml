@@ -54,6 +54,8 @@ category:
     - artist
     - musician
     - business
+    - food
+    - civic
     - organization
     - venue
     - event
@@ -76,20 +78,14 @@ location:
   type: object
   required: false
   fields:
+    province:
+      type: string
+      required: false
+      description: "Administrative province / state label (e.g. 'NB')"
     region:
       type: string
       required: false
-      description: "Acadian cultural region (e.g. 'Nouvelle-Écosse', 'Nouveau-Brunswick', 'Louisiane', 'Québec', 'France')"
-      allowed:
-        - Nouvelle-Écosse
-        - Nouveau-Brunswick
-        - Île-du-Prince-Édouard
-        - Québec
-        - Terre-Neuve-et-Labrador
-        - Louisiane
-        - Nouvelle-Aquitaine
-        - France
-        - other
+      description: "Cultural or local region container (e.g. 'Chaleur', 'Acadie-Bathurst', 'Nouveau-Brunswick')"
     municipality:
       type: string
       required: false

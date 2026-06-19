@@ -1,0 +1,55 @@
+{
+  "slug": "big-deal-market",
+  "name": "Big Deal Market",
+  "title": {
+    "en": "Big Deal Market",
+    "fr": "Big Deal Market",
+    "shiac": "Big Deal Market"
+  },
+  "sort_name": "Big Deal Market",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [
+    "Big Deal Produce Market Ltd"
+  ],
+  "status": "published",
+  "category": "food",
+  "location_id": "big-deal-market",
+  "region_id": "acadie-bathurst",
+  "short_description": "Produce market on King Ave in Bathurst.",
+  "summary": {
+    "en": "Produce market on King Ave in Bathurst.",
+    "fr": "Produce market on King Ave in Bathurst.",
+    "shiac": "Produce market on King Ave in Bathurst."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": "King Ave"
+  },
+  "tags": [
+    "grocery",
+    "produce",
+    "market"
+  ],
+  "contact": {
+    "address": "305 King Av, Bathurst, NB E2A 1P4, Canada",
+    "hours": "Mon-Fri 09:00–19:00; Sat 10:00–19:00",
+    "phone": "(506) 548-8369",
+    "email": "",
+    "website": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-reviewed",
+    "source": "https://www.yellowpages.ca/bus/New-Brunswick/Bathurst/Big-Deal-Produce-Market-Ltd/191082.html"
+  },
+  "meta": {
+    "created": "2026-06-19T01:47:55Z",
+    "updated": "2026-06-19T01:47:55Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

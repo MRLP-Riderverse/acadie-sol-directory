@@ -1,0 +1,55 @@
+{
+  "slug": "acadie-bathurst-information-center",
+  "name": "Acadie-Bathurst Information Center",
+  "title": {
+    "en": "Acadie-Bathurst Information Center",
+    "fr": "Acadie-Bathurst Information Center",
+    "shiac": "Acadie-Bathurst Information Center"
+  },
+  "sort_name": "Acadie-Bathurst Information Center",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [
+    "Tourism Information Center"
+  ],
+  "status": "published",
+  "category": "civic",
+  "location_id": "acadie-bathurst-information-center",
+  "region_id": "acadie-bathurst",
+  "short_description": "Tourism info stop at La Promenade Waterfront near Frost Bite and Monty's.",
+  "summary": {
+    "en": "Tourism info stop at La Promenade Waterfront near Frost Bite and Monty's.",
+    "fr": "Tourism info stop at La Promenade Waterfront near Frost Bite and Monty's.",
+    "shiac": "Tourism info stop at La Promenade Waterfront near Frost Bite and Monty's."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": "Waterfront"
+  },
+  "tags": [
+    "tourism",
+    "information center",
+    "waterfront"
+  ],
+  "contact": {
+    "address": "86 Douglas Ave, Bathurst, NB E2A 7S6",
+    "hours": "",
+    "phone": "506-548-0418",
+    "email": "",
+    "website": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-reviewed",
+    "source": "In person"
+  },
+  "meta": {
+    "created": "2026-06-19T01:47:55Z",
+    "updated": "2026-06-19T01:47:55Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

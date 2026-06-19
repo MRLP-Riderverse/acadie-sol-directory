@@ -1,0 +1,56 @@
+{
+  "slug": "apollo-cinema",
+  "name": "Apollo Cinema",
+  "title": {
+    "en": "Apollo Cinema",
+    "fr": "Apollo Cinema",
+    "shiac": "Apollo Cinema"
+  },
+  "sort_name": "Apollo Cinema",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [
+    "Apollo Theatre"
+  ],
+  "status": "published",
+  "category": "venue",
+  "location_id": "apollo-cinema",
+  "region_id": "acadie-bathurst",
+  "short_description": "Movie theatre on St. Anne St in Bathurst.",
+  "summary": {
+    "en": "Movie theatre on St. Anne St in Bathurst.",
+    "fr": "Movie theatre on St. Anne St in Bathurst.",
+    "shiac": "Movie theatre on St. Anne St in Bathurst."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": "Downtown"
+  },
+  "tags": [
+    "cinema",
+    "theatre",
+    "entertainment",
+    "movies"
+  ],
+  "contact": {
+    "address": "855 St. Anne St, Bathurst, NB E2A 4H7",
+    "hours": "most evenings and some matinee showings",
+    "phone": "not yet confirmed",
+    "email": "",
+    "website": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-reviewed",
+    "source": "In person"
+  },
+  "meta": {
+    "created": "2026-06-19T01:47:55Z",
+    "updated": "2026-06-19T01:47:55Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

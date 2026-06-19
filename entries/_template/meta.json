@@ -9,7 +9,8 @@
   "category": "business",
   "short_description": "One-line public card summary.",
   "location": {
-    "region": "Nouveau-Brunswick",
+    "province": "NB",
+    "region": "Chaleur",
     "municipality": "Bathurst",
     "public_area": "Acadie-Bathurst",
     "geocircle": ""

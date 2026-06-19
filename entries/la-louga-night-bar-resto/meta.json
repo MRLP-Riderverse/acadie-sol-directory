@@ -4,7 +4,7 @@
   "title": {
     "en": "La Louga Night Bar - Resto",
     "fr": "La Louga Night Bar - Resto",
-    "shiac": ""
+    "shiac": "La Louga Night Club - On Dance!"
   },
   "sort_name": "La Louga Night Bar - Resto",
   "brand_name": "",
@@ -13,28 +13,29 @@
     "La Louga Night Club"
   ],
   "status": "published",
-  "category": "business",
+  "category": "venue",
   "location_id": "la-louga-main-st",
   "region_id": "acadie-bathurst",
   "street_id": "main-st-bathurst",
-  "short_description": "Bathurst night bar and resto with a strong French-language social presence.",
+  "short_description": "Bathurst Dance Club with a strong Francophone social presence.",
   "summary": {
-    "en": "Bathurst night bar and resto with a strong French-language social presence.",
-    "fr": "Bar-salon nocturne et resto de Bathurst avec une forte présence sociale francophone.",
-    "shiac": ""
+    "en": "Bathurst Dance Club with a strong Francophone social presence.",
+    "fr": "Bar-salon nocturne de Bathurst avec une forte présence sociale Francophone.",
+    "shiac": "N'importe t'a langue - ici on dance a Bathurst!"
   },
   "location": {
-    "region": "Nouveau-Brunswick",
+    "province": "NB",
+    "region": "Chaleur",
     "municipality": "Bathurst",
     "public_area": "Acadie-Bathurst",
-    "geocircle": "downtown Bathurst"
+    "geocircle": "Downtown Bathurst"
   },
   "tags": [
     "bar",
     "nightlife",
-    "restaurant",
     "downtown",
-    "live music"
+    "live music",
+    "dance"
   ],
   "contact": {
     "address": "125 Main St, Bathurst, NB E2A 1A6, Canada",
@@ -67,7 +68,7 @@
   },
   "meta": {
     "created": "2026-06-16T20:04:13Z",
-    "updated": "2026-06-16T20:04:13Z",
+    "updated": "2026-06-18T22:40:13Z",
     "steward": "Acadie.sol",
     "entry_version": 1
   }

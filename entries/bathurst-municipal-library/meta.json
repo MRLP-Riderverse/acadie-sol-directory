@@ -26,10 +26,11 @@
     "shiac": ""
   },
   "location": {
-    "region": "Nouveau-Brunswick",
+    "province": "NB",
+    "region": "Chaleur",
     "municipality": "Bathurst",
     "public_area": "Acadie-Bathurst",
-    "geocircle": "Bathurst"
+    "geocircle": "Downtown"
   },
   "tags": [
     "library",
@@ -52,7 +53,7 @@
   },
   "meta": {
     "created": "2026-06-18T21:01:37Z",
-    "updated": "2026-06-18T21:01:37Z",
+    "updated": "2026-06-18T21:54:37Z",
     "steward": "Acadie.sol",
     "entry_version": 1
   }

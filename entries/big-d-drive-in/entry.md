@@ -5,9 +5,11 @@ Home of the Big D Burger.
 ## Public notes
 
 - Traditional drive-in with car-park-and-dine service.
-- Takeout is available.
-- Nearby picnic tables make it easy to stay and eat outside.
 - Long-running Bathurst stop with a 1950s and 1960s diner feel.
+- Available:
+  - Takeout.
+  - Picnic tables on-site.
+
 
 ## Contact
 
@@ -18,7 +20,9 @@ Home of the Big D Burger.
 ## Related places
 
 - Bowlarama Bathurst Bowling & Arcade
+- Northcoast Electronics
 
 ## Sources
 
 - Acadie.sol local draft capture
+- Asked working staff

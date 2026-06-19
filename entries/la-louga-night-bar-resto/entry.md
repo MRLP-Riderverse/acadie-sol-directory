@@ -1,12 +1,13 @@
 # La Louga Night Bar - Resto
 
-Bathurst night bar and resto with a strong French-language social presence.
+Dance club with a strong Francophone social presence.
 
 ## Public notes
 
-- Downtown Bathurst nightlife / food spot.
-- Also referred to by locals as La Louga Night Club.
-- Good candidate for event and evening discovery routing.
+- Great way to end the night after earlier downtown stops.
+- Strong Afrobeats community, but also hosts alternate sounds and DJ's.
+- AKA: La Louga 'Night Club'.
+- Come one, come all | Very Welcoming.
 
 ## Contact
 
@@ -19,6 +20,7 @@ Bathurst night bar and resto with a strong French-language social presence.
 - District Burger
 - Donair Shop
 - Kaffeine Express Bathurst
+- TD Bank
 
 ## Sources
 

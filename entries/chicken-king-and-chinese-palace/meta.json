@@ -1,0 +1,56 @@
+{
+  "slug": "chicken-king-and-chinese-palace",
+  "name": "Chicken King & Chinese Palace Restaurant",
+  "title": {
+    "en": "Chicken King & Chinese Palace Restaurant",
+    "fr": "Chicken King & Chinese Palace Restaurant",
+    "shiac": "Chicken King & Chinese Palace Restaurant"
+  },
+  "sort_name": "Chicken King & Chinese Palace Restaurant",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [
+    "Chicken King and Chinese Palace Restaurant"
+  ],
+  "status": "published",
+  "category": "food",
+  "location_id": "chicken-king-and-chinese-palace",
+  "region_id": "acadie-bathurst",
+  "short_description": "Restaurant with chicken and Chinese takeout on Miramichi Ave.",
+  "summary": {
+    "en": "Restaurant with chicken and Chinese takeout on Miramichi Ave.",
+    "fr": "Restaurant with chicken and Chinese takeout on Miramichi Ave.",
+    "shiac": "Restaurant with chicken and Chinese takeout on Miramichi Ave."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": "Miramichi Ave"
+  },
+  "tags": [
+    "restaurant",
+    "chinese",
+    "takeout",
+    "fried chicken"
+  ],
+  "contact": {
+    "address": "1096 Miramichi Ave, Bathurst, NB E2A 1X8, Canada",
+    "hours": "Mon-Sun 11:00–19:00",
+    "phone": "(855) 245-7827",
+    "email": "",
+    "website": ""
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-reviewed",
+    "source": "https://www.restaurantji.com/nb/bathurst/chicken-king-and-chinese-palace-restaurant-/"
+  },
+  "meta": {
+    "created": "2026-06-19T01:47:55Z",
+    "updated": "2026-06-19T01:47:55Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}
