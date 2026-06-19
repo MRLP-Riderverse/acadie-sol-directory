@@ -88,6 +88,7 @@ Family restaurant in Bathurst.
                 "location": {"municipality": "Bathurst", "public_area": "Acadie-Bathurst"},
                 "tags": ["pizza", "family"],
                 "contact": {"phone": "506-111-1111", "address": "123 St Peter Ave"},
+                "thumbnail": {"src": "assets/entries/pizza-delight/thumbnail.jpg", "alt": "Photo of Pizza Delight Bathurst"},
             }
         ),
     )
@@ -104,3 +105,5 @@ Family restaurant in Bathurst.
     assert item["note_points"] == ["Known local branch with sit-down service.", "Good for family meals."]
     assert item["contact"]["phone"] == "506-111-1111"  # meta is canonical
     assert item["public_area"] == "Acadie-Bathurst"
+    assert item["thumbnail_src"] == "assets/entries/pizza-delight/thumbnail.jpg"
+    assert item["thumbnail_alt"] == "Photo of Pizza Delight Bathurst"

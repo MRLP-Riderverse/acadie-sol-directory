@@ -60,6 +60,10 @@
       "relationship": "nearby"
     }
   ],
+  "thumbnail": {
+    "src": "assets/entries/13-barrels-brewing/thumbnail.jpg",
+    "alt": "Photo of 13 Barrels Brewing"
+  },
   "verification": {
     "status": "steward-reviewed",
     "source": "Acadie.sol local draft capture"

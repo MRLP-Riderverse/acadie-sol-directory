@@ -208,6 +208,8 @@ def build_item(
 
     raw_location_value = (meta or {}).get("location")
     raw_location: dict = raw_location_value if isinstance(raw_location_value, dict) else {}
+    raw_thumbnail_value = (meta or {}).get("thumbnail")
+    raw_thumbnail: dict = raw_thumbnail_value if isinstance(raw_thumbnail_value, dict) else {}
 
     return {
         "title": name,
@@ -239,6 +241,8 @@ def build_item(
         "phone": contact["phone"],
         "email": contact["email"],
         "website": contact["website"],
+        "thumbnail_src": clean_text(raw_thumbnail.get("src", "")),
+        "thumbnail_alt": clean_text(raw_thumbnail.get("alt", "")),
         "public_data": public_data,
         "related_places": related_places,
         "sources": sources,
