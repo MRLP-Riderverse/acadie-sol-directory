@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import importlib.util
 import json
+import time
 from pathlib import Path
 
 
@@ -16,6 +17,49 @@ spec.loader.exec_module(export_to_site)
 def write(path: Path, content: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(content, encoding="utf-8")
+
+
+def write_event_fixture(root: Path, *, summary: str = "Bring a chair.") -> None:
+    write(
+        root / "events" / "big-d-community-placeholder" / "event.md",
+        """# Big D Community Placeholder
+
+Community event at the drive-in.
+""",
+    )
+    write(
+        root / "events" / "big-d-community-placeholder" / "meta.json",
+        json.dumps(
+            {
+                "id": "big-d-community-placeholder",
+                "status": "active",
+                "title": "Big D Community Placeholder",
+                "summary": summary,
+                "starts_at": "2026-07-19T15:00:00Z",
+                "ends_at": "2026-07-19T17:00:00Z",
+                "location_id": "big-d-drive-in",
+                "calendar": {"ics_enabled": True},
+            }
+        ),
+    )
+    write(
+        root / "locations" / "big-d-drive-in" / "location.md",
+        """# Big D Drive-In
+
+Classic local drive-in.
+""",
+    )
+    write(
+        root / "locations" / "big-d-drive-in" / "meta.json",
+        json.dumps(
+            {
+                "id": "big-d-drive-in",
+                "name": "Big D Drive-In",
+                "kind": "venue",
+                "address": "2035 St Peter Ave, Bathurst, NB",
+            }
+        ),
+    )
 
 
 def test_draft_payload_has_declared_public_card_fields(tmp_path: Path):
@@ -107,3 +151,37 @@ Family restaurant in Bathurst.
     assert item["public_area"] == "Acadie-Bathurst"
     assert item["thumbnail_src"] == "assets/entries/pizza-delight/thumbnail.jpg"
     assert item["thumbnail_alt"] == "Photo of Pizza Delight Bathurst"
+
+
+def test_calendar_ics_is_stable_across_repeat_exports(tmp_path: Path):
+    directory_root = tmp_path / "directory"
+    site_root = tmp_path / "site"
+    write_event_fixture(directory_root)
+
+    export_to_site.export_all(directory_root, site_root)
+    ics_path = site_root / "assets" / "calendar" / "big-d-community-placeholder.ics"
+    first = ics_path.read_text(encoding="utf-8")
+
+    time.sleep(1.1)
+    export_to_site.export_all(directory_root, site_root)
+    second = ics_path.read_text(encoding="utf-8")
+
+    assert second == first
+
+
+def test_calendar_ics_changes_when_event_source_changes(tmp_path: Path):
+    directory_root = tmp_path / "directory"
+    site_root = tmp_path / "site"
+    write_event_fixture(directory_root, summary="Bring a chair.")
+
+    export_to_site.export_all(directory_root, site_root)
+    ics_path = site_root / "assets" / "calendar" / "big-d-community-placeholder.ics"
+    first = ics_path.read_text(encoding="utf-8")
+
+    time.sleep(1.1)
+    write_event_fixture(directory_root, summary="Bring a chair and a blanket.")
+    export_to_site.export_all(directory_root, site_root)
+    second = ics_path.read_text(encoding="utf-8")
+
+    assert "DESCRIPTION:Bring a chair and a blanket." in second
+    assert second != first

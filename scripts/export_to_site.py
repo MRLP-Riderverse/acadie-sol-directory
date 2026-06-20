@@ -621,13 +621,14 @@ def write_calendar_files(site_root: Path, events: list[dict], locations: list[di
         location = by_location.get(event.get("location_id", ""), {})
         location_text = location.get("address") or location.get("name", "")
         uid = f"{event['id']}@acadie.sol"
+        dtstamp = ics_datetime(event.get("source_modified_at", "")) or start
         body = "\r\n".join([
             "BEGIN:VCALENDAR",
             "VERSION:2.0",
             "PRODID:-//Acadie.sol//Events V1//EN",
             "BEGIN:VEVENT",
             f"UID:{ics_escape(uid)}",
-            f"DTSTAMP:{datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')}",
+            f"DTSTAMP:{dtstamp}",
             f"DTSTART:{start}",
             f"DTEND:{end}",
             f"SUMMARY:{ics_escape(event.get('name', 'Acadie.sol event'))}",
@@ -637,7 +638,10 @@ def write_calendar_files(site_root: Path, events: list[dict], locations: list[di
             "END:VCALENDAR",
             "",
         ])
-        (out_dir / f"{event['id']}.ics").write_text(body, encoding="utf-8")
+        out_path = out_dir / f"{event['id']}.ics"
+        if out_path.exists() and out_path.read_text(encoding="utf-8") == body:
+            continue
+        out_path.write_text(body, encoding="utf-8")
 
 
 def write_json(path: Path, payload: dict) -> None:
