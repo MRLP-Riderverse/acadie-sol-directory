@@ -1,0 +1,39 @@
+{
+  "id": "sir-pathetik-au-louga-night-bar-bathurst",
+  "status": "published",
+  "title": {
+    "en": "Sir Pathetik au Louga Night Bar",
+    "fr": "Sir Pathetik à La Louga Night Bar",
+    "shiac": "Sir Pathetik au Louga Night Bar"
+  },
+  "summary": {
+    "en": "Sir Pathetik performs at La Louga Night Bar in Bathurst on Friday, June 26 at 8 PM.",
+    "fr": "Sir Pathetik se produit à La Louga Night Bar à Bathurst le vendredi 26 juin à 20 h.",
+    "shiac": "Sir Pathetik joue au Louga Night Bar à Bathurst le vendredi 26 juin à 8 PM."
+  },
+  "starts_at": "2026-06-26T20:00:00-03:00",
+  "timezone": "America/Moncton",
+  "region_id": "acadie-bathurst",
+  "location_id": "la-louga-main-st",
+  "host_entry_ids": ["la-louga-night-bar-resto"],
+  "performer_entry_ids": [],
+  "sponsor_entry_ids": [],
+  "related_offer_ids": [],
+  "tags": ["music", "nightlife", "concert"],
+  "wayfinding": {
+    "en": "La Louga Night Bar - Resto, 125 Main St, Bathurst, starting at 8 PM on Friday, June 26.",
+    "fr": "La Louga Night Bar - Resto, 125 Main St, Bathurst, à partir de 20 h le vendredi 26 juin.",
+    "shiac": "La Louga Night Bar - Resto, 125 Main St, Bathurst, à partir de 8 PM le vendredi 26 juin."
+  },
+  "bring": {
+    "en": "",
+    "fr": "",
+    "shiac": ""
+  },
+  "calendar": { "ics_enabled": true },
+  "source": {
+    "type": "web",
+    "submitted_by": "Acadie.sol",
+    "url": "https://facebook.com/events/s/sir-pathetik-au-louga-night-ba/1615385739603943/"
+  }
+}
