@@ -18,7 +18,7 @@
   "short_description": "A local nonprofit community hall bringing people together for darts, events, and good times!",
   "summary": {
     "en": "A local nonprofit community hall bringing people together for darts, events, and good times!",
-    "fr": "Salle communautaire locale à but non lucratif qui rassemble le monde autour des darts, des événements et du bon temps!",
+    "fr": "Une salle communautaire locale à but non lucratif qui rassemble les gens autour des fléchettes, d’événements et de bons moments!",
     "shiac": "A local nonprofit community hall bringing people together for darts, events, and good times!"
   },
   "location": {
@@ -61,8 +61,8 @@
   },
   "meta": {
     "created": "2026-06-21T00:23:09Z",
-    "updated": "2026-06-21T00:29:56Z",
+    "updated": "2026-06-21T00:33:27Z",
     "steward": "Acadie.sol",
-    "entry_version": 2
+    "entry_version": 3
   }
 }
