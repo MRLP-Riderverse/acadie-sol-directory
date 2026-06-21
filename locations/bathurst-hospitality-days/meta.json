@@ -1,0 +1,33 @@
+{
+  "id": "bathurst-hospitality-days",
+  "status": "published",
+  "kind": "venue",
+  "title": {
+    "en": "Bathurst Hospitality Days",
+    "fr": "Bathurst Hospitality Days",
+    "shiac": "Bathurst Hospitality Days"
+  },
+  "summary": {
+    "en": "Venue and organizer hub at 100 Main St in Bathurst.",
+    "fr": "Lieu et point d’appui organisateur au 100 Main St à Bathurst.",
+    "shiac": "Venue and organizer hub at 100 Main St in Bathurst."
+  },
+  "region_id": "acadie-bathurst",
+  "street_id": "main-st-bathurst",
+  "address": "100 Main St, Bathurst, NB E2A 1A4, Canada",
+  "municipality": "Bathurst",
+  "public_area": "Acadie-Bathurst",
+  "entry_ids": [
+    "bathurst-hospitality-days"
+  ],
+  "nearby_location_ids": [
+    "downtown-main-st-bathurst",
+    "la-louga-main-st"
+  ],
+  "tags": [
+    "hospitality",
+    "festival",
+    "community",
+    "venue"
+  ]
+}

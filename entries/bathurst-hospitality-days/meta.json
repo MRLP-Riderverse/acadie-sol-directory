@@ -3,7 +3,7 @@
   "name": "Bathurst Hospitality Days",
   "title": {
     "en": "Bathurst Hospitality Days",
-    "fr": "Journées Hospitalité Bathurst Hospitality Days",
+    "fr": "Journées Hospitalité Bathurst",
     "shiac": "Bathurst Hospitality Days"
   },
   "sort_name": "Bathurst Hospitality Days",
@@ -14,39 +14,43 @@
     "Bathurst Hospitality"
   ],
   "status": "published",
-  "category": "community",
+  "category": "hospitality",
   "location_id": "bathurst-hospitality-days",
   "region_id": "acadie-bathurst",
-  "short_description": "Public page for Bathurst Hospitality Days.",
+  "short_description": "Organizer, venue, and event hub at 100 Main St, Bathurst.",
   "summary": {
-    "en": "Public page for Bathurst Hospitality Days.",
-    "fr": "Page publique pour Journées Hospitalité Bathurst Hospitality Days.",
-    "shiac": "Public page for Bathurst Hospitality Days."
+    "en": "Organizer, venue, and event hub at 100 Main St, Bathurst.",
+    "fr": "Organisateur, lieu et point d’appui événementiel au 100 Main St à Bathurst.",
+    "shiac": "Organizer, venue, and event hub at 100 Main St, Bathurst."
   },
   "location": {
     "province": "NB",
     "region": "Chaleur",
     "municipality": "Bathurst",
     "public_area": "Acadie-Bathurst",
-    "geocircle": ""
+    "geocircle": "Downtown Bathurst"
   },
   "tags": [
     "hospitality",
     "festival",
     "community",
-    "events"
+    "venue",
+    "event organizer",
+    "business"
   ],
   "contact": {
+    "address": "100 Main St, Bathurst, NB E2A 1A4, Canada",
     "hours": "",
-    "phone": "",
-    "website": "https://www.bathurstfestival.com/",
-    "address": "",
-    "email": ""
+    "phone": "(506) 226-1396",
+    "email": "bathursthospitalitydays@gmail.com",
+    "website": "https://www.bathurstfestival.com/"
   },
   "related": [
     {
-      "slug": "bootlegger",
       "name": "Bootlegger"
+    },
+    {
+      "name": "La Louga Night Bar - Resto"
     }
   ],
   "verification": {
