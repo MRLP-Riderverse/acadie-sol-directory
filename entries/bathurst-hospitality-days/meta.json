@@ -1,0 +1,62 @@
+{
+  "slug": "bathurst-hospitality-days",
+  "name": "Bathurst Hospitality Days",
+  "title": {
+    "en": "Bathurst Hospitality Days",
+    "fr": "Journées Hospitalité Bathurst Hospitality Days",
+    "shiac": "Bathurst Hospitality Days"
+  },
+  "sort_name": "Bathurst Hospitality Days",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [
+    "Hospitality Days",
+    "Bathurst Hospitality"
+  ],
+  "status": "published",
+  "category": "community",
+  "location_id": "bathurst-hospitality-days",
+  "region_id": "acadie-bathurst",
+  "short_description": "Public page for Bathurst Hospitality Days.",
+  "summary": {
+    "en": "Public page for Bathurst Hospitality Days.",
+    "fr": "Page publique pour Journées Hospitalité Bathurst Hospitality Days.",
+    "shiac": "Public page for Bathurst Hospitality Days."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": ""
+  },
+  "tags": [
+    "hospitality",
+    "festival",
+    "community",
+    "events"
+  ],
+  "contact": {
+    "hours": "",
+    "phone": "",
+    "website": "https://www.bathurstfestival.com/",
+    "address": "",
+    "email": ""
+  },
+  "related": [
+    {
+      "slug": "bootlegger",
+      "name": "Bootlegger"
+    }
+  ],
+  "verification": {
+    "status": "public-source",
+    "source": "https://www.facebook.com/BathurstHospitalityDays"
+  },
+  "meta": {
+    "created": "2026-06-21T00:00:00Z",
+    "updated": "2026-06-21T00:00:00Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}
