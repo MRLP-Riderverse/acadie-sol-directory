@@ -1,0 +1,68 @@
+{
+  "slug": "bathurst-city-dart-hall",
+  "name": "Bathurst City Dart Hall",
+  "title": {
+    "en": "Bathurst City Dart Hall",
+    "fr": "Bathurst City Dart Hall",
+    "shiac": "Bathurst City Dart Hall"
+  },
+  "sort_name": "Bathurst City Dart Hall",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": [],
+  "status": "published",
+  "category": "venue",
+  "location_id": "bathurst-city-dart-hall",
+  "region_id": "acadie-bathurst",
+  "street_id": "st-andre-rd-bathurst",
+  "short_description": "A local nonprofit community hall bringing people together for darts, events, and good times!",
+  "summary": {
+    "en": "A local nonprofit community hall bringing people together for darts, events, and good times!",
+    "fr": "Salle communautaire locale à but non lucratif qui rassemble le monde autour des darts, des événements et du bon temps!",
+    "shiac": "A local nonprofit community hall bringing people together for darts, events, and good times!"
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": "St Anne"
+  },
+  "tags": [
+    "venue",
+    "community events",
+    "darts"
+  ],
+  "contact": {
+    "address": "87 St Andre Rd, Bathurst, NB, Canada, E2A 7A1",
+    "hours": "",
+    "phone": "506-480-0609",
+    "email": "bathurstcitydarthall@gmail.com",
+    "website": ""
+  },
+  "links": {
+    "website": "",
+    "social": [
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/share/16XSkDoPvh/?mibextid=wwXIfr"
+      }
+    ],
+    "contact": "506-480-0609"
+  },
+  "thumbnail": {
+    "src": "assets/entries/bathurst-city-dart-hall/thumbnail.jpg",
+    "alt": "Photo submitted for Bathurst City Dart Hall"
+  },
+  "related": [],
+  "verification": {
+    "status": "steward-reviewed",
+    "source": "community-submission"
+  },
+  "meta": {
+    "created": "2026-06-21T00:23:09Z",
+    "updated": "2026-06-21T00:29:56Z",
+    "steward": "Acadie.sol",
+    "entry_version": 2
+  }
+}
