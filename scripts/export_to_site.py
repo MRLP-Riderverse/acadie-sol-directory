@@ -622,7 +622,7 @@ def write_calendar_files(site_root: Path, events: list[dict], locations: list[di
         location_text = location.get("address") or location.get("name", "")
         uid = f"{event['id']}@acadie.sol"
         dtstamp = ics_datetime(event.get("source_modified_at", "")) or start
-        body = "\r\n".join([
+        body = "\n".join([
             "BEGIN:VCALENDAR",
             "VERSION:2.0",
             "PRODID:-//Acadie.sol//Events V1//EN",

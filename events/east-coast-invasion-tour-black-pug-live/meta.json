@@ -1,0 +1,41 @@
+{
+  "id": "east-coast-invasion-tour-black-pug-live",
+  "status": "active",
+  "title": {
+    "en": "East Coast Invasion Tour",
+    "fr": "Tournée East Coast Invasion",
+    "shiac": "East Coast Invasion Tour"
+  },
+  "summary": {
+    "en": "HAILBOMB, XENOFORMS, EXULTANCE, and RIFIUM each play their own slice of metal. Flavours from Quebec, NB, and NS. $15 entry.",
+    "fr": "HAILBOMB, XENOFORMS, EXULTANCE et RIFIUM offrent chacun leur propre dose de métal. Saveurs du Québec, du N.-B. et de la N.-É. Entrée : 15 $.",
+    "shiac": "HAILBOMB, XENOFORMS, EXULTANCE pis RIFIUM jouent chacun leur slice de métal. Saveurs du Québec, du N.-B. pis de la N.-É. 15 $ d’entrée."
+  },
+  "starts_at": "2026-07-03T20:00:00-03:00",
+  "ends_at": "2026-07-03T23:00:00-03:00",
+  "expires_at": "2026-07-03T23:00:00-03:00",
+  "timezone": "America/Moncton",
+  "region_id": "acadie-bathurst",
+  "location_id": "black-pug-live-main-st-bathurst",
+  "host_entry_ids": ["black-pug-live"],
+  "performer_entry_ids": [],
+  "sponsor_entry_ids": [],
+  "related_offer_ids": [],
+  "tags": ["music", "metal", "live music", "concert"],
+  "wayfinding": {
+    "en": "Black Pug Live, C-125 Main St, Bathurst. Just next to Louga and TD Bank, in front of Bootlegger and NB Distillery.",
+    "fr": "Black Pug Live, C-125 Main St, Bathurst. Juste à côté de Louga et TD Bank, en face de Bootlegger et NB Distillery.",
+    "shiac": "Black Pug Live, C-125 Main St, Bathurst. Juste à côté du Louga pis de TD Bank, en face du Bootlegger pis du NB Distillery."
+  },
+  "bring": {
+    "en": "",
+    "fr": "",
+    "shiac": ""
+  },
+  "calendar": { "ics_enabled": true },
+  "source": {
+    "type": "web",
+    "submitted_by": "Acadie.sol",
+    "url": "https://facebook.com/events/s/east-coast-invasion-tour-hailb/864996662861653/"
+  }
+}

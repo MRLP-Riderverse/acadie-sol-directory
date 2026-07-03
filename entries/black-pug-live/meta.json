@@ -1,0 +1,80 @@
+{
+  "slug": "black-pug-live",
+  "name": "Black Pug Live",
+  "title": {
+    "en": "Black Pug Live",
+    "fr": "Black Pug Live",
+    "shiac": "Black Pug Live"
+  },
+  "sort_name": "Black Pug Live",
+  "brand_name": "Black Pug Records",
+  "branch_name": "",
+  "aliases": [
+    "Black Pug Records Live Venue",
+    "Black Pug Live Venue"
+  ],
+  "status": "published",
+  "category": "venue",
+  "location_id": "black-pug-live-main-st-bathurst",
+  "region_id": "acadie-bathurst",
+  "street_id": "main-st-bathurst",
+  "short_description": "Live event venue attached to Black Pug Records on Main St in Bathurst.",
+  "summary": {
+    "en": "Live event venue attached to Black Pug Records on Main St in Bathurst.",
+    "fr": "Salle d’événements en direct attachée à Black Pug Records sur la rue Main à Bathurst.",
+    "shiac": "Salle d’événements live attachée à Black Pug Records sur Main à Bathurst."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": "Downtown"
+  },
+  "tags": [
+    "venue",
+    "live music",
+    "events",
+    "private events",
+    "corporate events"
+  ],
+  "contact": {
+    "address": "C-125 Main St, Bathurst, NB E2A 1A6, Canada",
+    "hours": "",
+    "phone": "1(506)226-6630",
+    "email": "pierre@blackpugrecords.ca",
+    "website": ""
+  },
+  "links": {
+    "social": [
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/share/1DuAUZHSgY/?mibextid=wwXIfr"
+      }
+    ]
+  },
+  "related": [
+    {
+      "name": "Louga Night Bar - Resto",
+      "relationship": "nearby"
+    },
+    {
+      "name": "Bootlegger",
+      "relationship": "nearby"
+    },
+    {
+      "name": "NB Distillery",
+      "relationship": "nearby"
+    }
+  ],
+  "verification": {
+    "status": "steward-reviewed",
+    "source": "User-submitted public details"
+  },
+  "meta": {
+    "created": "2026-07-03T18:45:44Z",
+    "updated": "2026-07-03T18:45:44Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

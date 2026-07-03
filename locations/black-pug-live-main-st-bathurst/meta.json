@@ -1,0 +1,23 @@
+{
+  "id": "black-pug-live-main-st-bathurst",
+  "status": "published",
+  "kind": "venue",
+  "title": {
+    "en": "Black Pug Live Main St Bathurst",
+    "fr": "Black Pug Live, rue Main à Bathurst",
+    "shiac": "Black Pug Live sur Main à Bathurst"
+  },
+  "summary": {
+    "en": "Physical location for Black Pug Live on Main St in Bathurst.",
+    "fr": "Lieu physique pour Black Pug Live sur la rue Main à Bathurst.",
+    "shiac": "Lieu physique pour Black Pug Live sur Main à Bathurst."
+  },
+  "region_id": "acadie-bathurst",
+  "street_id": "main-st-bathurst",
+  "address": "C-125 Main St, Bathurst, NB E2A 1A6, Canada",
+  "municipality": "Bathurst",
+  "public_area": "Acadie-Bathurst",
+  "entry_ids": ["black-pug-live"],
+  "nearby_location_ids": ["la-louga-main-st", "downtown-main-st-bathurst"],
+  "tags": ["downtown", "venue", "live music"]
+}
