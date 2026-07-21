@@ -1,0 +1,27 @@
+{
+  "id": "bathurst-city-dart-hall",
+  "status": "published",
+  "kind": "venue",
+  "title": {
+    "en": "Bathurst City Dart Hall",
+    "fr": "Bathurst City Dart Hall",
+    "shiac": "Bathurst City Dart Hall"
+  },
+  "summary": {
+    "en": "Community hall and event venue in Bathurst.",
+    "fr": "Salle communautaire et lieu d’événements à Bathurst.",
+    "shiac": "Community hall pis place pour des événements à Bathurst."
+  },
+  "region_id": "acadie-bathurst",
+  "street_id": "st-andre-rd-bathurst",
+  "address": "87 St Andre Rd, Bathurst, NB, Canada, E2A 7A1",
+  "municipality": "Bathurst",
+  "public_area": "Acadie-Bathurst",
+  "entry_ids": ["bathurst-city-dart-hall"],
+  "nearby_location_ids": [],
+  "tags": ["venue", "community-events", "darts", "market"],
+  "source": {
+    "type": "community_submission",
+    "submitted_by": "Acadie.sol"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "hangout-dacadiennes-2026",
+  "status": "published",
+  "title": {
+    "en": "Hangout d’Acadien(ne)s!",
+    "fr": "Hangout d’Acadien(ne)s!",
+    "shiac": "Hangout d’Acadien(ne)s!"
+  },
+  "summary": {
+    "en": "An informal Acadian meet-and-greet at Coronation Park in Bathurst on Tuesday, July 28, 2026, from 10 AM to 2 PM.",
+    "fr": "Une rencontre informelle entre Acadien·ne·s au parc Coronation à Bathurst, le mardi 28 juillet 2026, de 10 h à 14 h.",
+    "shiac": "Un meet-and-greet acadien relaxe au parc Coronation à Bathurst, mardi le 28 juillet 2026, de 10 h à 14 h."
+  },
+  "starts_at": "2026-07-28T10:00:00-03:00",
+  "ends_at": "2026-07-28T14:00:00-03:00",
+  "expires_at": "2026-07-28T14:00:00-03:00",
+  "timezone": "America/Moncton",
+  "region_id": "acadie-bathurst",
+  "location_id": "coronation-park-bathurst",
+  "host_entry_ids": [],
+  "performer_entry_ids": [],
+  "sponsor_entry_ids": [],
+  "related_offer_ids": [],
+  "tags": ["community", "acadian", "meet-and-greet", "outdoor", "free"],
+  "wayfinding": {
+    "en": "Coronation Park in Bathurst, around the walking track and central gazebo. No civic address is available.",
+    "fr": "Parc Coronation à Bathurst, près de la piste de marche et du gazebo central. Aucune adresse civique n’est disponible.",
+    "shiac": "Au parc Coronation à Bathurst, autour de la track de marche pis du gazebo au centre. Y’a pas d’adresse civique."
+  },
+  "bring": {
+    "en": "Nothing special is required. Bring a water bottle or your own water supply.",
+    "fr": "Rien de particulier n’est requis. Apportez une bouteille ou votre propre eau.",
+    "shiac": "T’as pas besoin de rien de spécial. Amène ta bouteille d’eau."
+  },
+  "calendar": {
+    "ics_enabled": true
+  },
+  "source": {
+    "type": "web",
+    "submitted_by": "Acadie.sol",
+    "url": "https://www.facebook.com/events/coronation-park/hangout-dacadiennes/1336927341425629/"
+  }
+}

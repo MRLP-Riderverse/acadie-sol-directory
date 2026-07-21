@@ -1,0 +1,26 @@
+{
+  "id": "coronation-park-bathurst",
+  "status": "published",
+  "kind": "outdoor-site",
+  "title": {
+    "en": "Coronation Park, Bathurst",
+    "fr": "Parc Coronation, Bathurst",
+    "shiac": "Le parc Coronation à Bathurst"
+  },
+  "summary": {
+    "en": "Outdoor community gathering place in Bathurst, around the walking track and central gazebo.",
+    "fr": "Lieu de rassemblement communautaire extérieur à Bathurst, près de la piste de marche et du gazebo central.",
+    "shiac": "Un spot dehors à Bathurst, autour de la track de marche pis du gazebo au centre."
+  },
+  "region_id": "acadie-bathurst",
+  "municipality": "Bathurst",
+  "public_area": "Acadie-Bathurst",
+  "entry_ids": [],
+  "nearby_location_ids": [],
+  "tags": ["park", "outdoor", "walking-track", "gazebo", "community"],
+  "source": {
+    "type": "user_submitted",
+    "submitted_by": "Acadie.sol",
+    "url": ""
+  }
+}
