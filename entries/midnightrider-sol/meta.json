@@ -1,0 +1,60 @@
+{
+  "slug": "midnightrider-sol",
+  "name": "MidnightRider.sol",
+  "title": {
+    "en": "MidnightRider.sol",
+    "fr": "MidnightRider.sol",
+    "shiac": "MidnightRider.sol"
+  },
+  "sort_name": "MidnightRider.sol",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": ["MR LP", "Midnight Rider"],
+  "status": "published",
+  "category": "creator",
+  "region_id": "acadie-bathurst",
+  "short_description": "Systems designer, frontier tech creator-builder, and steward of community-shaped projects from Bathurst.",
+  "summary": {
+    "en": "Systems designer, frontier tech creator-builder, and steward of community-shaped projects from Bathurst.",
+    "fr": "Concepteur de systèmes, créateur-bâtisseur en technologies émergentes et steward de projets communautaires depuis Bathurst.",
+    "shiac": "Systems designer, frontier tech creator-builder, and steward of community-shaped projects from Bathurst."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": "Digitally based in Bathurst; no civic address"
+  },
+  "tags": ["systems designer", "frontier tech", "creator", "builder", "Project LP", "Riderverse.sol", "Acadie.sol", "The Strays", "digital identity"],
+  "contact": {
+    "address": "",
+    "hours": "",
+    "phone": "",
+    "email": "",
+    "website": ""
+  },
+  "links": {
+    "social": [
+      {"platform": "instagram", "handle": "midnightriderlp"},
+      {"platform": "x", "handle": "MidnightRiderLP"},
+      {"platform": "website", "url": "https://TheStrays.World", "label": "The Strays"}
+    ]
+  },
+  "related": [
+    {"name": "Acadie.sol", "relationship": "steward"},
+    {"name": "Project LP", "relationship": "founder"},
+    {"name": "Riderverse.sol", "relationship": "founder"},
+    {"name": "The Strays", "relationship": "team leader"}
+  ],
+  "verification": {
+    "status": "steward-reviewed",
+    "source": "User-submitted public identity details"
+  },
+  "meta": {
+    "created": "2026-07-22T00:20:54Z",
+    "updated": "2026-07-22T00:20:54Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}

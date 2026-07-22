@@ -1,0 +1,56 @@
+{
+  "slug": "acadie-sol",
+  "name": "Acadie.sol",
+  "title": {
+    "en": "Acadie.sol",
+    "fr": "Acadie.sol",
+    "shiac": "Acadie.sol"
+  },
+  "sort_name": "Acadie.sol",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": ["Projet Pilote Acadien", "Acadian community project"],
+  "status": "published",
+  "category": "community",
+  "region_id": "acadie-bathurst",
+  "short_description": "Projet Pilote Acadien - 2026, a web3-inspired Acadian community and cultural media project stewarded by MidnightRider.sol.",
+  "summary": {
+    "en": "Projet Pilote Acadien - 2026, a web3-inspired Acadian community and cultural media project stewarded by MidnightRider.sol.",
+    "fr": "Projet Pilote Acadien - 2026, un projet communautaire et de médias culturels acadiens inspiré par le web3 et porté par MidnightRider.sol.",
+    "shiac": "Projet Pilote Acadien - 2026, a web3-inspired Acadian community and cultural media project stewarded by MidnightRider.sol."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": "Digitally based in Bathurst; no civic address"
+  },
+  "tags": ["Acadie.sol", "community project", "social club", "Acadian cultural media", "digital project", "web3-inspired"],
+  "contact": {
+    "address": "",
+    "hours": "",
+    "phone": "",
+    "email": "",
+    "website": "https://acadie.sol.site/"
+  },
+  "links": {
+    "social": [
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/share/1JA4uo3a2U/?mibextid=wwXIfr"
+      }
+    ]
+  },
+  "related": [{"name": "MidnightRider.sol", "relationship": "steward"}],
+  "verification": {
+    "status": "steward-reviewed",
+    "source": "https://acadie.sol.site/"
+  },
+  "meta": {
+    "created": "2026-07-22T00:20:54Z",
+    "updated": "2026-07-22T00:20:54Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}
