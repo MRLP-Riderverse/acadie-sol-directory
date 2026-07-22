@@ -1,25 +1,30 @@
 # MidnightRider.sol
 
-MidnightRider.sol is a systems designer, frontier tech creator and builder, founder of Project LP and Riderverse.sol, and steward of Acadie.sol. Based digitally in Bathurst, MidnightRider.sol also serves as Team Leader at [The Strays](https://TheStrays.World), and is also known as MR LP ⁜ ⭐️💙🤍❤️.
+Acadian builder-creator and steward of community-shaped projects.
 
 ## Public notes
-
-MidnightRider.sol works across community-shaped systems, frontier technology, creative projects, and independent public infrastructure. The identity is digitally based in Bathurst and has no civic address.
+- Systems Designer.
+- Frontier Tech Creator & Builder.
+- Founder of Project LP.
+- Founder of Riderverse.sol.
+- Steward of Acadie.sol.
+- Team Leader at [The Strays](https://TheStrays.World).
+- AKA MR LP ⁜
+- ⭐️💙🤍❤️
+- Based digitally in Bathurst / Acadie-Bathurst.
+- No civic address.
 
 ## Contact
-
 - Instagram: @midnightriderlp
 - X: @MidnightRiderLP
 
 ## Related places
-
 - Acadie.sol
 - Project LP
 - Riderverse.sol
 - The Strays
 
 ## Sources
-
 - Instagram: @midnightriderlp
 - X: @MidnightRiderLP
 - The Strays: https://TheStrays.World
