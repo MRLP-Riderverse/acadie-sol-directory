@@ -297,7 +297,11 @@ def parse_entry(entry_md: Path) -> dict:
     title = first_heading(text, entry_dir.name.replace("-", " ").title())
     sections = markdown_sections(lines[1:] if lines else [])
 
-    description = display_text(meta.get("summary") or meta.get("short_description"), clean_text(" ".join(line for line in sections.get("preamble", []) if line.strip())))
+    markdown_description = clean_text(" ".join(line for line in sections.get("preamble", []) if line.strip()))
+    metadata_description = display_text(meta.get("summary") or meta.get("short_description"))
+    # entry.md is the steward-authored public copy. Metadata is structured
+    # context and remains a fallback for records without a prose preamble.
+    description = markdown_description or metadata_description
     note_lines = sections.get("public notes", []) or sections.get("notes", [])
     notes = clean_text(" ".join(note_lines))
     note_points = bullet_values(note_lines)

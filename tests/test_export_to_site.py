@@ -153,6 +153,38 @@ Family restaurant in Bathurst.
     assert item["thumbnail_alt"] == "Photo of Pizza Delight Bathurst"
 
 
+def test_official_entry_uses_authored_markdown_before_metadata_summary(tmp_path: Path):
+    write(
+        tmp_path / "entries" / "authored-prose" / "entry.md",
+        """# Authored Prose
+
+This is the exact public sentence written by the steward.
+
+## Public notes
+- First authored note.
+- Second authored note.
+""",
+    )
+    write(
+        tmp_path / "entries" / "authored-prose" / "meta.json",
+        json.dumps(
+            {
+                "status": "published",
+                "category": "community",
+                "short_description": "An editorial replacement sentence.",
+                "tags": ["explicit-tag"],
+            }
+        ),
+    )
+
+    item = export_to_site.build_payload(tmp_path)["items"][0]
+
+    assert item["description"] == "This is the exact public sentence written by the steward."
+    assert item["category"] == "community"
+    assert item["tags"] == ["explicit-tag"]
+    assert item["note_points"] == ["First authored note.", "Second authored note."]
+
+
 def test_calendar_ics_is_stable_across_repeat_exports(tmp_path: Path):
     directory_root = tmp_path / "directory"
     site_root = tmp_path / "site"
