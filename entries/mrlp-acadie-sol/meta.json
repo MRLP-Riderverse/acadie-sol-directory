@@ -1,12 +1,12 @@
 {
-  "slug": "midnightrider-sol",
-  "name": "MidnightRider.sol",
+  "slug": "mrlp-acadie-sol",
+  "name": "MRLP.Acadie.sol",
   "title": {
-    "en": "MidnightRider.sol",
-    "fr": "MidnightRider.sol",
-    "shiac": "MidnightRider.sol"
+    "en": "MRLP.Acadie.sol",
+    "fr": "MRLP.Acadie.sol",
+    "shiac": "MRLP.Acadie.sol"
   },
-  "sort_name": "MidnightRider.sol",
+  "sort_name": "MRLP.Acadie.sol",
   "brand_name": "",
   "branch_name": "",
   "aliases": ["MR LP", "Midnight Rider"],

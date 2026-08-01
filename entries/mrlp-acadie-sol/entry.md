@@ -1,4 +1,4 @@
-# MidnightRider.sol
+# MRLP.Acadie.sol
 
 Acadian builder-creator and steward of community-shaped projects.
 

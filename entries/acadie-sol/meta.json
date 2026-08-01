@@ -13,11 +13,11 @@
   "status": "published",
   "category": "community",
   "region_id": "acadie-bathurst",
-  "short_description": "Projet Pilote Acadien - 2026, a web3-inspired Acadian community and cultural media project stewarded by MidnightRider.sol.",
+  "short_description": "Projet Pilote Acadien - 2026, a web3-inspired Acadian community and cultural media project stewarded by MRLP.Acadie.sol.",
   "summary": {
-    "en": "Projet Pilote Acadien - 2026, a web3-inspired Acadian community and cultural media project stewarded by MidnightRider.sol.",
-    "fr": "Projet Pilote Acadien - 2026, un projet communautaire et de médias culturels acadiens inspiré par le web3 et porté par MidnightRider.sol.",
-    "shiac": "Projet Pilote Acadien - 2026, a web3-inspired Acadian community and cultural media project stewarded by MidnightRider.sol."
+    "en": "Projet Pilote Acadien - 2026, a web3-inspired Acadian community and cultural media project stewarded by MRLP.Acadie.sol.",
+    "fr": "Projet Pilote Acadien - 2026, un projet communautaire et de médias culturels acadiens inspiré par le web3 et porté par MRLP.Acadie.sol.",
+    "shiac": "Projet Pilote Acadien - 2026, a web3-inspired Acadian community and cultural media project stewarded by MRLP.Acadie.sol."
   },
   "location": {
     "province": "NB",
@@ -42,7 +42,7 @@
       }
     ]
   },
-  "related": [{"name": "MidnightRider.sol", "relationship": "steward"}],
+  "related": [{"name": "MRLP.Acadie.sol", "relationship": "steward"}],
   "verification": {
     "status": "steward-reviewed",
     "source": "https://acadie.sol.site/"

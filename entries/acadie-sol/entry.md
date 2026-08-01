@@ -8,7 +8,7 @@ Digitally based Acadian community project and cultural media space.
 - Social club.
 - Acadian cultural media.
 - Web3-inspired public infrastructure.
-- Stewarded by MidnightRider.sol.
+- Stewarded by MRLP.Acadie.sol.
 - Based digitally in Bathurst / Acadie-Bathurst.
 - No civic address.
 
@@ -17,7 +17,7 @@ Digitally based Acadian community project and cultural media space.
 - Facebook: https://www.facebook.com/share/1JA4uo3a2U/?mibextid=wwXIfr
 
 ## Related places
-- MidnightRider.sol
+- MRLP.Acadie.sol
 
 ## Sources
 - https://acadie.sol.site/

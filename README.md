@@ -1,7 +1,7 @@
 # acadie_sol_directory
 
 Creation date: 2026-06-08
-Author signature: MidnightRider.sol
+Author signature: MRLP.Acadie.sol
 
 The Acadie.sol Directory Protocol — a digital aboiteau for Acadian cultural continuity.
 
