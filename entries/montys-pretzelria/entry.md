@@ -9,6 +9,7 @@ Comptoir saisonnier de bretzels et de pizza à La Promenade Waterfront.
 Online listings vary on Douglas Ave details, but waterfront pages consistently place it at La Promenade Waterfront.
 Has unique foods like pretzel-burger and pretzel-dog.
 Very close to Frost Bite.
+- Reported seasonal closing date: August 27 (unverified; year not specified).
 
 ## Related places
 - Frost Bite

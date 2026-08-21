@@ -12,6 +12,7 @@ Cash only.
 On-site ATM available but sometimes breaks down, so bring cash ahead of time.
 Several banks are a short walk away downtown.
 Closed for winter / seasonal operation.
+- Reported seasonal closing date: August 27 (unverified; year not specified).
 
 ## Contact
 - Address: La Promenade Waterfront, Bathurst, NB
