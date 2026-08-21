@@ -4,7 +4,6 @@ New cleaning service based around Bathurst, NB, and serving the surrounding Chal
 
 ## Public notes
 - Deep cleaning and regular-interval cleaning services.
-- Based around Bathurst, NB, with service extending throughout the surrounding Chaleur Region.
 - Free quotes available by phone or through Facebook direct message.
 
 ## Résumé français

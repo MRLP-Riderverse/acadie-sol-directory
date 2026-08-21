@@ -1,103 +1,813 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>Acadie.sol — Signals</title>
-    <description>Acadian community signals — releases, events, calls for participation, and civic opportunities. One feed, sovereign connection.</description>
-    <link>https://acadie.sol</link>
-    <atom:link href="https://acadie.sol/feed.xml" rel="self" type="application/rss+xml"/>
+    <title>Acadie.sol — Directory</title>
+    <description>Public Acadian community directory entries from Acadie.sol.</description>
+    <link>https://acadie.sol.site</link>
+    <atom:link href="https://acadie.sol.site/feed.xml" rel="self" type="application/rss+xml" />
     <language>fr</language>
-    <lastBuildDate>Mon, 09 Jun 2026 12:00:00 -0300</lastBuildDate>
-
-    <!-- Signal: Release — "I made something, come hear it" -->
+    <lastBuildDate>Fri, 21 Aug 2026 19:05:51 GMT</lastBuildDate>
     <item>
-      <title>🎵 New Release: Rivière Rouge — MR LP</title>
-      <description>New single inspired by the parallel droughts hitting Acadian and Basque coastal communities. Folk-electronic. Available on all platforms. CC BY-NC-SA.</description>
-      <link>https://acadie.sol/releases/riveres-rouge</link>
-      <guid isPermaLink="true">https://acadie.sol/releases/riveres-rouge</guid>
-      <pubDate>Mon, 09 Jun 2026 09:00:00 -0300</pubDate>
-      <category>release</category>
-      <category>music</category>
-      <category>acadien</category>
-      <category>maritime</category>
+      <title>A.N Luxe Cleaning</title>
+      <description>Service de nettoyage établi à Bathurst, offrant des nettoyages en profondeur et un entretien régulier dans la région Chaleur.</description>
+      <link>https://acadie.sol.site/entry.html#a-n-luxe-cleaning</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#a-n-luxe-cleaning</guid>
+      <pubDate>Fri, 21 Aug 2026 19:05:51 GMT</pubDate>
+      <category>business</category>
+      <category>cleaning service</category>
+      <category>deep cleaning</category>
+      <category>regular cleaning</category>
+      <category>home services</category>
+      <category>Chaleur Region</category>
     </item>
-
-    <!-- Signal: Booking Call — "We need someone" -->
     <item>
-      <title>🎪 Festival de la Pêche — Booking Acadian Musicians</title>
-      <description>Seeking Acadian folk musicians for July 12–14 lineup. Budget $1500–2500 per act. Maritime-based preferred. Deadline: June 20.</description>
-      <link>https://festivdelapeche.com/call-for-artists</link>
-      <guid isPermaLink="true">https://festivdelapeche.com/call-for-artists-2026</guid>
-      <pubDate>Sun, 08 Jun 2026 14:00:00 -0300</pubDate>
-      <category>booking</category>
+      <title>Acadie.sol</title>
+      <description>Projet Pilote Acadien - 2026, un projet communautaire et de médias culturels acadiens inspiré par le web3 et porté par MRLP.Acadie.sol.</description>
+      <link>https://acadie.sol.site/entry.html#acadie-sol</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#acadie-sol</guid>
+      <pubDate>Wed, 22 Jul 2026 00:20:54 GMT</pubDate>
+      <category>community</category>
+      <category>Acadie.sol</category>
+      <category>community project</category>
+      <category>social club</category>
+      <category>Acadian cultural media</category>
+      <category>digital project</category>
+      <category>web3-inspired</category>
+    </item>
+    <item>
+      <title>MRLP.Acadie.sol</title>
+      <description>Concepteur de systèmes, créateur-bâtisseur en technologies émergentes et steward de projets communautaires depuis Bathurst.</description>
+      <link>https://acadie.sol.site/entry.html#mrlp-acadie-sol</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#mrlp-acadie-sol</guid>
+      <pubDate>Wed, 22 Jul 2026 00:20:54 GMT</pubDate>
+      <category>creator</category>
+      <category>systems designer</category>
+      <category>frontier tech</category>
+      <category>creator</category>
+      <category>builder</category>
+      <category>Project LP</category>
+      <category>Riderverse.sol</category>
+      <category>Acadie.sol</category>
+      <category>The Strays</category>
+      <category>digital identity</category>
+    </item>
+    <item>
+      <title>Black Pug Live</title>
+      <description>Salle d’événements en direct attachée à Black Pug Records sur la rue Main à Bathurst.</description>
+      <link>https://acadie.sol.site/entry.html#black-pug-live</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#black-pug-live</guid>
+      <pubDate>Fri, 03 Jul 2026 18:45:44 GMT</pubDate>
+      <category>venue</category>
+      <category>venue</category>
+      <category>live music</category>
+      <category>events</category>
+      <category>private events</category>
+      <category>corporate events</category>
+    </item>
+    <item>
+      <title>Bathurst City Dart Hall</title>
+      <description>Une salle communautaire locale à but non lucratif qui rassemble les gens autour des fléchettes, d’événements et de bons moments!</description>
+      <link>https://acadie.sol.site/entry.html#bathurst-city-dart-hall</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#bathurst-city-dart-hall</guid>
+      <pubDate>Sun, 21 Jun 2026 00:33:27 GMT</pubDate>
+      <category>venue</category>
+      <category>venue</category>
+      <category>community events</category>
+      <category>darts</category>
+    </item>
+    <item>
+      <title>Bathurst Hospitality Days</title>
+      <description>Organisateur, lieu et point d’appui événementiel au 100 Main St à Bathurst.</description>
+      <link>https://acadie.sol.site/entry.html#bathurst-hospitality-days</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#bathurst-hospitality-days</guid>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
+      <category>hospitality</category>
+      <category>hospitality</category>
       <category>festival</category>
-      <category>acadien</category>
-      <category>maritime</category>
+      <category>community</category>
+      <category>venue</category>
+      <category>event organizer</category>
+      <category>business</category>
     </item>
-
-    <!-- Signal: Civic — "Your input matters" -->
     <item>
-      <title>🏛️ Consultation: New Cultural Center — Moncton</title>
-      <description>City of Moncton seeking public input on proposed Acadian cultural center. Town hall July 3 at 7pm, Centre Aquarena. Online submission open until July 15. Your voice shapes what gets built.</description>
-      <link>https://moncton.ca/cultural-center-consultation</link>
-      <guid isPermaLink="true">https://moncton.ca/cultural-center-consultation-2026</guid>
-      <pubDate>Sat, 07 Jun 2026 10:00:00 -0300</pubDate>
+      <title>Bowlorama Bathurst Bowling &amp; Arcade</title>
+      <description>Salle de quilles et arcade sur l’avenue St Peter, avec nourriture et boissons sur place.</description>
+      <link>https://acadie.sol.site/entry.html#bowlorama</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#bowlorama</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>venue</category>
+      <category>bowling</category>
+      <category>arcade</category>
+      <category>entertainment</category>
+      <category>food</category>
+    </item>
+    <item>
+      <title>Dairy Queen Bathurst</title>
+      <description>Dairy Queen Grill &amp; Chill sur l’avenue St Peter à Bathurst.</description>
+      <link>https://acadie.sol.site/entry.html#dairy-queen-bathurst</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#dairy-queen-bathurst</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>food</category>
+      <category>fast food</category>
+      <category>ice cream</category>
+      <category>drive-thru</category>
+      <category>dessert</category>
+    </item>
+    <item>
+      <title>Daly Point Nature Reserve</title>
+      <description>Réserve naturelle et réseau de sentiers près de l’est d’Acadie-Bathurst.</description>
+      <link>https://acadie.sol.site/entry.html#daly-point-nature-reserve</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#daly-point-nature-reserve</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>venue</category>
+      <category>nature reserve</category>
+      <category>trail</category>
+      <category>walking</category>
+      <category>marshland</category>
+      <category>boardwalk</category>
+    </item>
+    <item>
+      <title>Dilli Delight</title>
+      <description>Restaurant de cuisine indienne sur l’avenue St Peter à Acadie-Bathurst.</description>
+      <link>https://acadie.sol.site/entry.html#dilli-delight</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#dilli-delight</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>food</category>
+      <category>indian food</category>
+      <category>restaurant</category>
+      <category>takeout</category>
+      <category>st peters ave</category>
+    </item>
+    <item>
+      <title>District Burger</title>
+      <description>Restaurant situé dans l’immeuble du Best Western sur la rue Main.</description>
+      <link>https://acadie.sol.site/entry.html#district-burger</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#district-burger</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>food</category>
+      <category>burger</category>
+      <category>restaurant</category>
+      <category>hotel dining</category>
+      <category>main street</category>
+    </item>
+    <item>
+      <title>Donair Shop</title>
+      <description>Comptoir de donairs et de mets à emporter au 100, rue Main.</description>
+      <link>https://acadie.sol.site/entry.html#donair-shop</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#donair-shop</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>food</category>
+      <category>donair</category>
+      <category>takeout</category>
+      <category>sandwiches</category>
+      <category>main street</category>
+    </item>
+    <item>
+      <title>Eastside Deli</title>
+      <description>Restaurant local sur l’avenue Miramichi, reconnu pour ses donairs, sous-marins et poutines.</description>
+      <link>https://acadie.sol.site/entry.html#eastside-deli</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#eastside-deli</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>food</category>
+      <category>deli</category>
+      <category>donair</category>
+      <category>steak sub</category>
+      <category>poutine</category>
+      <category>sandwiches</category>
+    </item>
+    <item>
+      <title>Flameo</title>
+      <description>Comptoir de bols santé et de lunch rapide à l’intérieur de Place Bathurst Mall.</description>
+      <link>https://acadie.sol.site/entry.html#flameo</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#flameo</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>food</category>
+      <category>healthy food</category>
+      <category>bowls</category>
+      <category>mall food</category>
+      <category>quick lunch</category>
+    </item>
+    <item>
+      <title>Four Rivers Brewing Co.</title>
+      <description>Brasserie artisanale locale et salle de dégustation sur l’avenue Murray.</description>
+      <link>https://acadie.sol.site/entry.html#four-rivers-brewing-co</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#four-rivers-brewing-co</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>business</category>
+      <category>brewery</category>
+      <category>taproom</category>
+      <category>craft beer</category>
+      <category>events</category>
+      <category>local</category>
+    </item>
+    <item>
+      <title>Fresco</title>
+      <description>Restaurant de style fine cuisine sur la rue King à Acadie-Bathurst.</description>
+      <link>https://acadie.sol.site/entry.html#fresco</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#fresco</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>food</category>
+      <category>fine dining</category>
+      <category>seafood</category>
+      <category>pasta</category>
+      <category>restaurant</category>
+    </item>
+    <item>
+      <title>Frost Bite</title>
+      <description>Bar laitier saisonnier à La Promenade Waterfront.</description>
+      <link>https://acadie.sol.site/entry.html#frost-bite</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#frost-bite</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>food</category>
+      <category>ice cream</category>
+      <category>seasonal</category>
+      <category>waterfront</category>
+      <category>dessert</category>
+    </item>
+    <item>
+      <title>Greenhouse Lounge - Marina</title>
+      <description>Restaurant et lounge situé à la marina de Bathurst.</description>
+      <link>https://acadie.sol.site/entry.html#greenhouse-lounge-marina</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#greenhouse-lounge-marina</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>business</category>
+      <category>venue</category>
+      <category>lounge</category>
+      <category>restaurant</category>
+      <category>bar</category>
+      <category>marina</category>
+    </item>
+    <item>
+      <title>Greenhouse Lounge - Place Bathurst Mall</title>
+      <description>Restaurant, bar et lounge à l’intérieur de Place Bathurst Mall.</description>
+      <link>https://acadie.sol.site/entry.html#greenhouse-lounge-place-bathurst-mall</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#greenhouse-lounge-place-bathurst-mall</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>business</category>
+      <category>venue</category>
+      <category>lounge</category>
+      <category>restaurant</category>
+      <category>bar</category>
+      <category>mall</category>
+    </item>
+    <item>
+      <title>House of Lee</title>
+      <description>Restaurant chinois avec buffet du midi et du soir.</description>
+      <link>https://acadie.sol.site/entry.html#house-of-lee</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#house-of-lee</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>food</category>
+      <category>buffet</category>
+      <category>chinese</category>
+      <category>restaurant</category>
+    </item>
+    <item>
+      <title>Joey's Pub and Eatery</title>
+      <description>Pub et restaurant au 2050, avenue St Peter à Bathurst.</description>
+      <link>https://acadie.sol.site/entry.html#joeys-pub-and-eatery</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#joeys-pub-and-eatery</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>food</category>
+      <category>pub</category>
+      <category>eatery</category>
+      <category>bar</category>
+      <category>restaurant</category>
+    </item>
+    <item>
+      <title>J’s Auto Detailing</title>
+      <description>Service de detailing automobile sur la rue St Paul à Acadie-Bathurst.</description>
+      <link>https://acadie.sol.site/entry.html#js-auto-detailing</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#js-auto-detailing</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>business</category>
+      <category>auto detailing</category>
+      <category>car wash</category>
+      <category>services</category>
+    </item>
+    <item>
+      <title>K.C. Irving Regional Centre</title>
+      <description>Aréna et centre régional d’événements à Bathurst.</description>
+      <link>https://acadie.sol.site/entry.html#k-c-irving-regional-centre</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#k-c-irving-regional-centre</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
       <category>civic</category>
-      <category>consultation</category>
-      <category>acadien</category>
-      <category>maritime</category>
+      <category>arena</category>
+      <category>regional centre</category>
+      <category>events</category>
+      <category>sports</category>
     </item>
-
-    <!-- Signal: Available — "I can do something" -->
     <item>
-      <title>🎵 Marie Boudreau — Available for Summer Festival Bookings</title>
-      <description>Singer-songwriter based in Moncton. Acadian folk with contemporary arrangements. Available July–August, Maritime range. Willing to travel within 300km. Contact via website.</description>
-      <link>https://marieboudreau.com</link>
-      <guid isPermaLink="true">https://acadie.sol/feeds/marie-boudreau#available-2026-summer</guid>
-      <pubDate>Fri, 06 Jun 2026 16:00:00 -0300</pubDate>
-      <category>available</category>
+      <title>Kaffeine Express Bathurst</title>
+      <description>Café et bar espresso au centre-ville de Bathurst.</description>
+      <link>https://acadie.sol.site/entry.html#kaffeine-express-bathurst</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#kaffeine-express-bathurst</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>food</category>
+      <category>coffee</category>
+      <category>café</category>
+      <category>espresso</category>
+      <category>downtown</category>
+    </item>
+    <item>
+      <title>King’s Barber Shop</title>
+      <description>Barbier local avec ambiance familiale et une touche punk.</description>
+      <link>https://acadie.sol.site/entry.html#kings-barber-shop</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#kings-barber-shop</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>business</category>
+      <category>barber</category>
+      <category>hair</category>
+      <category>grooming</category>
+      <category>family-friendly</category>
+    </item>
+    <item>
+      <title>Kryptic</title>
+      <description>Artiste EDM d’Acadie-Bathurst qui produit et présente ses propres spectacles.</description>
+      <link>https://acadie.sol.site/entry.html#kryptic</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#kryptic</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>musician</category>
       <category>music</category>
-      <category>acadien</category>
-      <category>maritime</category>
+      <category>artist</category>
     </item>
-
-    <!-- Signal: Volunteer — "Help wanted" -->
     <item>
-      <title>🤝 SOS Pêcheurs — Shoreline Cleanup Volunteer Call</title>
-      <description>Community shoreline cleanup June 14, 9am, Pointe-du-Chêne. Bring gloves and boots. Families welcome. Lunch provided by local sponsors. Signal group for coordination: link on site.</description>
-      <link>https://sospecheurs.org/cleanup-june-14</link>
-      <guid isPermaLink="true">https://sospecheurs.org/cleanup-june-14</guid>
-      <pubDate>Thu, 05 Jun 2026 08:00:00 -0300</pubDate>
-      <category>volunteer</category>
+      <title>Liberty Tax Bathurst</title>
+      <description>Bureau de services fiscaux Liberty Tax à Bathurst.</description>
+      <link>https://acadie.sol.site/entry.html#liberty-tax-bathurst</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#liberty-tax-bathurst</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>business</category>
+      <category>tax</category>
+      <category>accountant</category>
+      <category>office</category>
+      <category>services</category>
+    </item>
+    <item>
+      <title>Librairie Pélagie</title>
+      <description>Librairie située au 14, avenue Douglas, dans le secteur de La Promenade Waterfront.</description>
+      <link>https://acadie.sol.site/entry.html#librairie-pelagie</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#librairie-pelagie</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>business</category>
+      <category>bookstore</category>
+      <category>books</category>
+      <category>waterfront</category>
+      <category>retail</category>
+    </item>
+    <item>
+      <title>McDonald's Bathurst — 620 St. Peter Ave</title>
+      <description>Restaurant McDonald’s au 620, avenue St Peter à Bathurst.</description>
+      <link>https://acadie.sol.site/entry.html#mcdonalds-bathurst-620-st-peter-ave</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#mcdonalds-bathurst-620-st-peter-ave</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>food</category>
+      <category>fast food</category>
+      <category>burger</category>
+      <category>drive-thru</category>
+      <category>fries</category>
+    </item>
+    <item>
+      <title>McDonald's Bathurst — 900 St. Anne St (Walmart)</title>
+      <description>Restaurant McDonald’s au Walmart, 900, rue St Anne à Bathurst.</description>
+      <link>https://acadie.sol.site/entry.html#mcdonalds-bathurst-900-st-anne-st-walmart</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#mcdonalds-bathurst-900-st-anne-st-walmart</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>food</category>
+      <category>fast food</category>
+      <category>burger</category>
+      <category>walmart</category>
+      <category>drive-thru</category>
+    </item>
+    <item>
+      <title>MexiGlu</title>
+      <description>Restaurant de cuisine mexicaine dans le même bâtiment que Pizza Pro sur l’avenue St Peter.</description>
+      <link>https://acadie.sol.site/entry.html#mexiglu</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#mexiglu</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>food</category>
+      <category>mexican food</category>
+      <category>restaurant</category>
+      <category>takeout</category>
+      <category>st peters ave</category>
+    </item>
+    <item>
+      <title>Monty's Pretzelria</title>
+      <description>Comptoir saisonnier de bretzels et de pizza à La Promenade Waterfront.</description>
+      <link>https://acadie.sol.site/entry.html#montys-pretzelria</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#montys-pretzelria</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>food</category>
+      <category>pretzel</category>
+      <category>pizza</category>
+      <category>waterfront</category>
+      <category>seasonal</category>
+    </item>
+    <item>
+      <title>New Brunswick Distillery</title>
+      <description>Distillerie artisanale au centre-ville de Bathurst, aussi connue sous le nom NB Distillery.</description>
+      <link>https://acadie.sol.site/entry.html#new-brunswick-distillery</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#new-brunswick-distillery</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>business</category>
+      <category>distillery</category>
+      <category>spirits</category>
+      <category>craft beer</category>
+      <category>downtown</category>
+    </item>
+    <item>
+      <title>Pabineau First Nations Mawi'om</title>
+      <description>Station-service, dépanneur et point de vente de boissons au 1555, boulevard Vanier.</description>
+      <link>https://acadie.sol.site/entry.html#pabineau-first-nations-mawiom</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#pabineau-first-nations-mawiom</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>business</category>
+      <category>gas station</category>
+      <category>convenience store</category>
+      <category>liquor</category>
+      <category>24-7</category>
+    </item>
+    <item>
+      <title>Papa Joe &amp; Evy's Restaurant</title>
+      <description>Restaurant familial et homestyle au 296, rue St George à Bathurst.</description>
+      <link>https://acadie.sol.site/entry.html#papa-joe-evys-restaurant</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#papa-joe-evys-restaurant</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>food</category>
+      <category>restaurant</category>
+      <category>homestyle</category>
+      <category>family dining</category>
+      <category>local</category>
+    </item>
+    <item>
+      <title>Petro-Canada</title>
+      <description>Station-service et lave-auto Petro-Canada au 896, rue Main.</description>
+      <link>https://acadie.sol.site/entry.html#petro-canada-main-st</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#petro-canada-main-st</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>business</category>
+      <category>gas station</category>
+      <category>car wash</category>
+      <category>convenience store</category>
+      <category>fuel</category>
+    </item>
+    <item>
+      <title>Pizza Delight Bathurst</title>
+      <description>Restaurant Pizza Delight à Bathurst.</description>
+      <link>https://acadie.sol.site/entry.html#pizza-delight-bathurst</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#pizza-delight-bathurst</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>food</category>
+      <category>pizza</category>
+      <category>family restaurant</category>
+      <category>takeout</category>
+      <category>delivery</category>
+    </item>
+    <item>
+      <title>Pizza Delight Campbellton</title>
+      <description>Restaurant Pizza Delight à Campbellton.</description>
+      <link>https://acadie.sol.site/entry.html#pizza-delight-campbellton</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#pizza-delight-campbellton</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>food</category>
+      <category>pizza</category>
+      <category>family restaurant</category>
+      <category>takeout</category>
+      <category>delivery</category>
+    </item>
+    <item>
+      <title>Pizza Delight Tracadie</title>
+      <description>Restaurant Pizza Delight à Tracadie-Sheila.</description>
+      <link>https://acadie.sol.site/entry.html#pizza-delight-tracadie</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#pizza-delight-tracadie</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>food</category>
+      <category>pizza</category>
+      <category>family restaurant</category>
+      <category>takeout</category>
+      <category>delivery</category>
+    </item>
+    <item>
+      <title>Pizza Pro Bathurst</title>
+      <description>Restaurant Pizza Pro à Bathurst, dans le corridor de l’avenue St Peter.</description>
+      <link>https://acadie.sol.site/entry.html#pizza-pro-bathurst</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#pizza-pro-bathurst</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>food</category>
+      <category>pizza</category>
+      <category>takeout</category>
+      <category>delivery</category>
+      <category>st peters ave</category>
+    </item>
+    <item>
+      <title>Pizza Shack (Bathurst location)</title>
+      <description>Emplacement Pizza Shack à Bathurst.</description>
+      <link>https://acadie.sol.site/entry.html#pizza-shack-bathurst</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#pizza-shack-bathurst</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>food</category>
+      <category>pizza</category>
+      <category>chain</category>
+      <category>takeout</category>
+      <category>delivery</category>
+    </item>
+    <item>
+      <title>Pur and Simple</title>
+      <description>Restaurant déjeuner et dîner près du Walmart de Bathurst.</description>
+      <link>https://acadie.sol.site/entry.html#pur-and-simple</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#pur-and-simple</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>food</category>
+      <category>breakfast</category>
+      <category>brunch</category>
+      <category>lunch</category>
+      <category>crepes</category>
+      <category>family dining</category>
+    </item>
+    <item>
+      <title>Robin’s Donuts</title>
+      <description>Robin’s Donuts situé dans la même station-service que Petro-Canada sur la rue Main.</description>
+      <link>https://acadie.sol.site/entry.html#robins-donuts-main-st</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#robins-donuts-main-st</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>food</category>
+      <category>coffee</category>
+      <category>donuts</category>
+      <category>convenience</category>
+      <category>gas station</category>
+    </item>
+    <item>
+      <title>Speedy Glass</title>
+      <description>Service de réparation de vitres automobiles près de Place Bathurst Mall.</description>
+      <link>https://acadie.sol.site/entry.html#speedy-glass</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#speedy-glass</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>business</category>
+      <category>auto glass</category>
+      <category>repair</category>
+      <category>automotive service</category>
+    </item>
+    <item>
+      <title>Subway Bathurst — 880 St. Anne St</title>
+      <description>Restaurant Subway au 880, rue St Anne à Bathurst.</description>
+      <link>https://acadie.sol.site/entry.html#subway-bathurst-880-st-anne-st</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#subway-bathurst-880-st-anne-st</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>food</category>
+      <category>sandwich</category>
+      <category>fast food</category>
+      <category>takeout</category>
+      <category>chain</category>
+    </item>
+    <item>
+      <title>Subway Belle-Baie (Beresford) — 730 Rue Principale</title>
+      <description>Restaurant Subway à Belle-Baie/Beresford, au 730, rue Principale.</description>
+      <link>https://acadie.sol.site/entry.html#subway-belle-baie-beresford-730-rue-principale</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#subway-belle-baie-beresford-730-rue-principale</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>food</category>
+      <category>sandwich</category>
+      <category>fast food</category>
+      <category>takeout</category>
+      <category>chain</category>
+    </item>
+    <item>
+      <title>Theriault’s Grocers</title>
+      <description>Petite épicerie locale avec boucherie et transformation de viande sur place.</description>
+      <link>https://acadie.sol.site/entry.html#theriaults-grocers</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#theriaults-grocers</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>business</category>
+      <category>grocery</category>
+      <category>butcher</category>
+      <category>local food</category>
+      <category>meat</category>
       <category>community</category>
-      <category>acadien</category>
-      <category>maritime</category>
     </item>
-
-    <!-- Signal: Meetup — "Come be part of this" -->
     <item>
-      <title>🤝 Weekly Kitchen Table Meetup — Lafayette</title>
-      <description>Every Tuesday 7pm at Maison Acadienne. No agenda, no pressure. Come talk about what you wish you knew sooner. We listen, we write it down, we publish it. Remote? DM for Signal link. Stewards in other towns welcome.</description>
-      <link>https://acadie.sol/meetups/lafayette</link>
-      <guid isPermaLink="true">https://acadie.sol/meetups/lafayette-2026-06-09</guid>
-      <pubDate>Mon, 09 Jun 2026 13:00:00 -0300</pubDate>
-      <category>meetup</category>
-      <category>community</category>
-      <category>cajun</category>
-      <category>louisiane</category>
+      <title>Thru-Shine Automotive Detailing Services</title>
+      <description>Service de detailing automobile sur l’avenue St Peter près de Bowlorama et Big D Drive-In.</description>
+      <link>https://acadie.sol.site/entry.html#thru-shine-automotive-detailing-services</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#thru-shine-automotive-detailing-services</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>business</category>
+      <category>auto detailing</category>
+      <category>car detailing</category>
+      <category>automotive service</category>
     </item>
-
-    <!-- Signal: Briefing — "Here's what happened" -->
     <item>
-      <title>🗞️ Acadian Weekly Briefing — 2026-06-09</title>
-      <description>Nouvelle-Aquitaine deploys satellite WiFi across rural communities. Basque Country launches new cultural communication strategy. Festival de la Pêche booking call open. Moncton cultural center consultation announced.</description>
-      <link>https://acadie.sol/briefing/2026-06-09</link>
-      <guid isPermaLink="true">https://acadie.sol/briefing/2026-06-09</guid>
-      <pubDate>Mon, 09 Jun 2026 06:00:00 -0300</pubDate>
-      <category>briefing</category>
-      <category>acadien</category>
-      <category>cajun</category>
-      <category>basque</category>
+      <title>Walmart Bathurst</title>
+      <description>Walmart Supercentre au 900, rue St Anne à Bathurst.</description>
+      <link>https://acadie.sol.site/entry.html#walmart-bathurst</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#walmart-bathurst</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>business</category>
+      <category>big box</category>
+      <category>department store</category>
+      <category>grocery</category>
+      <category>retail</category>
     </item>
-
+    <item>
+      <title>Youghall Beach</title>
+      <description>Parc de plage Youghall au nord d’Acadie-Bathurst, avec promenade et zone de baignade désignée.</description>
+      <link>https://acadie.sol.site/entry.html#youghall-beach</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#youghall-beach</guid>
+      <pubDate>Fri, 19 Jun 2026 02:32:35 GMT</pubDate>
+      <category>venue</category>
+      <category>beach</category>
+      <category>park</category>
+      <category>boardwalk</category>
+      <category>swimming</category>
+      <category>waterfront</category>
+    </item>
+    <item>
+      <title>A&amp;W</title>
+      <description>Classic A&amp;W on St-Peters Ave near Place Bathurst Mall and Home Hardware.</description>
+      <link>https://acadie.sol.site/entry.html#a-and-w</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#a-and-w</guid>
+      <pubDate>Fri, 19 Jun 2026 01:47:55 GMT</pubDate>
+      <category>food</category>
+      <category>food</category>
+      <category>fast food</category>
+      <category>drive-thru</category>
+    </item>
+    <item>
+      <title>Acadie-Bathurst Information Center</title>
+      <description>Tourism info stop at La Promenade Waterfront near Frost Bite and Monty's.</description>
+      <link>https://acadie.sol.site/entry.html#acadie-bathurst-information-center</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#acadie-bathurst-information-center</guid>
+      <pubDate>Fri, 19 Jun 2026 01:47:55 GMT</pubDate>
+      <category>civic</category>
+      <category>tourism</category>
+      <category>information center</category>
+      <category>waterfront</category>
+    </item>
+    <item>
+      <title>Apollo Cinema</title>
+      <description>Movie theatre on St. Anne St in Bathurst.</description>
+      <link>https://acadie.sol.site/entry.html#apollo-cinema</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#apollo-cinema</guid>
+      <pubDate>Fri, 19 Jun 2026 01:47:55 GMT</pubDate>
+      <category>venue</category>
+      <category>cinema</category>
+      <category>theatre</category>
+      <category>entertainment</category>
+      <category>movies</category>
+    </item>
+    <item>
+      <title>Atlantic Host</title>
+      <description>Hotel on Vanier St near the airport.</description>
+      <link>https://acadie.sol.site/entry.html#atlantic-host</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#atlantic-host</guid>
+      <pubDate>Fri, 19 Jun 2026 01:47:55 GMT</pubDate>
+      <category>business</category>
+      <category>hotel</category>
+      <category>lodging</category>
+      <category>restaurant</category>
+      <category>bar</category>
+      <category>parking</category>
+    </item>
+    <item>
+      <title>Bathurst Agricultural Society #3</title>
+      <description>Livestock feed and supply store in Bathurst.</description>
+      <link>https://acadie.sol.site/entry.html#bathurst-agricultural-society-3</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#bathurst-agricultural-society-3</guid>
+      <pubDate>Fri, 19 Jun 2026 01:47:55 GMT</pubDate>
+      <category>business</category>
+      <category>livestock</category>
+      <category>feed</category>
+      <category>supply</category>
+      <category>farm</category>
+    </item>
+    <item>
+      <title>Big Deal Market</title>
+      <description>Produce market on King Ave in Bathurst.</description>
+      <link>https://acadie.sol.site/entry.html#big-deal-market</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#big-deal-market</guid>
+      <pubDate>Fri, 19 Jun 2026 01:47:55 GMT</pubDate>
+      <category>food</category>
+      <category>grocery</category>
+      <category>produce</category>
+      <category>market</category>
+    </item>
+    <item>
+      <title>Bootlegger</title>
+      <description>Bar and patio on Main St near La Louga Night Club and La Promenade Waterfront.</description>
+      <link>https://acadie.sol.site/entry.html#bootlegger</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#bootlegger</guid>
+      <pubDate>Fri, 19 Jun 2026 01:47:55 GMT</pubDate>
+      <category>venue</category>
+      <category>bar</category>
+      <category>patio</category>
+      <category>nightlife</category>
+      <category>restaurant</category>
+    </item>
+    <item>
+      <title>Burger King Bathurst</title>
+      <description>Fast-food Burger King on 725 St Peter Ave in Bathurst.</description>
+      <link>https://acadie.sol.site/entry.html#burger-king-bathurst</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#burger-king-bathurst</guid>
+      <pubDate>Fri, 19 Jun 2026 01:47:55 GMT</pubDate>
+      <category>food</category>
+      <category>fast food</category>
+      <category>burger</category>
+      <category>drive-thru</category>
+    </item>
+    <item>
+      <title>CCNB Bathurst Campus — 725 College St</title>
+      <description>Main CCNB Bathurst campus at 725 College St.</description>
+      <link>https://acadie.sol.site/entry.html#ccnb-bathurst-campus-725-college-st</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#ccnb-bathurst-campus-725-college-st</guid>
+      <pubDate>Fri, 19 Jun 2026 01:47:55 GMT</pubDate>
+      <category>educator</category>
+      <category>college</category>
+      <category>campus</category>
+      <category>education</category>
+    </item>
+    <item>
+      <title>CCNB Bathurst Campus — 75 Youghall Dr</title>
+      <description>CCNB Bathurst / Campus Youghall at 75 Youghall Dr.</description>
+      <link>https://acadie.sol.site/entry.html#ccnb-bathurst-campus-75-youghall-dr</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#ccnb-bathurst-campus-75-youghall-dr</guid>
+      <pubDate>Fri, 19 Jun 2026 01:47:55 GMT</pubDate>
+      <category>educator</category>
+      <category>college</category>
+      <category>campus</category>
+      <category>education</category>
+      <category>trades</category>
+    </item>
+    <item>
+      <title>Chicken King &amp; Chinese Palace Restaurant</title>
+      <description>Restaurant with chicken and Chinese takeout on Miramichi Ave.</description>
+      <link>https://acadie.sol.site/entry.html#chicken-king-and-chinese-palace</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#chicken-king-and-chinese-palace</guid>
+      <pubDate>Fri, 19 Jun 2026 01:47:55 GMT</pubDate>
+      <category>food</category>
+      <category>restaurant</category>
+      <category>chinese</category>
+      <category>takeout</category>
+      <category>fried chicken</category>
+    </item>
+    <item>
+      <title>Official Display Name</title>
+      <description>One-line public card summary.</description>
+      <link>https://acadie.sol.site/entry.html#official-entry-slug</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#official-entry-slug</guid>
+      <pubDate>Fri, 19 Jun 2026 01:30:27 GMT</pubDate>
+      <category>business</category>
+    </item>
+    <item>
+      <title>Big D Drive-In</title>
+      <description>Maison du fameux 'Big D Burger'.</description>
+      <link>https://acadie.sol.site/entry.html#big-d-drive-in</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#big-d-drive-in</guid>
+      <pubDate>Thu, 18 Jun 2026 22:40:58 GMT</pubDate>
+      <category>food</category>
+      <category>drive-in</category>
+      <category>burger</category>
+      <category>restaurant</category>
+      <category>picnic</category>
+      <category>family</category>
+    </item>
+    <item>
+      <title>La Louga Night Bar - Resto</title>
+      <description>Bar-salon nocturne de Bathurst avec une forte présence sociale Francophone.</description>
+      <link>https://acadie.sol.site/entry.html#la-louga-night-bar-resto</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#la-louga-night-bar-resto</guid>
+      <pubDate>Thu, 18 Jun 2026 22:40:13 GMT</pubDate>
+      <category>venue</category>
+      <category>bar</category>
+      <category>nightlife</category>
+      <category>downtown</category>
+      <category>live music</category>
+      <category>dance</category>
+    </item>
+    <item>
+      <title>13 Barrels Brewing</title>
+      <description>Maison du 13 Barrels'.</description>
+      <link>https://acadie.sol.site/entry.html#13-barrels-brewing</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#13-barrels-brewing</guid>
+      <pubDate>Thu, 18 Jun 2026 22:05:58 GMT</pubDate>
+      <category>food</category>
+      <category>drinks</category>
+      <category>brewery</category>
+      <category>taproom</category>
+      <category>waterfront</category>
+      <category>family</category>
+      <category>event space</category>
+      <category>online orders</category>
+    </item>
+    <item>
+      <title>Bathurst Municipal Library</title>
+      <description>Bibliothèque publique au service de Bathurst et des environs.</description>
+      <link>https://acadie.sol.site/entry.html#bathurst-municipal-library</link>
+      <guid isPermaLink="true">https://acadie.sol.site/entry.html#bathurst-municipal-library</guid>
+      <pubDate>Thu, 18 Jun 2026 21:54:37 GMT</pubDate>
+      <category>civic</category>
+      <category>library</category>
+      <category>public service</category>
+      <category>civic</category>
+      <category>community venue</category>
+      <category>events</category>
+    </item>
   </channel>
 </rss>
