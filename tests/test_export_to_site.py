@@ -109,6 +109,15 @@ def test_hours_schedule_expands_weekly_ranges_and_marks_missing_days_closed():
 
 def test_hours_schedule_keeps_ambiguous_prose_as_fallback():
     assert export_to_site.parse_hours_schedule("seasonal / closed for winter") == []
+    assert export_to_site.parse_hours_schedule("most evenings and some matinee showings") == []
+
+
+def test_hours_schedule_splits_multiple_ranges_on_one_line():
+    rows = export_to_site.parse_hours_schedule("Sun-Tue 12:00-18:00, Wed 12:00-20:00, Thu-Sat 12:00-23:00")
+    assert [row["hours"] for row in rows] == [
+        "12:00-18:00", "12:00-18:00", "12:00-20:00",
+        "12:00-23:00", "12:00-23:00", "12:00-23:00", "12:00-18:00",
+    ]
 
 
 def test_official_entry_prefers_meta_json_contract(tmp_path: Path):
