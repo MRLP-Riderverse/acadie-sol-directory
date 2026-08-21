@@ -13,7 +13,7 @@ Preserve useful context, vibe, caveats, landmarks, owner/user phrasing, and unce
 
 ## Public data to carry forward
 - Address: [if known]
-- Hours: [if known]
+- Hours: [prefer `Mon-Fri 09:00–17:00; Sat 10:00–14:00`; exporter displays recognized weekly ranges as one row per day and marks omitted days Closed]
 - Phone: [if known]
 - Email: [if known]
 - Website: [if known]

@@ -19,6 +19,7 @@
 - Never create an entry without both `entry.md` AND `meta.json`.
 - Validate `meta.json` fields against the schema before writing.
 - After adding/editing entries, run `scripts/generate_feed.py` to update `feed.xml`.
+- Write recognizable weekly hours as `Mon-Fri 09:00–17:00; Sat 10:00–14:00`; the exporter expands this into Monday–Sunday rows and marks omitted days `Closed`. Keep seasonal or otherwise ambiguous hours as prose so they are not guessed.
 - Keep `logs/` append-only and follow the timestamp format from `projects/README.md`.
 - Put project-specific helper scripts in `scripts/`.
 - Draft entries go in `inbox/` first, then move to `entries/` when polished.

@@ -99,6 +99,18 @@ Home of the Big D Burger.
     assert item["source_type"] == "inbox"
 
 
+def test_hours_schedule_expands_weekly_ranges_and_marks_missing_days_closed():
+    rows = export_to_site.parse_hours_schedule("Mon-Fri 09:00–17:00; Sat 10:00–14:00")
+    assert [row["day"] for row in rows] == ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+    assert rows[0]["hours"] == "09:00–17:00"
+    assert rows[5]["hours"] == "10:00–14:00"
+    assert rows[6]["hours"] == "Closed"
+
+
+def test_hours_schedule_keeps_ambiguous_prose_as_fallback():
+    assert export_to_site.parse_hours_schedule("seasonal / closed for winter") == []
+
+
 def test_official_entry_prefers_meta_json_contract(tmp_path: Path):
     write(
         tmp_path / "entries" / "pizza-delight-bathurst-st-peter-ave" / "entry.md",

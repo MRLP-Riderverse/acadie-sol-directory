@@ -36,11 +36,58 @@ DEFAULT_SITE_ROOT = DEFAULT_DIRECTORY_ROOT.with_name("acadie_sol")
 CONTACT_KEYS = {"address", "hours", "phone", "email", "website"}
 SCHEMA_VERSION = 1
 LANG_KEYS = ("en", "fr", "shiac")
+DAY_NAMES = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
+DAY_ALIASES = {
+    "mon": 0, "monday": 0, "lun": 0, "lundi": 0,
+    "tue": 1, "tues": 1, "tuesday": 1, "mar": 1, "mardi": 1,
+    "wed": 2, "wednesday": 2, "mer": 2, "mercredi": 2,
+    "thu": 3, "thur": 3, "thurs": 3, "thursday": 3, "jeu": 3, "jeudi": 3,
+    "fri": 4, "friday": 4, "ven": 4, "vendredi": 4,
+    "sat": 5, "saturday": 5, "sam": 5, "samedi": 5,
+    "sun": 6, "sunday": 6, "dim": 6, "dimanche": 6,
+}
 
 
 def clean_text(value: str) -> str:
     """Normalize whitespace while preserving human-authored wording."""
     return re.sub(r"\s+", " ", str(value or "")).strip()
+
+
+def parse_hours_schedule(value: str) -> list[dict[str, str]]:
+    """Parse common weekly ranges without guessing at ambiguous prose.
+
+    A recognized weekly schedule always returns all seven days in semantic
+    order, marking omitted days Closed. Unparseable text returns an empty list
+    so the original hours string remains the public fallback.
+    """
+    raw = clean_text(value)
+    if not raw:
+        return []
+    parts = [clean_text(part) for part in re.split(r"\s*;\s*|\s*\n\s*", raw) if clean_text(part)]
+    schedule: dict[int, str] = {}
+    recognized = False
+    for part in parts:
+        match = re.search(r"(?i)(monday|mon|tuesday|tues|tue|wednesday|wed|thursday|thur|thurs|thu|friday|fri|saturday|sat|sunday|sun|lundi|lun|mardi|mar|mercredi|mer|jeudi|jeu|vendredi|ven|samedi|sam|dimanche|dim)(?:\s*(?:-|–|—|to|à)\s*(monday|mon|tuesday|tues|tue|wednesday|wed|thursday|thur|thurs|thu|friday|fri|saturday|sat|sunday|sun|lundi|lun|mardi|mar|mercredi|mer|jeudi|jeu|vendredi|ven|samedi|sam|dimanche|dim))?", part)
+        if not match:
+            if re.search(r"(?i)\b(open\s+)?every\s+day\b", part):
+                day_indexes = list(range(7))
+                remainder = re.sub(r"(?i)\b(open\s+)?every\s+day\b\s*[,:-]?\s*", "", part).strip()
+            else:
+                continue
+        else:
+            start = DAY_ALIASES[match.group(1).casefold()]
+            end = DAY_ALIASES[match.group(2).casefold()] if match.group(2) else start
+            day_indexes = list(range(start, end + 1)) if start <= end else list(range(start, 7)) + list(range(0, end + 1))
+            remainder = (part[:match.start()] + part[match.end():]).strip(" ,:-")
+        remainder = re.sub(r"(?i)^(?:open|hours?|from)\s*[:,-]?\s*", "", remainder).strip()
+        if not remainder:
+            return []
+        for index in day_indexes:
+            schedule[index] = remainder
+        recognized = True
+    if not recognized:
+        return []
+    return [{"day": DAY_NAMES[index], "hours": schedule.get(index, "Closed")} for index in range(7)]
 
 
 def slugify(value: str) -> str:
@@ -238,6 +285,7 @@ def build_item(
         "contact": contact,
         "address": contact["address"],
         "hours": contact["hours"],
+        "hours_schedule": parse_hours_schedule(contact["hours"]),
         "phone": contact["phone"],
         "email": contact["email"],
         "website": contact["website"],
