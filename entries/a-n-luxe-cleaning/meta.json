@@ -1,0 +1,56 @@
+{
+  "slug": "a-n-luxe-cleaning",
+  "name": "A.N Luxe Cleaning",
+  "title": {
+    "en": "A.N Luxe Cleaning",
+    "fr": "A.N Luxe Cleaning",
+    "shiac": "A.N Luxe Cleaning"
+  },
+  "sort_name": "A.N Luxe Cleaning",
+  "brand_name": "",
+  "branch_name": "",
+  "aliases": ["AN Luxe Cleaning"],
+  "status": "published",
+  "category": "business",
+  "region_id": "acadie-bathurst",
+  "short_description": "Bathurst-area cleaning service offering deep cleaning and regular-interval services across the Chaleur Region.",
+  "summary": {
+    "en": "Bathurst-area cleaning service offering deep cleaning and regular-interval services across the Chaleur Region.",
+    "fr": "Service de nettoyage établi à Bathurst, offrant des nettoyages en profondeur et un entretien régulier dans la région Chaleur.",
+    "shiac": "Bathurst-area cleaning service offering deep cleaning and regular-interval services across the Chaleur Region."
+  },
+  "location": {
+    "province": "NB",
+    "region": "Chaleur",
+    "municipality": "Bathurst",
+    "public_area": "Acadie-Bathurst",
+    "geocircle": "Bathurst and surrounding Chaleur Region"
+  },
+  "tags": ["cleaning service", "deep cleaning", "regular cleaning", "home services", "Chaleur Region"],
+  "contact": {
+    "address": "",
+    "hours": "",
+    "phone": "1 (506) 252-2629",
+    "email": "anluxecleaning@outlook.com",
+    "website": ""
+  },
+  "links": {
+    "social": [
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/share/1Bmg246ii4/?mibextid=wwXIfr"
+      }
+    ]
+  },
+  "related": [],
+  "verification": {
+    "status": "unverified",
+    "source": "https://www.facebook.com/share/1Bmg246ii4/?mibextid=wwXIfr"
+  },
+  "meta": {
+    "created": "2026-08-21T19:05:51Z",
+    "updated": "2026-08-21T19:05:51Z",
+    "steward": "Acadie.sol",
+    "entry_version": 1
+  }
+}
