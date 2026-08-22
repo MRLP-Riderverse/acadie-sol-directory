@@ -10,6 +10,12 @@ Petite épicerie locale avec boucherie et transformation de viande sur place.
 - East of Bathurst proper.
 - Good community shopping experience.
 
+## Notes publiques
+
+- Près de la promenade nature de la pointe Daly.
+- À l’est de Bathurst même.
+- Une bonne expérience de magasinage de proximité.
+
 ## Contact
 - Address: Bridge St (exact civic address not confirmed)
 

@@ -8,6 +8,10 @@ Aréna et centre régional d’événements à Bathurst.
 ## Public notes
 Arena / regional centre in Bathurst.
 
+## Notes publiques
+
+- Aréna / centre régional à Bathurst.
+
 ## Contact
 - Address: Public search results point to 14 Sean Couturier Avenue, Bathurst, NB E2A 6X2.
 

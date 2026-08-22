@@ -8,6 +8,10 @@ Bureau de services fiscaux Liberty Tax à Bathurst.
 ## Public notes
 Liberty Tax office in Bathurst.
 
+## Notes publiques
+
+- Bureau Liberty Tax à Bathurst.
+
 ## Contact
 - Address: Official page title points to 994 St. Peter Ave, Bathurst, NB E2A 2Z4.
 

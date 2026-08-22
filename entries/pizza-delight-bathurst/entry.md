@@ -8,6 +8,10 @@ Restaurant Pizza Delight à Bathurst.
 ## Public notes
 Pizza Delight location in Bathurst.
 
+## Notes publiques
+
+- Restaurant Pizza Delight à Bathurst.
+
 ## Contact
 - Address: Public search results point to 980 St. Peter Avenue, Bathurst, NB E2A 2Z4.
 

@@ -10,6 +10,11 @@ Food and drink services available.
 Has slushies and fried pickles.
 Nice.
 
+## Notes publiques
+- Service de nourriture et de boissons offert.
+- Granités et cornichons frits disponibles.
+- Bien.
+
 ## Contact
 - Address: 2020 St Peter Ave, Bathurst, NB E2A 7J6
 - Phone: (506) 546-2020

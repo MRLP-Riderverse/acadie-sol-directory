@@ -10,6 +10,11 @@ Comptoir de bols santé et de lunch rapide à l’intérieur de Place Bathurst M
 Phone: 1 (506) 545-2456.
 Healthy food options in a bowl.
 
+## Notes publiques
+- 1300, avenue St-Peters.
+- Téléphone : 1 (506) 545-2456.
+- Options santé servies en bol.
+
 ## Contact
 - Address: 1300 St-Peters Ave, Bathurst, NB E2A 3A6
 - Phone: 1 (506) 545-2456

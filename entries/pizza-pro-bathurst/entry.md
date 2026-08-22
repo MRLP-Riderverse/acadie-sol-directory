@@ -8,6 +8,10 @@ Restaurant Pizza Pro à Bathurst, dans le corridor de l’avenue St Peter.
 ## Public notes
 Same corridor as MexiGlu.
 
+## Notes publiques
+
+- Dans le même corridor que MexiGlu.
+
 ## Contact
 - Address: Public search results point to 755 St. Peter Ave, Bathurst, NB.
 

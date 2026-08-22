@@ -2,8 +2,14 @@
 
 CCNB Bathurst / Campus Youghall at 75 Youghall Dr.
 
+## Résumé français
+CCNB Bathurst / campus Youghall, au 75, promenade Youghall.
+
 ## Public notes
 - Often described as the former trades / Youghall campus.
+
+## Notes publiques
+- Souvent décrit comme l’ancien campus des métiers / Youghall.
 
 ## Contact
 - Address: 75 Youghall Dr, Bathurst, NB E2A 4X5

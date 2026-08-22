@@ -8,6 +8,10 @@ Restaurant Pizza Delight à Campbellton.
 ## Public notes
 Pizza Delight location in Campbellton.
 
+## Notes publiques
+
+- Restaurant Pizza Delight à Campbellton.
+
 ## Contact
 - Address: Public search results point to 15 Sugarloaf Street, Campbellton, NB E3N 3A9.
 

@@ -8,6 +8,10 @@ Restaurant McDonald’s au 620, avenue St Peter à Bathurst.
 ## Public notes
 Official McDonald's Canada location page surfaced this store.
 
+## Notes publiques
+
+- La page officielle des établissements McDonald’s Canada a fait ressortir ce restaurant.
+
 ## Contact
 - Address: McDonald's location at 620 St. Peter Avenue, Bathurst.
 

@@ -2,12 +2,23 @@
 
 Craft beer, taproom, bistro-style menu, online orders
 
+## Résumé français
+
+Maison du 13 Barrels'.
+
 ## Public notes
 
 - Family-owned brewery
 - Large tasting room
 - Outdoor patio overlooking the Bathurst waterfront
 - Private event space available
+
+## Notes publiques
+
+- Brasserie appartenant à une famille
+- Grande salle de dégustation
+- Terrasse extérieure donnant sur le front de mer de Bathurst
+- Espace disponible pour des événements privés
 
 ## Contact
 

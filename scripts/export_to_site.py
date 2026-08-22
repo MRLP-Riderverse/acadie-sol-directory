@@ -239,6 +239,8 @@ def build_item(
     description: str = "",
     notes: str = "",
     note_points: list[str] | None = None,
+    notes_localized: dict[str, str] | None = None,
+    note_points_localized: dict[str, list[str]] | None = None,
     contact: dict[str, str] | None = None,
     public_data: list[str] | None = None,
     related_places: list[str] | None = None,
@@ -250,6 +252,13 @@ def build_item(
     contact = {**{key: "" for key in CONTACT_KEYS}, **(contact or {})}
     tags = tags or []
     note_points = note_points or []
+    notes_localized = {key: clean_text((notes_localized or {}).get(key, "")) for key in LANG_KEYS}
+    notes_localized["en"] = notes_localized["en"] or notes
+    note_points_localized = {
+        key: [clean_text(point) for point in (note_points_localized or {}).get(key, []) if clean_text(point)]
+        for key in LANG_KEYS
+    }
+    note_points_localized["en"] = note_points_localized["en"] or note_points
     related_places = related_places or []
     sources = sources or []
     public_data = public_data or []
@@ -286,6 +295,8 @@ def build_item(
         "description_localized": localized((meta or {}).get("summary") or (meta or {}).get("short_description"), description),
         "notes": notes,
         "note_points": note_points,
+        "notes_localized": notes_localized,
+        "note_points_localized": note_points_localized,
         "summary": summary,
         "tags": tags,
         "contact": contact,
@@ -359,6 +370,17 @@ def parse_entry(entry_md: Path) -> dict:
     note_lines = sections.get("public notes", []) or sections.get("notes", [])
     notes = clean_text(" ".join(note_lines))
     note_points = bullet_values(note_lines)
+    french_note_lines = sections.get("notes publiques", []) or sections.get("public notes fr", [])
+    notes_localized = {
+        "en": notes,
+        "fr": clean_text(" ".join(french_note_lines)),
+        "shiac": "",
+    }
+    note_points_localized = {
+        "en": note_points,
+        "fr": bullet_values(french_note_lines),
+        "shiac": [],
+    }
 
     raw_contact = meta.get("contact")
     meta_contact: dict = raw_contact if isinstance(raw_contact, dict) else {}
@@ -373,7 +395,7 @@ def parse_entry(entry_md: Path) -> dict:
     raw_location = meta.get("location")
     location: dict = raw_location if isinstance(raw_location, dict) else {}
 
-    return build_item(path=entry_md, title=title, status=clean_text(meta.get("status", "published")) or "published", category=clean_text(meta.get("category", "")), area=clean_text(location.get("public_area") or location.get("municipality") or ""), tags=parse_tags(meta.get("tags")), description=description, notes=notes, note_points=note_points, contact=contact, public_data=public_data, related_places=[item for item in related_places if item], sources=sources, meta=meta)
+    return build_item(path=entry_md, title=title, status=clean_text(meta.get("status", "published")) or "published", category=clean_text(meta.get("category", "")), area=clean_text(location.get("public_area") or location.get("municipality") or ""), tags=parse_tags(meta.get("tags")), description=description, notes=notes, note_points=note_points, notes_localized=notes_localized, note_points_localized=note_points_localized, contact=contact, public_data=public_data, related_places=[item for item in related_places if item], sources=sources, meta=meta)
 
 
 def collect_drafts(directory_root: Path) -> list[Path]:

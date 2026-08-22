@@ -14,6 +14,15 @@ Several banks are a short walk away downtown.
 Closed for winter / seasonal operation.
 - Reported seasonal closing date: August 27 (unverified; year not specified).
 
+## Notes publiques
+- Emplacement humide.
+- Bar laitier local.
+- Espèces seulement.
+- GAB sur place, mais il tombe parfois en panne; apportez donc de l’argent comptant à l’avance.
+- Plusieurs banques se trouvent à quelques pas au centre-ville.
+- Fermé l’hiver / activité saisonnière.
+- Date de fermeture saisonnière signalée : le 27 août (non vérifiée; année non précisée).
+
 ## Contact
 - Address: La Promenade Waterfront, Bathurst, NB
 - Hours: seasonal / closed for winter

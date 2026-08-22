@@ -2,8 +2,14 @@
 
 Produce market on King Ave in Bathurst.
 
+## Résumé français
+Marché de fruits et légumes sur l’avenue King à Bathurst.
+
 ## Public notes
 - Grocery and produce market with a public-facing location page trail.
+
+## Notes publiques
+- Marché d’alimentation et de fruits et légumes avec une page publique de localisation.
 
 ## Contact
 - Address: 305 King Av, Bathurst, NB E2A 1P4, Canada

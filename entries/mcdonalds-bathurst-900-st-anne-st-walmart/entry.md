@@ -8,6 +8,10 @@ Restaurant McDonald’s au Walmart, 900, rue St Anne à Bathurst.
 ## Public notes
 Official McDonald's Canada location page for the Walmart site.
 
+## Notes publiques
+
+- Page officielle des établissements McDonald’s Canada pour le site Walmart.
+
 ## Contact
 - Address: McDonald's inside / at Walmart, 900 St. Anne Street, Bathurst.
 

@@ -2,10 +2,18 @@
 
 Live event venue attached to Black Pug Records in Bathurst.
 
+## Résumé français
+Salle d’événements en direct attachée à Black Pug Records sur la rue Main à Bathurst.
+
 ## Public notes
 - Live event venue and rental space.
 - Attached to Black Pug Records.
 - Available for private and corporate events.
+
+## Notes publiques
+- Lieu d’événements en direct et espace de location.
+- Attaché à Black Pug Records.
+- Disponible pour des événements privés et corporatifs.
 
 ## Contact
 - Address: C-125 Main St, Bathurst, NB E2A 1A6, Canada

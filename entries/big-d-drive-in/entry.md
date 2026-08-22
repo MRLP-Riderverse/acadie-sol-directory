@@ -2,6 +2,9 @@
 
 Home of the Big D Burger.
 
+## Résumé français
+Maison du fameux 'Big D Burger'.
+
 ## Public notes
 
 - Traditional drive-in with car-park-and-dine service.
@@ -10,6 +13,12 @@ Home of the Big D Burger.
   - Takeout.
   - Picnic tables on-site.
 
+## Notes publiques
+- Service au volant traditionnel où l’on stationne et mange dans l’auto.
+- Arrêt de longue date à Bathurst avec une ambiance de casse-croûte des années 1950 et 1960.
+- Offert :
+  - Mets à emporter.
+  - Tables de pique-nique sur place.
 
 ## Contact
 

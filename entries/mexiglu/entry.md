@@ -8,6 +8,10 @@ Restaurant de cuisine mexicaine dans le même bâtiment que Pizza Pro sur l’av
 ## Public notes
 Mexican cuisine.
 
+## Notes publiques
+
+- Cuisine mexicaine.
+
 ## Related places
 - Pizza Pro Bathurst
 

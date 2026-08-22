@@ -9,6 +9,10 @@ Comptoir de donairs et de mets à emporter au 100, rue Main.
 Next to Bootlegger and NB Distillery.
 Good food, good service.
 
+## Notes publiques
+- À côté de Bootlegger et de NB Distillery.
+- Bonne nourriture, bon service.
+
 ## Contact
 - Address: 100 Main St.
 - Phone: 1 (506) 546-5095

@@ -8,6 +8,9 @@ Dairy Queen Grill & Chill sur l’avenue St Peter à Bathurst.
 ## Public notes
 Public source pages point to the Bathurst location.
 
+## Notes publiques
+- Les pages sources publiques indiquent l’établissement de Bathurst.
+
 ## Contact
 - Address: 435 St. Peter Avenue, Bathurst, NB
 

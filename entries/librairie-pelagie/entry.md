@@ -8,6 +8,10 @@ Librairie située au 14, avenue Douglas, dans le secteur de La Promenade Waterfr
 ## Public notes
 Often referenced as part of the La Promenade Waterfront cluster.
 
+## Notes publiques
+
+- Souvent mentionnée comme faisant partie du groupe de La Promenade Waterfront.
+
 ## Contact
 - Address: Bookstore at 14 Douglas Ave, Bathurst, NB E2A 7S6.
 

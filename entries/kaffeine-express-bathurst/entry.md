@@ -8,6 +8,10 @@ Café et bar espresso au centre-ville de Bathurst.
 ## Public notes
 Coffee shop in downtown Bathurst.
 
+## Notes publiques
+
+- Café au centre-ville de Bathurst.
+
 ## Contact
 - Address: Kaffeine Espresso Bar at 145 Main St, Bathurst, NB E2A 1A6.
 

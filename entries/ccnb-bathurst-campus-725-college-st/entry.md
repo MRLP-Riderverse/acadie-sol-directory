@@ -2,9 +2,16 @@
 
 Main CCNB Bathurst campus at 725 College St.
 
+## Résumé français
+Campus principal du CCNB à Bathurst, au 725, rue College.
+
 ## Public notes
 - CCNB / campus de Bathurst.
 - This is the main CCNB Bathurst campus listing from the CCNB contact page.
+
+## Notes publiques
+- CCNB / campus de Bathurst.
+- Il s’agit de la fiche du campus principal du CCNB à Bathurst, selon la page de contact du CCNB.
 
 ## Contact
 - Address: 725, rue du Collège, C.P. 266, Bathurst, NB E2A 3Z2

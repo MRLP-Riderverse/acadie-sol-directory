@@ -8,6 +8,9 @@ Restaurant situé dans l’immeuble du Best Western sur la rue Main.
 ## Public notes
 Just next to NB Distillery and Bootlegger.
 
+## Notes publiques
+- Juste à côté de NB Distillery et de Bootlegger.
+
 ## Related places
 - NB Distillery
 - Bootlegger

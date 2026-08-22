@@ -206,6 +206,44 @@ This is the exact public sentence written by the steward.
     assert item["note_points"] == ["First authored note.", "Second authored note."]
 
 
+def test_official_entry_exports_localized_public_notes(tmp_path: Path):
+    write(
+        tmp_path / "entries" / "bilingual-entry" / "entry.md",
+        """# Bilingual Entry
+
+English public description.
+
+## Public notes
+- English public note.
+
+## Notes publiques
+- Note publique en français.
+""",
+    )
+    write(
+        tmp_path / "entries" / "bilingual-entry" / "meta.json",
+        json.dumps(
+            {
+                "slug": "bilingual-entry",
+                "name": "Bilingual Entry",
+                "status": "published",
+                "category": "community",
+                "short_description": "English public description.",
+                "summary": {"en": "English public description.", "fr": "Description publique en français."},
+            }
+        ),
+    )
+
+    item = export_to_site.build_payload(tmp_path)["items"][0]
+
+    assert item["note_points_localized"] == {
+        "en": ["English public note."],
+        "fr": ["Note publique en français."],
+        "shiac": [],
+    }
+    assert item["notes_localized"]["fr"] == "- Note publique en français."
+
+
 def test_calendar_ics_is_stable_across_repeat_exports(tmp_path: Path):
     directory_root = tmp_path / "directory"
     site_root = tmp_path / "site"
