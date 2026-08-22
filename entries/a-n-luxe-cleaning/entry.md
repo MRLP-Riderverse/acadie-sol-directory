@@ -4,10 +4,10 @@ New cleaning service based around Bathurst, NB, and serving the surrounding Chal
 
 ## Public notes
 - Deep cleaning and regular-interval cleaning services.
-- Free quotes available by phone or through Facebook direct message.
+- Call us to book a quoting.
 
 ## Résumé français
-A.N Luxe Cleaning est un nouveau service de nettoyage établi à Bathurst, au Nouveau-Brunswick, et desservant la région Chaleur environnante. L’entreprise offre des nettoyages en profondeur ainsi que des services d’entretien réguliers. Appelez ou envoyez un message direct sur Facebook pour obtenir une soumission gratuite.
+A.N Luxe Cleaning est un nouveau service de nettoyage établi à Bathurst, au Nouveau-Brunswick, et desservant la région Chaleur environnante. L’entreprise offre des nettoyages en profondeur ainsi que des services d’entretien réguliers. Appelez-nous pour obtenir une soumission.
 
 ## Contact
 - Phone: 1 (506) 252-2629
